@@ -1,0 +1,28 @@
+﻿body {
+    background-color:lightyellow;
+    font-family:Arial;
+}
+table {
+    border:2px double skyblue;
+    background-color:darkgreen;
+}
+td {
+    border:1px double skyblue;
+    width:60px;
+    height:60px;
+    text-align:center;
+}
+[type=button], [type=reset] {
+    width:100%;
+    height:100%;
+    font-size:20pt;
+}
+#display {
+    border:2px double skyblue;
+    width:95%;
+    height:90%;
+    text-align:right;
+    padding:2px;
+    font-size:20pt;
+}
+

@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="ResetCSS.css" />
+    <style>
+        body {
+            font-family: Arial;
+        }
+        table {
+            border-collapse: collapse;
+            border-width: 2px;
+            border-style: solid;
+            border-color: gray;
+            margin: 4px;
+        }
+        td {
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            padding: 4px;
+            text-align: right;
+            font-weight: bold;
+        }
+        td[colspan] {
+            text-align: left;
+            font-weight: normal;
+        }
+        #foot {
+            background-color: #d1ede1;
+            text-align: center;
+            padding: 5px;
+        }
+        #last, #first, #email, #address, #comments {
+            width: 90%;
+        }
+        #address {
+            width: 85%;
+            height: 4em;
+        }
+        #comments {
+            width: 85%;
+            height: 6em;
+        }
+        #city {
+            width: 95%;
+        }
+        #country {
+            width: 70%;
+        }
+        #state, #zip, #telCountry, #telOperator, #year, #gender {
+            width: 15%;
+        }
+        #tel {
+            width: 30%;
+        }
+        #month, #day {
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Last Name</td>
+                    <td colspan="3"><input id="last" type="text" value="Lakov" /></td>
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td  colspan="3"><input id="first" type="text" value="Radoslav" /></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td colspan="3"><textarea id="address">10 Baker Str., floor 4, apt. 18</textarea></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td colspan="1"><input id="city" type="text" value="Sofia" /></td>
+                    <td>State</td>
+                    <td colspan="1"><input id="state" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Zip/Postal Code</td>
+                    <td colspan="3"><input id="zip" type="text" value="1000" maxlength="4" title ="Input digits" pattern="[0-9]+" /></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td colspan="3">
+                        <select id="country">
+                            <optgroup label="South-East Europe">
+                                <option>Albania</option>
+                                <option>Bosnia And Herzegovina</option>
+                                <option selected="selected">Bulgaria</option>
+                                <option>Greece</option>
+                                <option>Macedonia</option>
+                                <option>Moldova</option>
+                                <option>Montenegro</option>
+                                <option>Romania</option>
+                                <option>Serbia</option>
+                                <option>Turkey</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone (country code, area code, number)</td>
+                    <td colspan="3">
+                        (+<input id="telCountry" type="text" value="359" title ="Input digits" pattern="[0-9]+" />)
+                        <input id="telOperator" type="text" value="88" title ="Input digits" pattern="[0-9]+" />-
+                        <input id="tel" type="text" value="8888888" title ="Input digits" pattern="[0-9]+" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td colspan="3"><input id="email" type="email" value="rlakov@abv.bg" /></td>
+                </tr>
+                <tr>
+                    <td>Birth date</td>
+                    <td colspan="3">
+                        Month <input id="month" type="text" value="01" maxlength="2" title ="Input digits" pattern="[0-9]+" />
+                        Day <input id="day" type="text" value="01" maxlength="2" title ="Input digits" pattern="[0-9]+" />
+                        Year (4 digit) <input id="year" type="text" value="1970" maxlength="4" title ="Input digits" pattern="[0-9]+" /></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td colspan="3">
+                        <select id="gender">
+                            <option selected="selected">Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Starting date</td>
+                    <td colspan="3">
+                        <input type="radio" name="season" id="spring" checked="checked" /><label for="spring">Spring 2006</label>
+                        <input type="radio" name="season" id="summer" /><label for="summer">Summer 2006</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comments/Questions</td>
+                    <td colspan="3">
+                        <textarea id="comments">Please send me more information about the lodging.</textarea>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td id="foot" colspan="4">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clear This Form" />
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+    <a href="http://bakolaro.eu/" style="display:block; font-size:10px; position:fixed; bottom: 5px; right:10px;">This is a homework exercise of Radoslav Lakov</a>
+</body>
+</html>

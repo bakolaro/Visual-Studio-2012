@@ -1,0 +1,25 @@
+﻿body {
+	color:navy;
+	background-color:skyblue;
+	font-family:Arial;
+}
+#heading, #content {
+	font-style:italic;
+}
+hr {
+	color:lightgray;
+}
+a:visited {
+	color:gray;
+}
+div.inline {
+	display:inline-block;
+	width:20%;
+}
+dd {
+    font-style:normal;
+    margin-top:10pt;
+}
+#pic {
+    height:200px;
+}

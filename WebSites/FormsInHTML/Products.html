@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="ResetCSS.css" />
+    <style>
+        body {
+            font-family: Arial;
+            font-size: 12px;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #9BABC2;
+            margin: 4px;
+        }
+        th, td {
+            border-width: 1px;
+            border-style: solid;
+            border-color: #9BABC2;
+            text-align: left;
+            padding: 4px 2px;
+        }
+        thead, tfoot {
+            background-color: #E5E7E9;
+            padding:4px;
+        }
+        tfoot td {
+            border-style:none;
+        }
+        a {
+            text-decoration: none;
+        }
+        .activePage {
+            border: 1px solid red;
+            border-radius: 3px;
+        }
+        .filter, .navigation {
+            width: 22px;
+            height: 22px;
+            border-width: 2px;
+            background-image: url('Navigation.png');
+            background-position-y: -2px;
+        }
+        .filter {
+            background-position-x: -46px;
+        }
+        #rewind {
+            background-position-x: -2px;
+        }
+        #back {
+            background-position-x: -24px;
+        }
+        #forward {
+            background-position-x: -68px;
+        }
+        #fastforward {
+            background-position-x: -90px;
+        }
+        #productId {
+            width: 50%;
+        }
+        #price, #stock {
+            width: 55%;
+        }
+        #quantity {
+            width: 60%;
+        }
+        #counter {
+            text-align: right;
+        }
+        [draggable] {
+            cursor: move;
+        }
+    </style>
+    <script type="text/javascript">
+        var column;
+        function drag(ev) {
+            ev.dataTransfer.setData("Text", ev.target.textContent);
+        }
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+        function drop(ev) {
+            ev.preventDefault();
+            alert("Groups by " + ev.dataTransfer.getData("Text") + "!");
+        }
+        function changeClass(obj, newClass) {
+            var x = document.getElementsByClassName(newClass);
+            for (var i = 0; i < x.length; i++) {
+                x[i].removeAttribute("class");
+            }
+            obj.setAttribute("class", newClass);
+        }
+    </script>
+</head>
+<body>
+    <table>    
+        <thead>
+            <tr>
+                <th colspan ="6" ondragover="allowDrop(event)" ondrop="drop(event)">Drag a column header and drop it here to group by that column</th>
+            </tr>
+            <tr>
+                <th draggable="true" ondragstart="drag(event)">ProductID</th>
+                <th draggable="true" ondragstart="drag(event)">Product name</th>
+                <th draggable="true" ondragstart="drag(event)">Unit price</th>
+                <th draggable="true" ondragstart="drag(event)">Quantity per unit</th>
+                <th draggable="true" ondragstart="drag(event)">Units in stock</th>
+                <th draggable="true" ondragstart="drag(event)">Discontinued</th>
+            </tr>
+            <tr>
+                <th>
+                    <input id="productId" type="text" title="Digits only!" pattern="[0-9]+" />
+                </th>
+                <th><input id="productName" type="text" /></th>
+                <th>
+                    <input id="price" type="text" title="A decimal number!" pattern="[0-9]*[.]?[0-9]+" />
+                    <input type="button" class="filter" />
+                </th>
+                <th><input id="quantity" type="text" /></th>
+                <th>
+                    <input id="stock" type="text" title="Digits only!" pattern="[0-9]+" />
+                    <input type="button" class="filter" />
+                </th>
+                <th>
+                    <input type="checkbox" />
+                    <input id="discontinued" type="button" class="filter" />
+                </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan ="2">
+                    <input type="button" class="navigation" id="rewind" />
+                    <input type="button" class="navigation" id="back" />
+                    <a href="#" onclick="changeClass(this, 'activePage')">1</a>
+                    <a href="#" onclick="changeClass(this, 'activePage')">2</a>
+                    <a href="#" onclick="changeClass(this, 'activePage')">3</a>
+                    <a href="#" onclick="changeClass(this, 'activePage')">4</a>
+                    <a href="#" onclick="changeClass(this, 'activePage')">5</a>
+                    <a href="#" onclick="changeClass(this, 'activePage')">6</a>
+                    <a href="#" onclick="changeClass(this, 'activePage')">7</a>
+                    <a href="#" onclick="changeClass(this, 'activePage')">8</a>
+                    <a href="#" onclick="changeClass(this, 'activePage')">9</a>
+                    <a href="#" onclick="changeClass(this, 'activePage')">10</a>
+                    <a href="#">...</a>
+                    <input type="button" class="navigation" id="forward" />
+                    <input type="button" class="navigation" id="fastforward" />
+                </td>
+                <td id="pageSize">
+                    Page size:
+                    <select>
+                        <option>10</option>
+                        <option>20</option>
+                        <option>30</option>
+                        <option>40</option>
+                        <option>50</option>
+                    </select>
+                </td>
+                <td colspan="3" id="counter">
+                    335104 items in 33511 pages
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Syrup</td>
+                <td>$10.00</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="http://bakolaro.eu/" style="display:block; font-size:10px; position:fixed; bottom: 5px; right:10px;">This is a homework exercise of Radoslav Lakov</a>
+</body>
+</html>

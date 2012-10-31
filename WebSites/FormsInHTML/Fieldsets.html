@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fieldsets</title>
+    <style type="text/css">
+        body {
+            background-color: #fccfff;
+            font-family: Arial;
+        }
+        hr, div, fieldset, img, p, input, label {
+			display: block;
+			margin: 0.4em;
+        }
+		hr, div, fieldset, img, p, input, label { float: left; }
+		hr { width: 100%; }
+		div { vertical-align: middle; }
+        fieldset {
+            width: 45%;
+			border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+        img { width: 150px; }
+		p { width: 45%; }
+		input, label { width: 100%; }
+        #providers { width: 100%; text-align: center; font-weight: bold; }        
+		#ranges { width: 30%; text-align: center; vertical-align:middle; font-weight: bold; }
+		#products { width: 65%; }
+    </style>
+    <script type="text/javascript">
+		function showValue(input, label) {
+			label.getElementsByTagName("span")[0].textContent = input.value;
+		}
+		function showValues() {
+			var labels = document.getElementById("ranges").getElementsByTagName("label");
+			for (var i = 0; i < labels.length; i++) {
+				var input = document.getElementById(labels[i].getAttribute("for"));
+				showValue(input, labels[i]);
+			}
+		}
+		function getShowFunction(input, label) {
+		    var x = function () {
+		        showValue(input, label);
+		    }
+		    return x;
+		}
+		function setSliders() {
+			var labels = document.getElementById("ranges").getElementsByTagName("label");
+			for (var i = 0; i < labels.length; i++) {
+				var input = document.getElementById(labels[i].getAttribute("for"));
+				input.onchange = getShowFunction(input, labels[i]);
+			}
+		}
+	</script>
+</head>
+<body onload="setSliders(); showValues()">
+    <form>
+        <div id="providers">
+            <a href="#">Apple</a>
+            <a href="#">Toshiba</a>
+            <a href="#">Lenovo</a>
+            <a href="#">Dell</a>
+            <a href="#">Asus</a>
+            <a href="#">Acer</a>
+            <a href="#">HP</a>
+        </div>
+        <hr />
+        <div id="products">
+            <fieldset >
+                <legend>Apple MacBook Air</legend>
+                <img src="Apple.png" alt="Picture of Apple MacBook Air"/>
+                <p>64GB SSD</p>
+                <p>2GB DDR</p>
+                <p>Intel Core i5</p>
+                <p>1300 USD</p>
+            </fieldset>
+            <fieldset >
+                <legend>Apple MacBook Air</legend>
+                <img src="Apple.png" alt="Picture of Apple MacBook Air"/>
+                <p>64GB SSD</p>
+                <p>2GB DDR</p>
+                <p>Intel Core i5</p>
+                <p>1300 USD</p>
+            </fieldset>
+            <fieldset >
+                <legend>Apple MacBook Air</legend>
+                <img src="Apple.png" alt="Picture of Apple MacBook Air"/>
+                <p>64GB SSD</p>
+                <p>2GB DDR</p>
+                <p>Intel Core i5</p>
+                <p>1300 USD</p>
+            </fieldset>
+            <fieldset >
+                <legend>Apple MacBook Air</legend>
+                <img src="Apple.png" alt="Picture of Apple MacBook Air"/>
+                <p>64GB SSD</p>
+                <p>2GB DDR</p>
+                <p>Intel Core i5</p>
+                <p>1300 USD</p>
+            </fieldset>
+            <fieldset >
+                <legend>Apple MacBook Air</legend>
+                <img src="Apple.png" alt="Picture of Apple MacBook Air"/>
+                <p>64GB SSD</p>
+                <p>2GB DDR</p>
+                <p>Intel Core i5</p>
+                <p>1300 USD</p>
+            </fieldset>
+            <fieldset >
+                <legend>Apple MacBook Air</legend>
+                <img src="Apple.png" alt="Picture of Apple MacBook Air"/>
+                <p>64GB SSD</p>
+                <p>2GB DDR</p>
+                <p>Intel Core i5</p>
+                <p>1300 USD</p>
+            </fieldset>
+        </div>
+        <div id="ranges">
+            <label for="minPrice">Min price: <span>500</span> USD</label>
+            <input id="minPrice" type="range" min="0" max="10000" value="500" />
+            <label for="maxPrice">Max price: <span>500</span> USD</label>
+            <input id="maxPrice" type="range" min="0" max="10000" value="500" />
+            <label for="minRAM">Min RAM: <span>1</span> GB</label>
+            <input id="minRAM" type="range" min="0" max="128" value="0" />
+            <label for="maxRAM">Max RAM: <span>128</span> GB</label>
+            <input id="maxRAM" type="range" min="0" max="128" value="128" />
+        </div>
+    </form>
+    <a href="http://bakolaro.eu/" style="display:block; font-size:10px; position:fixed; bottom: 5px; right:10px;">This is a homework exercise of Radoslav Lakov</a>
+</body>
+</html>

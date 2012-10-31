@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>Nested Lists</title>
+		<style type="text/css">
+			.roman {
+				list-style-type: upper-roman;
+			}
+			.letters {
+				list-style-type: lower-alpha;
+			}
+			.disc {
+                list-style-type: disc;
+			}
+            .circle {
+                list-style-type: circle;
+			}
+		    .square {
+                list-style-type: square;
+		    }
+		</style>
+	</head>
+	<body>
+        <div>Preceding Text<br /></div>
+		<ol class="roman">
+			<li>
+				List Item 1
+				<ol class="letters">
+					<li>Nested Item 1.1</li>
+					<li>Nested Item 1.2</li>
+				</ol>
+			</li>
+			<li>
+				List Item 2
+				<ol>
+					<li>Nested Item 2.1</li>
+					<li>
+						Nested Item 2.2
+						<ul class="circle">
+							<li>Nested Item 2.2.1</li>
+							<li>
+								Nested Item 2.2.2
+								<ul class="square">
+									<li>Nested Item 2.2.2.1</li>
+									<li>Nested Item 2.2.2.2</li>
+								</ul>
+							</li>
+							<li>Nested Item 2.2.3</li>
+						</ul>
+					</li>
+					<li>Nested Item 2.3</li>
+				</ol>
+			</li>
+			<li>
+				List Item 3
+				<ul class="disc">
+					<li>Nested Item 3.1</li>
+					<li>Nested Item 3.2</li>
+					<li>Nested Item 3.3</li>
+				</ul>
+			</li>
+		</ol>
+        <a href="http://bakolaro.eu/" style="display:block; font-size:10px; position:fixed; bottom: 5px; right:10px;">This is a homework exercise of Radoslav Lakov</a>
+	</body>
+</html>
