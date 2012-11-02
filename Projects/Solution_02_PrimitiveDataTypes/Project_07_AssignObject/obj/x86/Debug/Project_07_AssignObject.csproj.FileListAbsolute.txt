@@ -1,0 +1,5 @@
+C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_07_AssignObject\bin\Debug\Project_07_AssignObject.exe
+C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_07_AssignObject\bin\Debug\Project_07_AssignObject.pdb
+C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_07_AssignObject\obj\x86\Debug\Project_07_AssignObject.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_07_AssignObject\obj\x86\Debug\Project_07_AssignObject.exe
+C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_07_AssignObject\obj\x86\Debug\Project_07_AssignObject.pdb

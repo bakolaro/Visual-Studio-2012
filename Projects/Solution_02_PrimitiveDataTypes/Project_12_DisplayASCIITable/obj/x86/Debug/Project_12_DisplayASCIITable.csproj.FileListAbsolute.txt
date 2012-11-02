@@ -1,0 +1,4 @@
+C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_12_DisplayASCIITable\bin\Debug\Project_12_DisplayASCIITable.exe
+C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_12_DisplayASCIITable\bin\Debug\Project_12_DisplayASCIITable.pdb
+C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_12_DisplayASCIITable\obj\x86\Debug\Project_12_DisplayASCIITable.exe
+C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_12_DisplayASCIITable\obj\x86\Debug\Project_12_DisplayASCIITable.pdb
