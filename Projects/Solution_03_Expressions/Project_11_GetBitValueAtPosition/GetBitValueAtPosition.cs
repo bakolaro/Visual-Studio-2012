@@ -2,14 +2,27 @@
 
 class GetBitValueAtPosition
 {
-    static void Main()
+	static void Main()
     {
-        // Write an expression that extracts from a given integer i the value of a given bit number b. Example: i=5; b=2 ? value=1.
+        // Write an expression that extracts from a given integer i the value of
+        // a given bit number b. Example: i=5; b=2 -> value=1.
+
+        // About
+        Console.WriteLine("");
+        // Input data
         Console.Write("Integer, i = ");
         int i = int.Parse(Console.ReadLine());
-        Console.Write("Bit position, bp (0 ? bp ? 31) = ");
-        int bp = int.Parse(Console.ReadLine());
-        int value = ((i >> bp) & 1);
-        Console.WriteLine("In {0} value of bit at position {1} is {2}.", i, bp, value);
+        Console.Write("Bit position, b (0 <= b <= 31) = ");
+        int b = int.Parse(Console.ReadLine());
+        // Calculate
+        int value = ((i >> b) & 1);
+        // Output data
+        Console.WriteLine("i={0}; b={1} -> value={2}", i, b, value);
+        // Test
+        Console.WriteLine("Test");
+        i = 5;
+        b = 2;
+        value = ((i >> b) & 1);
+        Console.WriteLine("i={0}; b={1} -> value={2}", i, b, value);
     }
 }

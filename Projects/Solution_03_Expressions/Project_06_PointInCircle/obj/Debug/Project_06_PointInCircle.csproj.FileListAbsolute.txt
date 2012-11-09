@@ -3,3 +3,6 @@ C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Project
 C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_06_PointInCircle\bin\Debug\Project_06_PointInCircle.pdb
 C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_06_PointInCircle\obj\Debug\Project_06_PointInCircle.exe
 C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_06_PointInCircle\obj\Debug\Project_06_PointInCircle.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_06_PointInCircle\bin\Debug\Project_06_PointInCircle.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_06_PointInCircle\obj\Debug\Project_06_PointInCircle.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_06_PointInCircle\obj\Debug\Project_06_PointInCircle.pdb

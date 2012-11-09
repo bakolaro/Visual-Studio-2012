@@ -1,6 +1,0 @@
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\RectangleArea\bin\Debug\RectangleArea.exe.config
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\RectangleArea\bin\Debug\RectangleArea.exe
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\RectangleArea\bin\Debug\RectangleArea.pdb
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\RectangleArea\obj\Debug\Project_03_RectangleArea.csprojResolveAssemblyReference.cache
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\RectangleArea\obj\Debug\RectangleArea.exe
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\RectangleArea\obj\Debug\RectangleArea.pdb

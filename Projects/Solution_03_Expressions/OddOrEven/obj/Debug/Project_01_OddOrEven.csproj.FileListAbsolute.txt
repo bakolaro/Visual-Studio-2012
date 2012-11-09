@@ -1,6 +1,0 @@
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\OddOrEven\bin\Debug\OddOrEven.exe.config
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\OddOrEven\bin\Debug\OddOrEven.exe
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\OddOrEven\bin\Debug\OddOrEven.pdb
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\OddOrEven\obj\Debug\Project_01_OddOrEven.csprojResolveAssemblyReference.cache
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\OddOrEven\obj\Debug\OddOrEven.exe
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\OddOrEven\obj\Debug\OddOrEven.pdb

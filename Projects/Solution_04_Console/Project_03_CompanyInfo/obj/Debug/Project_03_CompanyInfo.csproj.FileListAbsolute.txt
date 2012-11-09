@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_03_CompanyInfo\bin\Debug\Project_03_CompanyInfo.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_03_CompanyInfo\bin\Debug\Project_03_CompanyInfo.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_03_CompanyInfo\bin\Debug\Project_03_CompanyInfo.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_03_CompanyInfo\obj\Debug\Project_03_CompanyInfo.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_03_CompanyInfo\obj\Debug\Project_03_CompanyInfo.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_03_CompanyInfo\obj\Debug\Project_03_CompanyInfo.pdb

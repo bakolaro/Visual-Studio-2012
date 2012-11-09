@@ -1,5 +1,0 @@
-c:\users\r\documents\visual-studio-2012\Projects\Solution_03_Expressions\Solution_03_Expressions\bin\Debug\Solution_03_Expressions.exe.config
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Solution_03_Expressions\bin\Debug\Solution_03_Expressions.exe
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Solution_03_Expressions\bin\Debug\Solution_03_Expressions.pdb
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Solution_03_Expressions\obj\Debug\Solution_03_Expressions.exe
-C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Solution_03_Expressions\obj\Debug\Solution_03_Expressions.pdb

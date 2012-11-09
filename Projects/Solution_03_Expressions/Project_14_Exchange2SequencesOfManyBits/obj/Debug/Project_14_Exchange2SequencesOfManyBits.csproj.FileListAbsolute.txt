@@ -3,3 +3,9 @@ C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Project
 C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_14_Exchange2SequencesOfManyBits\bin\Debug\Project_14_Exchange2SequencesOfManyBits.pdb
 C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_14_Exchange2SequencesOfManyBits\obj\Debug\Project_14_Exchange2SequencesOfManyBits.exe
 C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_14_Exchange2SequencesOfManyBits\obj\Debug\Project_14_Exchange2SequencesOfManyBits.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_14_Exchange2SequencesOfManyBits\bin\Debug\Project_14_Exchange2SequencesOfManyBits.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_14_Exchange2SequencesOfManyBits\obj\Debug\Project_14_Exchange2SequencesOfManyBits.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_14_Exchange2SequencesOfManyBits\obj\Debug\Project_14_Exchange2SequencesOfManyBits.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_14_Exchange2SequencesOfManyBits\bin\Debug\Project_14_Exchange2SequencesOfManyBits.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_14_Exchange2SequencesOfManyBits\bin\Debug\Project_14_Exchange2SequencesOfManyBits.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_14_Exchange2SequencesOfManyBits\obj\Debug\Project_14_Exchange2SequencesOfManyBits.csprojResolveAssemblyReference.cache

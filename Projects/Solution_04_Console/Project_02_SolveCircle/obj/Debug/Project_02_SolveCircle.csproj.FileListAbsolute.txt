@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_02_SolveCircle\bin\Debug\Project_02_SolveCircle.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_02_SolveCircle\bin\Debug\Project_02_SolveCircle.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_02_SolveCircle\bin\Debug\Project_02_SolveCircle.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_02_SolveCircle\obj\Debug\Project_02_SolveCircle.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_02_SolveCircle\obj\Debug\Project_02_SolveCircle.pdb
