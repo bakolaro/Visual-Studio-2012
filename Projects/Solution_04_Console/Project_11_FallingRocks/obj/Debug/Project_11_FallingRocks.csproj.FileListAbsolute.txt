@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_11_FallingRocks\bin\Debug\Project_11_FallingRocks.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_11_FallingRocks\bin\Debug\Project_11_FallingRocks.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_11_FallingRocks\bin\Debug\Project_11_FallingRocks.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_11_FallingRocks\obj\Debug\Project_11_FallingRocks.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_11_FallingRocks\obj\Debug\Project_11_FallingRocks.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_04_Console\Project_11_FallingRocks\obj\Debug\Project_11_FallingRocks.csprojResolveAssemblyReference.cache

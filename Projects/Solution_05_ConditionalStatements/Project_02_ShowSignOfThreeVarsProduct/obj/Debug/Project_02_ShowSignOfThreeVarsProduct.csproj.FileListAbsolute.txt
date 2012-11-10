@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_02_ShowSignOfThreeVarsProduct\bin\Debug\Project_02_ShowSignOfThreeVarsProduct.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_02_ShowSignOfThreeVarsProduct\bin\Debug\Project_02_ShowSignOfThreeVarsProduct.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_02_ShowSignOfThreeVarsProduct\bin\Debug\Project_02_ShowSignOfThreeVarsProduct.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_02_ShowSignOfThreeVarsProduct\obj\Debug\Project_02_ShowSignOfThreeVarsProduct.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_02_ShowSignOfThreeVarsProduct\obj\Debug\Project_02_ShowSignOfThreeVarsProduct.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_02_ShowSignOfThreeVarsProduct\obj\Debug\Project_02_ShowSignOfThreeVarsProduct.csprojResolveAssemblyReference.cache
