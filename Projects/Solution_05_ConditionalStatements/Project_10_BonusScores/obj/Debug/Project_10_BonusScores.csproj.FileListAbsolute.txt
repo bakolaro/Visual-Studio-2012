@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_10_BonusScores\bin\Debug\Project_10_BonusScores.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_10_BonusScores\bin\Debug\Project_10_BonusScores.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_10_BonusScores\bin\Debug\Project_10_BonusScores.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_10_BonusScores\obj\Debug\Project_10_BonusScores.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_10_BonusScores\obj\Debug\Project_10_BonusScores.pdb

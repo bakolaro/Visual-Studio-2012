@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_07_GreatestOf5Vars\bin\Debug\Project_07_GreatestOf5Vars.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_07_GreatestOf5Vars\bin\Debug\Project_07_GreatestOf5Vars.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_07_GreatestOf5Vars\bin\Debug\Project_07_GreatestOf5Vars.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_07_GreatestOf5Vars\obj\Debug\Project_07_GreatestOf5Vars.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_07_GreatestOf5Vars\obj\Debug\Project_07_GreatestOf5Vars.pdb

@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_05_EnglishDigitNames\bin\Debug\Project_05_EnglishDigitNames.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_05_EnglishDigitNames\bin\Debug\Project_05_EnglishDigitNames.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_05_EnglishDigitNames\bin\Debug\Project_05_EnglishDigitNames.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_05_EnglishDigitNames\obj\Debug\Project_05_EnglishDigitNames.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_05_EnglishDigitNames\obj\Debug\Project_05_EnglishDigitNames.pdb

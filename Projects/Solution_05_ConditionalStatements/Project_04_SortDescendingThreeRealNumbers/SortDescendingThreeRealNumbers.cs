@@ -54,7 +54,10 @@ class SortDescendingThreeRealNumbers
             }
             else if (y < z)
             {
-
+                // x > z > y
+                swap = z;
+                z = y;
+                y = swap;
             }
             else
             {
@@ -62,5 +65,7 @@ class SortDescendingThreeRealNumbers
                 // do nothing;
             }
         }
+        // Output data
+        Console.WriteLine("{0:F4} > {1:F4} > {2:F4}", x, y, z);
     }
 }

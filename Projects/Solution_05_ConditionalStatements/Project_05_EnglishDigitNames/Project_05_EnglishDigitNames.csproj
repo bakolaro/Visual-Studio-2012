@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6AAB909-5FA3-48D0-A3FB-28A06FB04FC5}</ProjectGuid>
+    <ProjectGuid>{9B364B2B-5D2B-4F74-B3E8-68152059B985}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Project_04_SortDescendingThreeRealNumbers</RootNamespace>
-    <AssemblyName>Project_04_SortDescendingThreeRealNumbers</AssemblyName>
+    <RootNamespace>Project_05_EnglishDigitNames</RootNamespace>
+    <AssemblyName>Project_05_EnglishDigitNames</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SortDescendingThreeRealNumbers.cs" />
+    <Compile Include="EnglishDigitNames.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

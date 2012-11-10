@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_09_CheckForZeroSubset\bin\Debug\Project_09_CheckForZeroSubset.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_09_CheckForZeroSubset\bin\Debug\Project_09_CheckForZeroSubset.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_09_CheckForZeroSubset\bin\Debug\Project_09_CheckForZeroSubset.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_09_CheckForZeroSubset\obj\Debug\Project_09_CheckForZeroSubset.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_09_CheckForZeroSubset\obj\Debug\Project_09_CheckForZeroSubset.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_09_CheckForZeroSubset\obj\Debug\Project_09_CheckForZeroSubset.pdb

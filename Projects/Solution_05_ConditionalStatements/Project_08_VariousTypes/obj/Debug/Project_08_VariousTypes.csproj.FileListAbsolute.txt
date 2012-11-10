@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_08_VariousTypes\bin\Debug\Project_08_VariousTypes.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_08_VariousTypes\bin\Debug\Project_08_VariousTypes.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_08_VariousTypes\bin\Debug\Project_08_VariousTypes.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_08_VariousTypes\obj\Debug\Project_08_VariousTypes.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_08_VariousTypes\obj\Debug\Project_08_VariousTypes.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Project_08_VariousTypes\obj\Debug\Project_08_VariousTypes.pdb
