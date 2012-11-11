@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_08_GreatestCommonDivisor\bin\Debug\Project_08_GreatestCommonDivisor.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_08_GreatestCommonDivisor\bin\Debug\Project_08_GreatestCommonDivisor.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_08_GreatestCommonDivisor\bin\Debug\Project_08_GreatestCommonDivisor.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_08_GreatestCommonDivisor\obj\Debug\Project_08_GreatestCommonDivisor.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_08_GreatestCommonDivisor\obj\Debug\Project_08_GreatestCommonDivisor.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_08_GreatestCommonDivisor\obj\Debug\Project_08_GreatestCommonDivisor.pdb

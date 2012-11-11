@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_10_PlayingCardsEnglishNames\bin\Debug\Project_10_PlayingCardsEnglishNames.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_10_PlayingCardsEnglishNames\bin\Debug\Project_10_PlayingCardsEnglishNames.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_10_PlayingCardsEnglishNames\bin\Debug\Project_10_PlayingCardsEnglishNames.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_10_PlayingCardsEnglishNames\obj\Debug\Project_10_PlayingCardsEnglishNames.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_10_PlayingCardsEnglishNames\obj\Debug\Project_10_PlayingCardsEnglishNames.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_10_PlayingCardsEnglishNames\obj\Debug\Project_10_PlayingCardsEnglishNames.pdb

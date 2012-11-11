@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_11_SquareMatrixSouthEastGradient\bin\Debug\Project_11_SquareMatrixSouthEastGradient.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_11_SquareMatrixSouthEastGradient\bin\Debug\Project_11_SquareMatrixSouthEastGradient.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_11_SquareMatrixSouthEastGradient\bin\Debug\Project_11_SquareMatrixSouthEastGradient.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_11_SquareMatrixSouthEastGradient\obj\Debug\Project_11_SquareMatrixSouthEastGradient.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_11_SquareMatrixSouthEastGradient\obj\Debug\Project_11_SquareMatrixSouthEastGradient.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_11_SquareMatrixSouthEastGradient\obj\Debug\Project_11_SquareMatrixSouthEastGradient.pdb
