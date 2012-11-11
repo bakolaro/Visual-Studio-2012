@@ -1,0 +1,9 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_03_MinMax\bin\Debug\Project_03_MinMax.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_03_MinMax\bin\Debug\Project_03_MinMax.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_03_MinMax\bin\Debug\Project_03_MinMax.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_03_MinMax\obj\Debug\Project_03_MinMax.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_03_MinMax\obj\Debug\Project_03_MinMax.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_03_MinMax\obj\Debug\Project_03_MinMax.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_03_IntegerMinMax\bin\Debug\Project_03_MinMax.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_03_IntegerMinMax\obj\Debug\Project_03_MinMax.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_03_IntegerMinMax\obj\Debug\Project_03_MinMax.pdb

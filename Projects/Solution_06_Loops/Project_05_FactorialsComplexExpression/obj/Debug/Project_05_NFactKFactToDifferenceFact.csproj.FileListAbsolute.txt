@@ -1,0 +1,9 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_05_NFactKFactToDifferenceFact\bin\Debug\Project_05_NFactKFactToDifferenceFact.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_05_NFactKFactToDifferenceFact\bin\Debug\Project_05_NFactKFactToDifferenceFact.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_05_NFactKFactToDifferenceFact\bin\Debug\Project_05_NFactKFactToDifferenceFact.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_05_NFactKFactToDifferenceFact\obj\Debug\Project_05_NFactKFactToDifferenceFact.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_05_NFactKFactToDifferenceFact\obj\Debug\Project_05_NFactKFactToDifferenceFact.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_05_NFactKFactToDifferenceFact\obj\Debug\Project_05_NFactKFactToDifferenceFact.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_05_FactorialsComplexExpression\bin\Debug\Project_05_NFactKFactToDifferenceFact.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_05_FactorialsComplexExpression\obj\Debug\Project_05_NFactKFactToDifferenceFact.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_05_FactorialsComplexExpression\obj\Debug\Project_05_NFactKFactToDifferenceFact.pdb

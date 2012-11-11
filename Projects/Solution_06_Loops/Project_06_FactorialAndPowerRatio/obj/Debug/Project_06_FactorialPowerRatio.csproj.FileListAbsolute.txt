@@ -1,0 +1,9 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_06_FactorialPowerRatio\bin\Debug\Project_06_FactorialPowerRatio.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_06_FactorialPowerRatio\bin\Debug\Project_06_FactorialPowerRatio.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_06_FactorialPowerRatio\bin\Debug\Project_06_FactorialPowerRatio.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_06_FactorialPowerRatio\obj\Debug\Project_06_FactorialPowerRatio.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_06_FactorialPowerRatio\obj\Debug\Project_06_FactorialPowerRatio.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_06_FactorialPowerRatio\obj\Debug\Project_06_FactorialPowerRatio.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_06_FactorialAndPowerRatio\bin\Debug\Project_06_FactorialPowerRatio.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_06_FactorialAndPowerRatio\obj\Debug\Project_06_FactorialPowerRatio.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_06_FactorialAndPowerRatio\obj\Debug\Project_06_FactorialPowerRatio.pdb
