@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_02_DisplayMyName\bin\Debug\Project_02_DisplayMyName.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_02_DisplayMyName\bin\Debug\Project_02_DisplayMyName.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_02_DisplayMyName\obj\x86\Debug\Project_02_DisplayMyName.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_02_DisplayMyName\obj\x86\Debug\Project_02_DisplayMyName.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_02_DisplayMyName\bin\Debug\Project_02_DisplayMyName.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_02_DisplayMyName\obj\x86\Debug\Project_02_DisplayMyName.csprojResolveAssemblyReference.cache

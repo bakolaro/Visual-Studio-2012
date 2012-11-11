@@ -6,3 +6,5 @@ C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_03_Expressions\Project
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_08_TrapezoidArea\bin\Debug\Project_08_TrapezoidArea.exe.config
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_08_TrapezoidArea\obj\Debug\Project_08_TrapezoidArea.exe
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_08_TrapezoidArea\obj\Debug\Project_08_TrapezoidArea.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_08_TrapezoidArea\bin\Debug\Project_08_TrapezoidArea.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_03_Expressions\Project_08_TrapezoidArea\bin\Debug\Project_08_TrapezoidArea.pdb

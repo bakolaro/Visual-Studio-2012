@@ -1,1 +1,0 @@
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_05_ConditionalStatements\Solution_05_ConditionalStatements\bin\Debug\Solution_05_ConditionalStatements.exe.config

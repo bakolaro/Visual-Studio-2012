@@ -15,7 +15,23 @@ class SumFirstFibonacciNumbers
         Console.WriteLine("Sum first Fibonacci numbers:");
         // Input data
         Console.Write("n = ");
-        ulong n = ulong.Parse(Console.ReadLine());
-
+        int n = int.Parse(Console.ReadLine());
+        // Calculate
+        ulong[] fibs = new ulong[n];
+        fibs[0] = 0;
+        fibs[1] = 1;
+        ulong sum = 1;
+        for (int i = 2; i < n; i++)
+        {
+            fibs[i] = fibs[i - 1] + fibs[i - 2];
+            sum += fibs[i];
+        }
+        // Output data
+        Console.Write("The sum of first {0} Fibonacci numbers is {1} (", n, sum);
+        for (int i = 0; i < n - 1; i++)
+        {
+            Console.Write("{0}, ", fibs[i]);
+        }
+        Console.WriteLine("{0})", fibs[n - 1]);
     }
 }

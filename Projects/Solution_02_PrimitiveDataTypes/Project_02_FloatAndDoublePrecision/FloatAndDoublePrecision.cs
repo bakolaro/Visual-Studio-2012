@@ -1,4 +1,6 @@
 using System;
+using System.Globalization;
+using System.Threading;
 
 /* Which of the following values can be assigned to a variable of
  * type float and which to a variable of type double:
@@ -9,6 +11,8 @@ class FloatAndDoublePrecision
 {
    static void Main()
    {
+      Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+       
       double @double = 34.567839023;
       float @float = 34.567839023f;
       string str = "34.567839023";

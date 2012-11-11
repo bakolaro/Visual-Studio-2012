@@ -8,7 +8,7 @@ class CalculateMyAge
 {
    static void Main()
    {
-      Console.Write("Your age now(in years) = ");
+      Console.Write("Your age now (in years) = ");
       int age = int.Parse(Console.ReadLine());
       Console.WriteLine("After 10 years you will turn {0}.", age + 10);
    }

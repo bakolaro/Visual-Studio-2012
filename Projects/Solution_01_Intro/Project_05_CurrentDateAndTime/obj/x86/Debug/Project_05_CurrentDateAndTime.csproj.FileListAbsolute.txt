@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_05_CurrentDateAndTime\bin\Debug\Project_05_CurrentDateAndTime.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_05_CurrentDateAndTime\bin\Debug\Project_05_CurrentDateAndTime.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_05_CurrentDateAndTime\obj\x86\Debug\Project_05_CurrentDateAndTime.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_05_CurrentDateAndTime\obj\x86\Debug\Project_05_CurrentDateAndTime.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_05_CurrentDateAndTime\bin\Debug\Project_05_CurrentDateAndTime.exe.config

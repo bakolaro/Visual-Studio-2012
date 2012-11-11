@@ -1,0 +1,1 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_09_IsoscelesTriangleOfSymbols\bin\Debug\Project_09_IsoscelesTriangleOfSymbols.exe.config

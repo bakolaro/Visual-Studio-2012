@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_02_FloatAndDoublePrecision\bin\Debug\Project_02_FloatAndDoublePrecision.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_02_FloatAndDoublePrecision\bin\Debug\Project_02_FloatAndDoublePrecision.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_02_FloatAndDoublePrecision\obj\x86\Debug\Project_02_FloatAndDoublePrecision.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_02_FloatAndDoublePrecision\obj\x86\Debug\Project_02_FloatAndDoublePrecision.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_02_FloatAndDoublePrecision\bin\Debug\Project_02_FloatAndDoublePrecision.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_02_FloatAndDoublePrecision\obj\x86\Debug\Project_02_FloatAndDoublePrecision.csprojResolveAssemblyReference.cache

@@ -3,3 +3,9 @@ C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_He
 C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_HelloCSharp\obj\x86\Debug\Project_01_HelloCSharp.csprojResolveAssemblyReference.cache
 C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_HelloCSharp\obj\x86\Debug\Project_01_HelloCSharp.exe
 C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_HelloCSharp\obj\x86\Debug\Project_01_HelloCSharp.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_HelloCSharp\obj\x86\Debug\Project_01_HelloCSharp.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_HelloCSharp\obj\x86\Debug\Project_01_HelloCSharp.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_HelloCSharp\bin\Debug\Project_01_HelloCSharp.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_HelloCSharp\bin\Debug\Project_01_HelloCSharp.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_HelloCSharp\obj\x86\Debug\Project_01_HelloCSharp.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_01_Intro\Project_01_HelloCSharp\bin\Debug\Project_01_HelloCSharp.exe.config
