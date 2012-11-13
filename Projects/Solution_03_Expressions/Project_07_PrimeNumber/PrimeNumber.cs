@@ -10,11 +10,19 @@ class PrimeNumber
         // About
         Console.WriteLine("Is prime?");
         // Input data
-        Console.Write("Integer, n (0 <= n <= 100) = ");
+        Console.Write("Integer, n (1 <= n <= 100) = ");
         int n = int.Parse(Console.ReadLine());
+        // Validate input
+        if (n < 1 || 100 < n)
+        {
+            Console.WriteLine("Invalid input!");
+            return;
+        }
         // Calculate
-        bool isPrime = ((n % 2 != 0) && (n % 3 != 0) && (n % 5 != 0) && (n % 7 != 0));
+        bool is2357 = ((n == 2) || (n == 3) || (n == 5) || (n == 7));
+        bool isCoPrimeTo2357 = ((n % 2 > 0) && (n % 3 > 0) && (n % 5 > 0) && (n % 7 > 0));
+        bool isPrime = (n > 1) && (is2357 || isCoPrimeTo2357);
         // Output data
-        Console.WriteLine("{0} is prime. {1}.", n, isPrime);
+        Console.WriteLine("{0} is prime? {1}.", n, isPrime);
     }
 }
