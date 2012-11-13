@@ -13,95 +13,103 @@ class FallingRocks
          * detection and scoring system.
          */
 
-        int rows = Console.WindowHeight * 3;
         int columns = Console.WindowWidth;
-        char[,] gameField = ScatterStones(rows, columns);
+        int rows = Console.WindowHeight;
+        char[,] matrix = new char[rows, columns];
+        
+        char[] stones = {'^', '@', '*', '&', '+', '%', '$', '#', '!', '.', ';'};
+        string dwarf = "(0)";
+        int xDwarf = columns / 2;
+        int[] xStones = { 1, 64, 6, 39, 51, 14, 18, 72, 27, 36, 45 };
+        int[] yStones = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+        int[] stoneSpeeds = { 1, 2, 3, 3, 3, 4, 5, 1, 1, 1, 2 };
+        ConsoleColor[] stoneColors = { ConsoleColor.Green, ConsoleColor.Yellow,
+                                         ConsoleColor.Cyan, ConsoleColor.Cyan,ConsoleColor.Cyan,
+                                         ConsoleColor.Magenta, ConsoleColor.Red,
+                                         ConsoleColor.Green, ConsoleColor.Green, ConsoleColor.Green, ConsoleColor.Yellow };
 
-        for (int i = 0; i < rows; i++)
+        Console.CursorVisible = false;
+        Console.Clear();
+        Console.SetCursorPosition(xDwarf - 1, rows - 1);
+        Console.Write(dwarf);
+        for (int i = 0; i < stones.Length; i++)
         {
-            string line = string.Empty;
-            for (int j = 0; j < columns; j++)
-            {
-                line += gameField[i, j];
-            }
-            Console.WriteLine(line);
-            Thread.Sleep(150);
+            Console.SetCursorPosition(xStones[i], yStones[i]);
+            Console.ForegroundColor = stoneColors[i];
+            Console.Write(stones[i]);
+            Console.ResetColor();
         }
-    }
-
-    static char[,] ScatterStones(int rows, int columns)
-    {
-        char[,] gameField = new char[rows, columns];
-        char[] stoneTypes = new char[] { '^', '@', '*', '&', '+', '%', '$', '#', '!', '.', ';' };
-
-        Random rnd = new Random();
-        for (int i = 0; i < 12; i++)
+        int cycleCounter = 0;
+        while (true)
         {
-            ClearPathThrough(ref gameField, rnd);
-        }
-        Scatter(ref gameField, rnd, stoneTypes);
-        return gameField;
-    }
-
-    static void Scatter(ref char[,] gameField, Random randomFactor, char[] stoneTypes)
-    {
-        int rows = gameField.GetLength(0);
-        int columns = gameField.GetLength(1);
-        int area = rows * columns;
-        for (int stoneIndex = 0; stoneIndex < stoneTypes.Length; stoneIndex++)
-        {
-            char stone = stoneTypes[stoneIndex];
-            for (int k = 0; k < 24; k++)
+            Thread.Sleep(30);
+            if (Console.KeyAvailable)
             {
-                int placeCode = randomFactor.Next(area);
-                int x = placeCode / columns;
-                int y = placeCode % columns;
-                if (gameField[x, y] != 'Y')
+                ConsoleKey key = Console.ReadKey(true).Key;
+                if (key.Equals(ConsoleKey.LeftArrow))
                 {
-                    gameField[x, y] = stone;
+                    if (2 < xDwarf)
+                    {
+                        xDwarf--;
+                        Console.SetCursorPosition(xDwarf - 1, rows - 1);
+                        Console.Write(dwarf + " ");
+                    }
+                }
+                else if (key.Equals(ConsoleKey.RightArrow))
+                {
+                    if (xDwarf < columns - 3)
+                    {
+                        xDwarf++;
+                        Console.SetCursorPosition(xDwarf - 2, rows - 1);
+                        Console.Write(" " + dwarf);
+                    }
+                }
+                else if (key.Equals(ConsoleKey.Escape))
+                {
+                    Console.Clear();
+                    Console.WriteLine("Game Over!");
+                    Console.WriteLine("You won {0} points.", cycleCounter);
+                    // Flush console input buffer
+                    while (Console.KeyAvailable)
+                    {
+                        key = Console.ReadKey(true).Key;
+                    }
+                    return;
+                }
+                // Flush console input buffer
+                while (Console.KeyAvailable)
+                {
+                    key = Console.ReadKey(true).Key;
                 }
             }
-        }
-    }
-
-    static void ClearPathThrough(ref char[,] gameField, Random randomFactor)
-    {
-        int rows = gameField.GetLength(0);
-        int columns = gameField.GetLength(1);
-        char freeTrack = 'Y';
-
-        int position = randomFactor.Next(columns - 2);
-        gameField[0, position] = freeTrack;
-        gameField[0, position + 1] = freeTrack;
-        gameField[0, position + 2] = freeTrack;
-
-        int turn, prevTurn = randomFactor.Next(-1, 2);
-        for (int i = 1; i < rows; i++)
-        {
-            turn = randomFactor.Next(-5 + prevTurn * 4, 6 + prevTurn * 4);
-            if (turn > 0)
+            for (int j = 0; j < stones.Length; j++)
             {
-                turn = 1;
+                if (cycleCounter % stoneSpeeds[j] == 0)
+                {
+                    if (yStones[j] < rows)
+                    {
+                        Console.SetCursorPosition(xStones[j], yStones[j]);
+                        Console.Write(" ");
+                        yStones[j]++;
+                    }
+                    if (yStones[j] < rows)
+                    {
+                        Console.SetCursorPosition(xStones[j], yStones[j]);
+                        Console.ForegroundColor = stoneColors[j];
+                        Console.Write(stones[j]);
+                        Console.ResetColor();
+                    }
+                    else
+                    {
+                        yStones[j] = 0;
+                    }
+                }
             }
-            else if (turn < 0)
-            {
-                turn = -1;
-            }
-            prevTurn = turn;
-            position += turn;
-            if (position < 0)
-            {
-                position = 0;
-                prevTurn = -prevTurn;
-            }
-            else if (position > columns - 3)
-            {
-                position = columns - 3;
-                prevTurn = -prevTurn;
-            }
-            gameField[i, position] = freeTrack;
-            gameField[i, position + 1] = freeTrack;
-            gameField[i, position + 2] = freeTrack;
+            cycleCounter++;
+            Console.SetCursorPosition(columns / 2, 0);
+            Console.ForegroundColor = ConsoleColor.Red; 
+            Console.Write(cycleCounter);
+            Console.ResetColor();
         }
     }
 }
