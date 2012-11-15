@@ -4,21 +4,43 @@ using System.Collections;
 
 class FallingRocks
 {
-    class Stone
+    class Stones
     {
         public static char[] Patterns = { '^', '@', '*', '&', '+', '%', '$', '#', '!', '.', ';' };
         public static ConsoleColor[] SpeedIndexColors = { ConsoleColor.Red, ConsoleColor.Yellow, ConsoleColor.Cyan, 
                                                 ConsoleColor.Green, ConsoleColor.Magenta };
-        public char Pattern;
-        public int X, Y, Width, SpeedIndex;
+        public static ArrayList Items = new ArrayList();
+        public static Random Rand = new Random();
 
-        public Stone(char pattern, int x, int y, int width, int speedIndex)
+        public static void AddMultipleItemsRandomly(int width, int count = 1)
         {
-            Pattern = pattern;
+            for (int i = 0; i < count; i++)
+            {
+                Stones.Items.Add(new Stone(1, width - 2));
+            }
+        }
+    }
+
+    class Stone
+    {
+        public int X, Y, Width, SpeedIndex, PatternIndex;
+
+        public Stone(int x, int y, int width, int speedIndex, int patternIndex)
+        {
             X = x;
             Y = y;
             Width = width;
             SpeedIndex = speedIndex;
+            PatternIndex = patternIndex;
+        }
+
+        public Stone(int minColumnIndex, int maxColumnIndex)
+        {
+            Width = Stones.Rand.Next(1, 3);
+            X = Stones.Rand.Next(minColumnIndex, maxColumnIndex + 1 - Width);
+            Y = 1;
+            SpeedIndex = Stones.Rand.Next(Stones.SpeedIndexColors.Length);
+            PatternIndex = Stones.Rand.Next(Stones.Patterns.Length);
         }
 
         public void Cut()
@@ -30,8 +52,8 @@ class FallingRocks
         public void Paste()
         {
             Console.SetCursorPosition(X, Y);
-            Console.ForegroundColor = SpeedIndexColors[SpeedIndex];
-            Console.Write(new string(Pattern, Width));
+            Console.ForegroundColor = Stones.SpeedIndexColors[SpeedIndex];
+            Console.Write(new string(Stones.Patterns[PatternIndex], Width));
             Console.ResetColor();
         }
     }
@@ -57,15 +79,8 @@ class FallingRocks
         Console.SetCursorPosition(xDwarf, rows - 1);
         Console.Write(dwarf);
 
-        int stoneChars = Stone.Patterns.Length;
-        int speedCategories = Stone.SpeedIndexColors.Length;
-        Random rnd = new Random();
-        ArrayList stones = new ArrayList();
-        for (int i = 0; i < stoneChars; i++)
-        {
-            stones.Add(new Stone(Stone.Patterns[i], rnd.Next(columns - 2) + 1, 1, 1, rnd.Next(speedCategories)));
-        }
-        foreach (Stone stone in stones)
+        Stones.AddMultipleItemsRandomly(columns, 12);
+        foreach (Stone stone in Stones.Items)
         {
             stone.Paste();
         }
@@ -73,6 +88,8 @@ class FallingRocks
         while (true)
         {
             Thread.Sleep(30);
+            
+            // Dwarf stands still or moves one step left or one step right
             if (Console.KeyAvailable)
             {
                 ConsoleKey key = Console.ReadKey(true).Key;
@@ -96,14 +113,7 @@ class FallingRocks
                 }
                 else if (key.Equals(ConsoleKey.Escape))
                 {
-                    Console.Clear();
-                    Console.WriteLine("Game Over!");
-                    Console.WriteLine("You won {0} points.", cycleCounter);
-                    // Flush console input buffer before exit
-                    while (Console.KeyAvailable)
-                    {
-                        key = Console.ReadKey(true).Key;
-                    }
+                    GameOver(cycleCounter);
                     return;
                 }
                 // Flush console input buffer
@@ -112,46 +122,50 @@ class FallingRocks
                     key = Console.ReadKey(true).Key;
                 }
             }
-            for (int j = 0; j < stones.Count; j++)
+            
+            // Stones are falling
+            for (int j = 0; j < Stones.Items.Count; j++)
             {
-                Stone stone = (Stone)stones[j];
+                Stone stone = (Stone)Stones.Items[j];
                 if (cycleCounter % (stone.SpeedIndex + 1) == 0)
                 {
-                    if (stone.Y < rows)
-                    {
-                        stone.Cut();
-                        stone.Y++;
-                    }
+                    stone.Cut();
+                    stone.Y++;
                     if (stone.Y < rows)
                     {
                         stone.Paste();
                     }
                     else
                     {
-                        stone.Y = 1;
-                        stone.SpeedIndex += rnd.Next(speedCategories);
-                        stone.SpeedIndex %= speedCategories;
+                        Stones.Items[j] = new Stone(1, columns - 2);
                     }
                 }
             }
-
+            
+            // Show results
             cycleCounter++;
             Console.SetCursorPosition(columns / 2, 0);
             Console.ForegroundColor = ConsoleColor.Red; 
             Console.Write(cycleCounter);
             Console.ResetColor();
 
-            foreach (Stone stone in stones)
+            // Detect a collision
+            foreach (Stone stone in Stones.Items)
             {
                 if ((stone.Y == rows - 1) && (xDwarf < stone.X + stone.Width) && (xDwarf + 3 > stone.X))
                 {
-                    Thread.Sleep(300);
-                    Console.Clear();
-                    Console.WriteLine("Game Over!");
-                    Console.WriteLine("You won {0} points.", cycleCounter);
+                    GameOver(cycleCounter);
                     return;
                 }
             }
         }
+    }
+
+    static void GameOver(int points)
+    {
+        Thread.Sleep(300);
+        Console.Clear();
+        Console.WriteLine("Game Over!");
+        Console.WriteLine("You won {0} points.", points);
     }
 }
