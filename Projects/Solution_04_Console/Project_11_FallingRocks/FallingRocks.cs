@@ -149,6 +149,12 @@ class FallingRocks
             Console.Write(cycleCounter);
             Console.ResetColor();
 
+            // New stone
+            if (cycleCounter % 200 == 0)
+            {
+                Stones.Items.Add(new Stone(1, columns - 2));
+            }
+
             // Detect a collision
             foreach (Stone stone in Stones.Items)
             {
