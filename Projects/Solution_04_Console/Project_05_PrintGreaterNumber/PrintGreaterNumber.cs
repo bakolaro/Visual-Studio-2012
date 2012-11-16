@@ -16,7 +16,7 @@ class PrintGreaterNumber
         Console.Write("b = ");
         int b = int.Parse(Console.ReadLine());
         // Calculation
-        int greater = Math.Abs((a - b) / 2) + (a + b) / 2;
+        int greater = (Math.Abs(a - b) + (a + b)) / 2;
         // Output data
         Console.WriteLine("Between {0} and {1}, {2} is greater.", a, b, greater);
     }
