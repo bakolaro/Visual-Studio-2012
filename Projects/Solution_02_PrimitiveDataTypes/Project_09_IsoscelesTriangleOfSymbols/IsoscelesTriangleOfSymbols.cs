@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 /* Write a program that prints an isosceles triangle of 9 copyright
  * symbols ©. Use Windows Character Map to find the Unicode code of
@@ -9,10 +10,11 @@ class IsoscelesTriangleOfSymbols
 {
    static void Main()
    {
-      char copyright = '\u00A9';
-      char space = ' ';
-      Console.WriteLine("{0}{0}{1}{0}{0}", space, copyright);
-      Console.WriteLine("{0}{1}{0}{1}{0}", space, copyright);
-      Console.WriteLine("{1}{1}{1}{1}{1}", space, copyright);
+       Console.OutputEncoding = Encoding.UTF8;
+       char copyright = '\u00A9';
+       char space = ' ';
+       Console.WriteLine("{0}{0}{1}{0}{0}", space, copyright);
+       Console.WriteLine("{0}{1}{1}{1}{0}", space, copyright);
+       Console.WriteLine("{1}{1}{1}{1}{1}", space, copyright);
    }
 }

@@ -6,3 +6,6 @@ C:\Users\R\Documents\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_08_QuoteStrings\obj\x86\Debug\Project_08_QuoteStrings.exe
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_08_QuoteStrings\obj\x86\Debug\Project_08_QuoteStrings.pdb
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_08_QuoteStrings\bin\Debug\Project_08_QuoteStrings.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_08_QuoteStrings\bin\Debug\Project_08_QuoteStrings.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_08_QuoteStrings\bin\Debug\Project_08_QuoteStrings.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_08_QuoteStrings\obj\x86\Debug\Project_08_QuoteStrings.csprojResolveAssemblyReference.cache

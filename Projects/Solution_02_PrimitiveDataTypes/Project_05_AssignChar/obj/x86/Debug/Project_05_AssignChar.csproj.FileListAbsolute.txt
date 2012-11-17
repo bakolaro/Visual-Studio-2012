@@ -1,1 +1,5 @@
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_05_AssignChar\bin\Debug\Project_05_AssignChar.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_05_AssignChar\bin\Debug\Project_05_AssignChar.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_05_AssignChar\bin\Debug\Project_05_AssignChar.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_05_AssignChar\obj\x86\Debug\Project_05_AssignChar.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_05_AssignChar\obj\x86\Debug\Project_05_AssignChar.pdb

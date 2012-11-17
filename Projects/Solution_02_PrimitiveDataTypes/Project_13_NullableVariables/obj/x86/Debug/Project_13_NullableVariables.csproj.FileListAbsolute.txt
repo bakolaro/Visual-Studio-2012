@@ -1,1 +1,5 @@
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_13_NullableVariables\bin\Debug\Project_13_NullableVariables.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_13_NullableVariables\bin\Debug\Project_13_NullableVariables.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_13_NullableVariables\bin\Debug\Project_13_NullableVariables.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_13_NullableVariables\obj\x86\Debug\Project_13_NullableVariables.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_13_NullableVariables\obj\x86\Debug\Project_13_NullableVariables.pdb

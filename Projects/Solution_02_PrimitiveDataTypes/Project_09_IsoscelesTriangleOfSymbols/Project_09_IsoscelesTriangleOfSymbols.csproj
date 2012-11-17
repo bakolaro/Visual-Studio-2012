@@ -43,7 +43,6 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="IsoscelesTriangleOfSymbols.cs" />
   </ItemGroup>
   <ItemGroup>

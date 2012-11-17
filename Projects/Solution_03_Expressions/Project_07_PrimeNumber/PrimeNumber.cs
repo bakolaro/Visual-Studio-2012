@@ -20,8 +20,8 @@ class PrimeNumber
         }
         // Calculate
         bool is2357 = ((n == 2) || (n == 3) || (n == 5) || (n == 7));
-        bool isCoPrimeTo2357 = ((n % 2 > 0) && (n % 3 > 0) && (n % 5 > 0) && (n % 7 > 0));
-        bool isPrime = (n > 1) && (is2357 || isCoPrimeTo2357);
+        bool isCoPrimeTo2357 = ((n > 1) && (n % 2 > 0) && (n % 3 > 0) && (n % 5 > 0) && (n % 7 > 0));
+        bool isPrime = (is2357 || isCoPrimeTo2357);
         // Output data
         Console.WriteLine("{0} is prime? {1}.", n, isPrime);
     }

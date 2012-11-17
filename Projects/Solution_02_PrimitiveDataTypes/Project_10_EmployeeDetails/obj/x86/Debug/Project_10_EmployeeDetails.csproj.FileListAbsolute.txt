@@ -1,1 +1,5 @@
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_10_EmployeeDetails\bin\Debug\Project_10_EmployeeDetails.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_10_EmployeeDetails\bin\Debug\Project_10_EmployeeDetails.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_10_EmployeeDetails\bin\Debug\Project_10_EmployeeDetails.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_10_EmployeeDetails\obj\x86\Debug\Project_10_EmployeeDetails.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_10_EmployeeDetails\obj\x86\Debug\Project_10_EmployeeDetails.pdb
