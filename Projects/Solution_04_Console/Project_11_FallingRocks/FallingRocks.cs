@@ -25,15 +25,6 @@ class FallingRocks
     {
         public int X, Y, Width, SpeedIndex, PatternIndex;
 
-        public Stone(int x, int y, int width, int speedIndex, int patternIndex)
-        {
-            X = x;
-            Y = y;
-            Width = width;
-            SpeedIndex = speedIndex;
-            PatternIndex = patternIndex;
-        }
-
         public Stone(int minColumnIndex, int maxColumnIndex)
         {
             Width = Stones.Rand.Next(1, 3);
