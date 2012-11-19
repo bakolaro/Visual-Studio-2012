@@ -1,1 +1,6 @@
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_01_MathExpression\bin\Debug\Problem_01_MathExpression.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_01_MathExpression\bin\Debug\Problem_01_MathExpression.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_01_MathExpression\bin\Debug\Problem_01_MathExpression.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_01_MathExpression\obj\Debug\Problem_01_MathExpression.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_01_MathExpression\obj\Debug\Problem_01_MathExpression.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_01_MathExpression\obj\Debug\Problem_01_MathExpression.pdb
