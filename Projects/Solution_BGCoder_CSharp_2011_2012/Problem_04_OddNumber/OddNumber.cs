@@ -18,23 +18,21 @@ class OddNumber
             a[i] = long.Parse(Console.ReadLine());
         }
         // Calculate
-        HashSet<long> b = new HashSet<long>();
+        HashSet<long> oddElementValues = new HashSet<long>();
         for (int i = 0; i < n; i++)
         {
-            
-            if(b.Contains(a[i]))
+            if (oddElementValues.Contains(a[i]))
             {
-                b.Remove(a[i]);
+                oddElementValues.Remove(a[i]);
             }
             else
             {
-                b.Add(a[i]);
+                oddElementValues.Add(a[i]);
             }
         }
-        HashSet<long>.Enumerator e = b.GetEnumerator();
-        e.MoveNext();
-        long oddOne = e.Current;
+        HashSet<long>.Enumerator enumerator = oddElementValues.GetEnumerator();
+        enumerator.MoveNext();
         // Output data
-        Console.WriteLine(oddOne);
+        Console.WriteLine(enumerator.Current);
     }
 }
