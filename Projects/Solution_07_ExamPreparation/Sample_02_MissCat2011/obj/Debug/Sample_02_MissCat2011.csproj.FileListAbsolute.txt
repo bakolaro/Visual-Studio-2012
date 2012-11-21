@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_02_MissCat2011\bin\Debug\Sample_02_MissCat2011.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_02_MissCat2011\bin\Debug\Sample_02_MissCat2011.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_02_MissCat2011\bin\Debug\Sample_02_MissCat2011.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_02_MissCat2011\obj\Debug\Sample_02_MissCat2011.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_02_MissCat2011\obj\Debug\Sample_02_MissCat2011.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_02_MissCat2011\obj\Debug\Sample_02_MissCat2011.pdb

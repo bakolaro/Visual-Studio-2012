@@ -1,0 +1,7 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_04_OddNumber\bin\Debug\Problem_04_OddNumber.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_04_OddNumber\bin\Debug\Problem_04_OddNumber.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_04_OddNumber\bin\Debug\Problem_04_OddNumber.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_04_OddNumber\obj\Debug\Problem_04_OddNumber.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_04_OddNumber\obj\Debug\Problem_04_OddNumber.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_04_OddNumber\obj\Debug\Problem_04_OddNumber.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Practical_04_OddNumber\bin\Debug\Problem_04_OddNumber.exe.config

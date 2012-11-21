@@ -1,6 +1,0 @@
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_02_LeastMajorityMultiple\bin\Debug\Problem_02_LeastMajorityMultiple.exe.config
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_02_LeastMajorityMultiple\bin\Debug\Problem_02_LeastMajorityMultiple.exe
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_02_LeastMajorityMultiple\bin\Debug\Problem_02_LeastMajorityMultiple.pdb
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_02_LeastMajorityMultiple\obj\Debug\Problem_02_LeastMajorityMultiple.exe
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_02_LeastMajorityMultiple\obj\Debug\Problem_02_LeastMajorityMultiple.pdb
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_02_LeastMajorityMultiple\obj\Debug\Problem_02_LeastMajorityMultiple.csprojResolveAssemblyReference.cache

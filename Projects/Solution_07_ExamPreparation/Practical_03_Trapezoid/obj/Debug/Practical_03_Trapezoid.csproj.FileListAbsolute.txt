@@ -1,0 +1,7 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_03_Trapezoid\bin\Debug\Problem_03_Trapezoid.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_03_Trapezoid\bin\Debug\Problem_03_Trapezoid.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_03_Trapezoid\bin\Debug\Problem_03_Trapezoid.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_03_Trapezoid\obj\Debug\Problem_03_Trapezoid.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_03_Trapezoid\obj\Debug\Problem_03_Trapezoid.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_BGCoder_CSharp_2011_2012\Problem_03_Trapezoid\obj\Debug\Problem_03_Trapezoid.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Practical_03_Trapezoid\bin\Debug\Problem_03_Trapezoid.exe.config
