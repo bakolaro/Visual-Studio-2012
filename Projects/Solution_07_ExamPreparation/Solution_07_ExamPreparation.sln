@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_01_CartesianCoordina
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_02_MissCat2011", "Sample_02_MissCat2011\Sample_02_MissCat2011.csproj", "{0232F338-3735-4B2B-BC0F-117687C430F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_03_ForestRoad", "Sample_03_ForestRoad\Sample_03_ForestRoad.csproj", "{9FBB50FA-260C-423A-8B75-96D99AD551C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_04_BinaryDigitsCount", "Sample_04_BinaryDigitsCount\Sample_04_BinaryDigitsCount.csproj", "{EA1E43FE-EE96-4751-9B1D-D3101D1FA587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_05_SubsetSums", "Sample_05_SubsetSums\Sample_05_SubsetSums.csproj", "{33BC5D4D-B1FA-4630-8736-66E81359FBEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,8 +55,23 @@ Global
 		{0232F338-3735-4B2B-BC0F-117687C430F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0232F338-3735-4B2B-BC0F-117687C430F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0232F338-3735-4B2B-BC0F-117687C430F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FBB50FA-260C-423A-8B75-96D99AD551C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBB50FA-260C-423A-8B75-96D99AD551C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBB50FA-260C-423A-8B75-96D99AD551C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBB50FA-260C-423A-8B75-96D99AD551C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1E43FE-EE96-4751-9B1D-D3101D1FA587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1E43FE-EE96-4751-9B1D-D3101D1FA587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1E43FE-EE96-4751-9B1D-D3101D1FA587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1E43FE-EE96-4751-9B1D-D3101D1FA587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33BC5D4D-B1FA-4630-8736-66E81359FBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BC5D4D-B1FA-4630-8736-66E81359FBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BC5D4D-B1FA-4630-8736-66E81359FBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BC5D4D-B1FA-4630-8736-66E81359FBEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal

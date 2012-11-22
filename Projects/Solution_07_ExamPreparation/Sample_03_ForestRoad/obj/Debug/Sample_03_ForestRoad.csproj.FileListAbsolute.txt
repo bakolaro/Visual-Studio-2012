@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_03_ForestRoad\bin\Debug\Sample_03_ForestRoad.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_03_ForestRoad\bin\Debug\Sample_03_ForestRoad.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_03_ForestRoad\bin\Debug\Sample_03_ForestRoad.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_03_ForestRoad\obj\Debug\Sample_03_ForestRoad.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_03_ForestRoad\obj\Debug\Sample_03_ForestRoad.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Sample_03_ForestRoad\obj\Debug\Sample_03_ForestRoad.pdb
