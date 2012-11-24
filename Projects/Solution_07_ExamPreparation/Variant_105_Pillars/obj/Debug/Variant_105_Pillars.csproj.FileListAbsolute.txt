@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_105_Pillars\bin\Debug\Variant_105_Pillars.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_105_Pillars\bin\Debug\Variant_105_Pillars.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_105_Pillars\bin\Debug\Variant_105_Pillars.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_105_Pillars\obj\Debug\Variant_105_Pillars.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_105_Pillars\obj\Debug\Variant_105_Pillars.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_105_Pillars\obj\Debug\Variant_105_Pillars.pdb

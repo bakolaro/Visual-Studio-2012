@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_101_ShipDamage\bin\Debug\Variant_101_ShipDamage.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_101_ShipDamage\bin\Debug\Variant_101_ShipDamage.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_101_ShipDamage\bin\Debug\Variant_101_ShipDamage.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_101_ShipDamage\obj\Debug\Variant_101_ShipDamage.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_101_ShipDamage\obj\Debug\Variant_101_ShipDamage.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_101_ShipDamage\obj\Debug\Variant_101_ShipDamage.pdb

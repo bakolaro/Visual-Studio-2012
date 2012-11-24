@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_104_LoveBits\bin\Debug\Variant_104_LoveBits.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_104_LoveBits\bin\Debug\Variant_104_LoveBits.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_104_LoveBits\bin\Debug\Variant_104_LoveBits.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_104_LoveBits\obj\Debug\Variant_104_LoveBits.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_104_LoveBits\obj\Debug\Variant_104_LoveBits.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_104_LoveBits\obj\Debug\Variant_104_LoveBits.pdb

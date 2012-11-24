@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_201_FighterAttack\bin\Debug\Variant_201_FighterAttack.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_201_FighterAttack\bin\Debug\Variant_201_FighterAttack.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_201_FighterAttack\bin\Debug\Variant_201_FighterAttack.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_201_FighterAttack\obj\Debug\Variant_201_FighterAttack.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_201_FighterAttack\obj\Debug\Variant_201_FighterAttack.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_201_FighterAttack\obj\Debug\Variant_201_FighterAttack.pdb

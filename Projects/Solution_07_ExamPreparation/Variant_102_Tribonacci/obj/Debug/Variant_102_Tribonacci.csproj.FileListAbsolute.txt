@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_102_Tribonacci\bin\Debug\Variant_102_Tribonacci.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_102_Tribonacci\bin\Debug\Variant_102_Tribonacci.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_102_Tribonacci\bin\Debug\Variant_102_Tribonacci.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_102_Tribonacci\obj\Debug\Variant_102_Tribonacci.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_102_Tribonacci\obj\Debug\Variant_102_Tribonacci.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_102_Tribonacci\obj\Debug\Variant_102_Tribonacci.pdb
