@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical_04_OddNumber", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical_05_FallDown", "Practical_05_FallDown\Practical_05_FallDown.csproj", "{5104EB40-6702-476C-8D25-3045A9BB5955}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_01_CartesianCoordinateSystem", "Sample_CartesianCoordinateSystem\Sample_01_CartesianCoordinateSystem.csproj", "{93DEF329-3027-4E69-86F8-B7C6CE392AB4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_02_MissCat2011", "Sample_02_MissCat2011\Sample_02_MissCat2011.csproj", "{0232F338-3735-4B2B-BC0F-117687C430F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_03_ForestRoad", "Sample_03_ForestRoad\Sample_03_ForestRoad.csproj", "{9FBB50FA-260C-423A-8B75-96D99AD551C2}"
@@ -41,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variant_204_DancingBits", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variant_205_Lines", "Variant_205_Lines\Variant_205_Lines.csproj", "{17279EFE-2DC0-4C92-92FB-A1CE4656A0BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_01_CartesianCoordinateSystem", "Sample_01_CartesianCoordinateSystem\Sample_01_CartesianCoordinateSystem.csproj", "{93DEF329-3027-4E69-86F8-B7C6CE392AB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,10 +67,6 @@ Global
 		{5104EB40-6702-476C-8D25-3045A9BB5955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5104EB40-6702-476C-8D25-3045A9BB5955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5104EB40-6702-476C-8D25-3045A9BB5955}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93DEF329-3027-4E69-86F8-B7C6CE392AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93DEF329-3027-4E69-86F8-B7C6CE392AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93DEF329-3027-4E69-86F8-B7C6CE392AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93DEF329-3027-4E69-86F8-B7C6CE392AB4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0232F338-3735-4B2B-BC0F-117687C430F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0232F338-3735-4B2B-BC0F-117687C430F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0232F338-3735-4B2B-BC0F-117687C430F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -127,6 +123,10 @@ Global
 		{17279EFE-2DC0-4C92-92FB-A1CE4656A0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17279EFE-2DC0-4C92-92FB-A1CE4656A0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17279EFE-2DC0-4C92-92FB-A1CE4656A0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DEF329-3027-4E69-86F8-B7C6CE392AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DEF329-3027-4E69-86F8-B7C6CE392AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DEF329-3027-4E69-86F8-B7C6CE392AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DEF329-3027-4E69-86F8-B7C6CE392AB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

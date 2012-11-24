@@ -44,22 +44,22 @@ class FighterAttack
 
     struct Point
     {
-        public int x, y;
+        public int X, Y;
 
         public Point(int px, int py)
         {
-            x = px;
-            y = py;
+            X = px;
+            Y = py;
         }
     }
 
     static bool causesDamage(Point f, Point plantCorner1, Point plantCorner2)
     {
-        if((f.x - plantCorner1.x) * (f.x - plantCorner2.x) > 0)
+        if((f.X - plantCorner1.X) * (f.X - plantCorner2.X) > 0)
         {
             return false;
         }
-        if ((f.y - plantCorner1.y) * (f.y - plantCorner2.y) > 0)
+        if ((f.Y - plantCorner1.Y) * (f.Y - plantCorner2.Y) > 0)
         {
             return false;
         }

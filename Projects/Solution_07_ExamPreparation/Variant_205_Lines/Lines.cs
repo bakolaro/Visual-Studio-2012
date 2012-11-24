@@ -13,36 +13,36 @@ class Lines
 
         Line longestByRows = LongestLine(a);
         Line longestByColumns = LongestLine(b);
-        if (longestByRows.length > longestByColumns.length)
+        if (longestByRows.Length > longestByColumns.Length)
         {
-            Console.WriteLine(longestByRows.length);
-            Console.WriteLine(longestByRows.count);
+            Console.WriteLine(longestByRows.Length);
+            Console.WriteLine(longestByRows.Count);
         }
-        else if (longestByRows.length < longestByColumns.length)
+        else if (longestByRows.Length < longestByColumns.Length)
         {
-            Console.WriteLine(longestByColumns.length);
-            Console.WriteLine(longestByColumns.count);
+            Console.WriteLine(longestByColumns.Length);
+            Console.WriteLine(longestByColumns.Count);
         }
-        else if (longestByRows.length > 1)
+        else if (longestByRows.Length > 1)
         {
-            Console.WriteLine(longestByRows.length);
-            Console.WriteLine(longestByRows.count + longestByColumns.count);
+            Console.WriteLine(longestByRows.Length);
+            Console.WriteLine(longestByRows.Count + longestByColumns.Count);
         }
         else
         {
-            Console.WriteLine(longestByRows.length);
-            Console.WriteLine(longestByRows.count);
+            Console.WriteLine(longestByRows.Length);
+            Console.WriteLine(longestByRows.Count);
         }
     }
 
     struct Line
     {
-        public int length, count;
+        public int Length, Count;
 
         public Line(int lineLength, int lineCount)
         {
-            length = lineLength;
-            count = lineCount;
+            Length = lineLength;
+            Count = lineCount;
         }
     }
 
@@ -59,28 +59,28 @@ class Lines
             }
             else
             {
-                if (length > g.length)
+                if (length > g.Length)
                 {
-                    g.length = length;
-                    g.count = 1;
+                    g.Length = length;
+                    g.Count = 1;
                 }
-                else if (length == g.length)
+                else if (length == g.Length)
                 {
-                    g.count++;
+                    g.Count++;
                 }
                 length = 0;
             }
             x >>= 1;
         }
         while (x > 0);
-        if (length > g.length)
+        if (length > g.Length)
         {
-            g.length = length;
-            g.count = 1;
+            g.Length = length;
+            g.Count = 1;
         }
-        else if (length == g.length)
+        else if (length == g.Length)
         {
-            g.count++;
+            g.Count++;
         }
 
         return g;
@@ -92,14 +92,14 @@ class Lines
         for (int i = 1; i < a.Length; i++)
         {
             Line h = LongestLine(a[i]);
-            if (h.length > g.length)
+            if (h.Length > g.Length)
             {
-                g.length = h.length;
-                g.count = h.count;
+                g.Length = h.Length;
+                g.Count = h.Count;
             }
-            else if (h.length == g.length)
+            else if (h.Length == g.Length)
             {
-                g.count += h.count;
+                g.Count += h.Count;
             }
         }
         return g;
