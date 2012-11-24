@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_205_Lines\bin\Debug\Variant_205_Lines.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_205_Lines\bin\Debug\Variant_205_Lines.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_205_Lines\bin\Debug\Variant_205_Lines.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_205_Lines\obj\Debug\Variant_205_Lines.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_205_Lines\obj\Debug\Variant_205_Lines.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_205_Lines\obj\Debug\Variant_205_Lines.pdb

@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_203_SandGlass\bin\Debug\Variant_203_SandGlass.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_203_SandGlass\bin\Debug\Variant_203_SandGlass.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_203_SandGlass\bin\Debug\Variant_203_SandGlass.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_203_SandGlass\obj\Debug\Variant_203_SandGlass.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_203_SandGlass\obj\Debug\Variant_203_SandGlass.pdb

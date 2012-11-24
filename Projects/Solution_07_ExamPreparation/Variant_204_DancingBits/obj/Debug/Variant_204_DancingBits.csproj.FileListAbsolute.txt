@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_204_DancingBits\bin\Debug\Variant_204_DancingBits.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_204_DancingBits\bin\Debug\Variant_204_DancingBits.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_204_DancingBits\bin\Debug\Variant_204_DancingBits.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_204_DancingBits\obj\Debug\Variant_204_DancingBits.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_204_DancingBits\obj\Debug\Variant_204_DancingBits.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_07_ExamPreparation\Variant_204_DancingBits\obj\Debug\Variant_204_DancingBits.pdb
