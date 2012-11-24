@@ -16,9 +16,6 @@ class LoveBits
         for (int i = 0; i < n; i++)
         {
             b[i] = ((a[i] ^ Inverted(a[i])) & Reversed(a[i]));
-            Console.WriteLine("{3}: {0}: {1}: {2}", 
-                Convert.ToString(a[i], 2), Convert.ToString(Inverted(a[i]), 2),
-                Convert.ToString(Reversed(a[i]), 2), a[i]);
         }
         // Output data
         for (int i = 0; i < n; i++)

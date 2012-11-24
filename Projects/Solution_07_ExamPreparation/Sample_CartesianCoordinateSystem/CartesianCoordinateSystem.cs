@@ -5,8 +5,8 @@ class CartesianCoordinateSystem
     static void Main()
     {
         // Input data
-        long x = long.Parse(Console.ReadLine());
-        long y = long.Parse(Console.ReadLine());
+        decimal x = decimal.Parse(Console.ReadLine());
+        decimal y = decimal.Parse(Console.ReadLine());
         // Calculate
         int numberOfLocation = 0;
         // -2 000 000 000 001 337

@@ -9,9 +9,10 @@ class Lines
         {
             a[i] = int.Parse(Console.ReadLine());
         }
+        int[] b = TransposeBits8x8(a);
 
         Line longestByRows = LongestLine(a);
-        Line longestByColumns = LongestLine(TransposeBits8x8(a));
+        Line longestByColumns = LongestLine(b);
         if (longestByRows.length > longestByColumns.length)
         {
             Console.WriteLine(longestByRows.length);
@@ -22,10 +23,15 @@ class Lines
             Console.WriteLine(longestByColumns.length);
             Console.WriteLine(longestByColumns.count);
         }
-        else
+        else if (longestByRows.length > 1)
         {
             Console.WriteLine(longestByRows.length);
             Console.WriteLine(longestByRows.count + longestByColumns.count);
+        }
+        else
+        {
+            Console.WriteLine(longestByRows.length);
+            Console.WriteLine(longestByRows.count);
         }
     }
 
