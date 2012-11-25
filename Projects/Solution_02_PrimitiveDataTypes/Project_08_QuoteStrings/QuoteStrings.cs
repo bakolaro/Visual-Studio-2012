@@ -16,7 +16,7 @@ class QuoteStrings
       string escaped = "The \"use\" of quotations causes difficulties.";
       Console.WriteLine("1. {0}", quoted);
       Console.WriteLine("2. {0}", escaped);
-      Console.WriteLine("'Sentences 1. and 2. are the samedsasafd' is {0}.",
+      Console.WriteLine("'Sentences 1. and 2. are the same' is {0}.",
                          quoted.Equals(escaped));
    }
 }

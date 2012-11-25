@@ -22,14 +22,26 @@ class Exchange2SequencesOf3Bits
         uint move3 = copy3 << 21;
         uint paste = move24 | move3 | clear;
         // Output data
-        Console.WriteLine("{0,15} {1,15} ({2})", "n = ", n, Convert.ToString(n, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "select24 = ", select24, Convert.ToString(select24, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "select3 = ", select3, Convert.ToString(select3, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "copy24 = ", copy24, Convert.ToString(copy24, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "copy3 = ", copy3, Convert.ToString(copy3, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "clear = ", clear, Convert.ToString(clear, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "move24 = ", move24, Convert.ToString(move24, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "move3 = ", move3, Convert.ToString(move3, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "paste = ", paste, Convert.ToString(paste, 2).PadLeft(32, '0'));
+        Console.WriteLine();
+        Console.WriteLine("{0,15} {1,15} ({2})", "n = ", n,
+            Convert.ToString(n, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "select24 = ", select24, 
+            Convert.ToString(select24, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "select3 = ", select3, 
+            Convert.ToString(select3, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "copy24 = ", copy24, 
+            Convert.ToString(copy24, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "copy3 = ", copy3, 
+            Convert.ToString(copy3, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "clear = ", clear, 
+            Convert.ToString(clear, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "move24 = ", move24, 
+            Convert.ToString(move24, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "move3 = ", move3, 
+            Convert.ToString(move3, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "paste = ", paste, 
+            Convert.ToString(paste, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine();
+        Console.WriteLine("n = {0}", paste);
     }
 }

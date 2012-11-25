@@ -13,18 +13,17 @@ class Exchange2SequencesOfManyBits
         // Input data
         Console.Write("Unsigned integer, n = ");
         uint n = uint.Parse(Console.ReadLine());
-        Console.Write("First sequence of bits starts at position, p = ");
+        Console.Write("First sequence of bits starts at position, p (0 <= p < 31) = ");
         int p = int.Parse(Console.ReadLine());
-        Console.Write("Second sequence of bits starts at position, q = ");
+        Console.Write("Second sequence of bits starts at position, q ({0} < q <= 31) = ", p);
         int q = int.Parse(Console.ReadLine());
-        Console.Write("Swap sequences with length, k = ");
+        Console.Write("Swap sequences with length, k (0 < k < {0}) = ", Math.Min(33 - q, q - p + 1));
         int k = int.Parse(Console.ReadLine());
-        // Let p <= q
-        if (p > q)
+        // Let p < q
+        if ((q < p + 1) || (k < 1) || (q < k + p) || (q + k > 32) || (p < 0))
         {
-            int swap = p;
-            p = q;
-            q = swap;
+            Console.WriteLine("Invalid data!");
+            return;
         }
         // Calculate
         uint mask = ~((~0u) << k);
@@ -37,14 +36,26 @@ class Exchange2SequencesOfManyBits
         uint moveP = copyP << (q - p);
         uint paste = moveQ | moveP | clear;
         // Output data
-        Console.WriteLine("{0,15} {1,15} ({2})", "n = ", n, Convert.ToString(n, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "selectQ = ", selectQ, Convert.ToString(selectQ, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "selectP = ", selectP, Convert.ToString(selectP, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "copyQ = ", copyQ, Convert.ToString(copyQ, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "copyP = ", copyP, Convert.ToString(copyP, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "clear = ", clear, Convert.ToString(clear, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "moveQ = ", moveQ, Convert.ToString(moveQ, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "moveP = ", moveP, Convert.ToString(moveP, 2).PadLeft(32, '0'));
-        Console.WriteLine("{0,15} {1,15} ({2})", "paste = ", paste, Convert.ToString(paste, 2).PadLeft(32, '0'));
+        Console.WriteLine();
+        Console.WriteLine("{0,15} {1,15} ({2})", "n = ", n, 
+            Convert.ToString(n, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "selectQ = ", selectQ, 
+            Convert.ToString(selectQ, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "selectP = ", selectP, 
+            Convert.ToString(selectP, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "copyQ = ", copyQ, 
+            Convert.ToString(copyQ, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "copyP = ", copyP, 
+            Convert.ToString(copyP, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "clear = ", clear, 
+            Convert.ToString(clear, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "moveQ = ", moveQ, 
+            Convert.ToString(moveQ, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "moveP = ", moveP, 
+            Convert.ToString(moveP, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine("{0,15} {1,15} ({2})", "paste = ", paste, 
+            Convert.ToString(paste, 2).PadLeft(32, '0').Replace('0', '.'));
+        Console.WriteLine();
+        Console.WriteLine("n = {0}", paste);
     }
 }

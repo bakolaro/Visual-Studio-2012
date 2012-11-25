@@ -18,11 +18,5 @@ class GetBitValueAtPosition
         int value = ((i >> b) & 1);
         // Output data
         Console.WriteLine("i={0}; b={1} -> value={2}", i, b, value);
-        // Test
-        Console.WriteLine("Test");
-        i = 5;
-        b = 2;
-        value = ((i >> b) & 1);
-        Console.WriteLine("i={0}; b={1} -> value={2}", i, b, value);
     }
 }

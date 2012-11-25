@@ -24,21 +24,5 @@ class SetBitValueAtPosition
         // Output data
         Console.WriteLine("n = {0} ({1}), p={2}, v={3} -> {4} ({5})",
             n, Convert.ToString(n, 2), p, v, newValue, Convert.ToString(newValue, 2));
-        // Test
-        Console.WriteLine("Test");
-        n = 5;
-        p = 3;
-        v = 1;
-        newValue = n & ~(1 << p) | (v << p);
-        Console.WriteLine("n = {0} ({1}), p={2}, v={3} -> {4} ({5})",
-            n, Convert.ToString(n, 2).PadLeft(8,'0'), p, v, newValue, Convert.ToString(newValue, 2).PadLeft(8,'0'));
-        Console.WriteLine("n = 5 (00000101), p=3, v=1 -> 13 (00001101)");
-        n = 5;
-        p = 2;
-        v = 0;
-        newValue = n & ~(1 << p) | (v << p);
-        Console.WriteLine("n = {0} ({1}), p={2}, v={3} -> {4} ({5})",
-            n, Convert.ToString(n, 2).PadLeft(8,'0'), p, v, newValue, Convert.ToString(newValue, 2).PadLeft(8,'0'));
-        Console.WriteLine("n = 5 (00000101), p=2, v=0 -> 1 (00000001)");
     }
 }

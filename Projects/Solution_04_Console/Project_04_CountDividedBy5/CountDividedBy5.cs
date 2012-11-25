@@ -2,7 +2,7 @@
 
 class CountDividedBy5
 {
-    static void Main(string[] args)
+    static void Main()
     {
         /* Write a program that reads two positive integer numbers and prints how many 
          * numbers p exist between them such that the reminder of the division by 5 is
@@ -11,27 +11,13 @@ class CountDividedBy5
 
         // About
         Console.WriteLine("Count numbers divided by 5 between two positive integers:");
-        // Test
-        uint a, b, p;
-        a = 5u; b = 25u; p = countDivisibleNumbers(a, b, 5u);
-        Console.WriteLine("p({0}, {1}) = {2}", a, b, p);
-        a = 5u; b = 24u; p = countDivisibleNumbers(a, b, 5u);
-        Console.WriteLine("p({0}, {1}) = {2}", a, b, p);
-        a = 8u; b = 30u; p = countDivisibleNumbers(a, b, 5u);
-        Console.WriteLine("p({0}, {1}) = {2}", a, b, p);
-        a = 9u; b = 29u; p = countDivisibleNumbers(a, b, 5u);
-        Console.WriteLine("p({0}, {1}) = {2}", a, b, p);
-        a = 8u; b = 8u; p = countDivisibleNumbers(a, b, 5u);
-        Console.WriteLine("p({0}, {1}) = {2}", a, b, p);
-        a = 120u; b = 120u; p = countDivisibleNumbers(a, b, 5u);
-        Console.WriteLine("p({0}, {1}) = {2}", a, b, p);
         // Input data
         Console.Write("a = ");
-        a = uint.Parse(Console.ReadLine());
+        uint a = uint.Parse(Console.ReadLine());
         Console.Write("b = ");
-        b = uint.Parse(Console.ReadLine());
+        uint b = uint.Parse(Console.ReadLine());
         // Calculation
-        p = countDivisibleNumbers(a, b, 5u);
+        uint p = countDivisibleNumbers(a, b, 5u);
         // Output data
         Console.WriteLine("p({0}, {1}) = {2}", a, b, p);
     }
@@ -40,7 +26,7 @@ class CountDividedBy5
     {
         uint smaller = a;
         uint greater = b;
-        // Let smaller <= larger
+        // Let smaller <= greater
         if (a > b)
         {
             smaller = b;
@@ -49,14 +35,15 @@ class CountDividedBy5
         /* interval between smaller and greater = many open intervals + one closed interval;
          * every open interval = [smaller + k * denominator, smaller + k * denominator + denominator);
          * every open interval contains exactly 1 number divisible by denominator;
-         * closed interval contains 0 or 1;
+         * closed interval contains 0 or 1 divisible number;
          */
         uint positiveDifference = greater - smaller;
         uint openIntervals = positiveDifference / denominator;
         uint remainderOfGreater = greater % denominator;
         uint openIntervalsEnd = greater - (positiveDifference % denominator);
         uint remainderOfOpenIntervalsEnd = openIntervalsEnd % denominator;
-        bool closedIntervalContainsDivisible = (remainderOfOpenIntervalsEnd == 0) || (remainderOfOpenIntervalsEnd > remainderOfGreater);
+        bool closedIntervalContainsDivisible = (remainderOfOpenIntervalsEnd == 0) 
+            || (remainderOfOpenIntervalsEnd > remainderOfGreater);
         return openIntervals + (closedIntervalContainsDivisible ? 1u : 0u);
     }
 }

@@ -10,7 +10,7 @@ class SolveCircle
         // Set <decimal point> = <dot>
         Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
-        Console.WriteLine("Input radius and calculate perimeter and area of a circle...");
+        Console.WriteLine("Input a radius and calculate the perimeter and the area of a circle...");
         // Input data
         Console.Write("Radius = ");
         double radius = double.Parse(Console.ReadLine());
@@ -18,6 +18,7 @@ class SolveCircle
         double perimeter = 2 * Math.PI * radius;
         double area = Math.PI * radius * radius;
         // Output data
-        Console.WriteLine("A circle with radius = {0} has perimeter = {1:0.00} and area = {2:0.00}.", radius, perimeter, area);
+        Console.WriteLine("A circle with a radius of {0} has a perimeter of {1:0.00} and an area of {2:0.00}",
+            radius, perimeter, area);
     }
 }
