@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class SortDescendingThreeRealNumbers
 {
     static void Main()
     {
         /* Sort 3 real values in descending order using nested if statements. */
-
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Sort 3 real numbers:");
         // Input data

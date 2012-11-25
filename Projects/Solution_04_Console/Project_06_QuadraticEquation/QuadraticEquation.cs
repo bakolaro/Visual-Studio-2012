@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class QuadraticEquation
 {
@@ -7,7 +9,8 @@ class QuadraticEquation
         /* Write a program that reads the coefficients a, b and c of a quadratic
          * equation ax2+bx+c=0 and solves it (prints its real roots).
          */
-
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Solve a quadratic equation:");
         // Input data

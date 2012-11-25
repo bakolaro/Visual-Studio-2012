@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class PointInCircle
 {
 	static void Main()
     {
         // Write an expression that checks if given point (x,  y) is within a circle K(O, 5).
-
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Point within circle K(O, 5)");
         // Input data

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class RectangleArea
 {
@@ -6,7 +8,8 @@ class RectangleArea
     {
         // Write an expression that calculates rectangle’s area by given width
         // and height.
-        
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Rectangle Area");
         // Input data

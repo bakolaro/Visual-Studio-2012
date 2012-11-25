@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class SumNumbers
 {
@@ -7,7 +9,8 @@ class SumNumbers
         /* Write a program that gets a number n and after that gets more n numbers 
          * and calculates and prints their sum.
          */
-
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Sum n numbers:");
         // Input data

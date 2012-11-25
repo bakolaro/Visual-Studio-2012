@@ -12,6 +12,6 @@ class AssignHexadecimal
       int dec = 254;
       int hex = 0xFE;
 
-      Console.WriteLine("{0} = {1}({2})", hex, dec, hex == dec);
+      Console.WriteLine("{0:x} = {1}({2})", hex, dec, hex == dec);
    }
 }

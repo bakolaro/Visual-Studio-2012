@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class TrapezoidArea
 {
@@ -6,7 +8,8 @@ class TrapezoidArea
     {
         // Write an expression that calculates trapezoid's area by given sides a 
         // and b and height h.
-
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Trapezoid area");
         // Input data

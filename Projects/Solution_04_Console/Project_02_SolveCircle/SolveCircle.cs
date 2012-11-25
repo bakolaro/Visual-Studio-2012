@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class SolveCircle
 {
     static void Main()
     {
         // Write a program that reads the radius r of a circle and prints its perimeter and area.
-
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Input radius and calculate perimeter and area of a circle...");
         // Input data

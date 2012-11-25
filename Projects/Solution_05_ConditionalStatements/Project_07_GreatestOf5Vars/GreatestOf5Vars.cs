@@ -1,11 +1,15 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class GreatestOf5Vars
 {
     static void Main()
     {
         /* Write a program that finds the greatest of given 5 variables. */
-
+		
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Greatest of 5 variables:");
         // Input data

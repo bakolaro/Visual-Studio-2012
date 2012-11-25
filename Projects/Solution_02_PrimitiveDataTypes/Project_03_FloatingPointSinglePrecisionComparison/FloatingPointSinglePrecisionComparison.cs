@@ -1,4 +1,6 @@
 using System;
+using System.Globalization;
+using System.Threading;
 
 /* Write a program that safely compares floating-point numbers with
  * precision of 0.000001. Examples:(5.3 ; 6.01) --> false;
@@ -9,6 +11,8 @@ class FloatingPointSinglePrecisionComparison
 {
    static void Main()
    {
+      Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture; 
+       
       Console.Write("First floating-point number, x = ");
       double x = double.Parse(Console.ReadLine());
       Console.Write("Second floating-point number, y = ");

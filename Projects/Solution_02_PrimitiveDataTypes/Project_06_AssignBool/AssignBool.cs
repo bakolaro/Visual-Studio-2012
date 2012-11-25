@@ -10,7 +10,7 @@ class AssignBool
    {
       bool isFemale = false;
       string name = "Radoslav";
-      Console.WriteLine("\"{0} is female\" is {1}.", name, isFemale);
+      Console.WriteLine("\"{0} is a female\" is {1}.", name, isFemale);
    }
 }
 

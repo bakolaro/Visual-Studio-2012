@@ -16,6 +16,6 @@ class AssignChar
       Console.WriteLine("{0} = {0:x}(16)", unicode); // 72 = 48(16)
 
       char ch = '\u0048';
-      Console.WriteLine("{0} = {0:x}(16) = '{1}'",(int) ch, ch);
+      Console.WriteLine("{0} = {0:x}(16) = '{1}'", (int) ch, ch);
    }
 }

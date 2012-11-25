@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class ShowSignOfThreeVarsProduct
 {
@@ -7,7 +9,8 @@ class ShowSignOfThreeVarsProduct
         /* Write a program that shows the sign (+ or -) of the product of three real 
          * numbers without calculating it. Use a sequence of if statements.
          */
-
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Show the sign of product of 3 real numbers:");
         // Input data

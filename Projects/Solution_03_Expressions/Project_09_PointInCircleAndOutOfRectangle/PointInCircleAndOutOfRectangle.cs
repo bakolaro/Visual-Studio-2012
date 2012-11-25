@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class PointInCircleAndOutOfRectangle
 {
@@ -6,7 +8,8 @@ class PointInCircleAndOutOfRectangle
     {
         // Write an expression that checks for given point (x, y) if it is within the circle K( (1,1), 3)
         // and out of the rectangle R(top=1, left=-1, width=6, height=2).
-
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Point within circle K and out of rectangle R");
         // Input data

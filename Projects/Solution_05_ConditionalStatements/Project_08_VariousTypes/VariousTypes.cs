@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class VariousTypes
 {
@@ -9,7 +11,9 @@ class VariousTypes
          * with 1. If the variable is string, appends "*" at its end. The program 
          * must show the value of that variable as a console output. Use switch statement.
          */
-
+		 
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
         Console.WriteLine("Choose variable type:");
         // Input data

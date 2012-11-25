@@ -3,3 +3,4 @@ C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDat
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_01_ChooseAppropriateTypes\obj\x86\Debug\Project_01_ChooseAppropriateTypes.exe
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_01_ChooseAppropriateTypes\obj\x86\Debug\Project_01_ChooseAppropriateTypes.pdb
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_01_ChooseAppropriateTypes\bin\Debug\Project_01_ChooseAppropriateTypes.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_02_PrimitiveDataTypes\Project_01_ChooseAppropriateTypes\obj\x86\Debug\Project_01_ChooseAppropriateTypes.csprojResolveAssemblyReference.cache
