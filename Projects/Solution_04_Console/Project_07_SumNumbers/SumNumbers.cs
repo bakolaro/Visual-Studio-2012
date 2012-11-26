@@ -19,7 +19,7 @@ class SumNumbers
         double[] numbers = new double[n];
         for (int i = 0; i < n; i++)
         {
-            Console.Write("{0}. Input number = ", i + 1);
+            Console.Write("{0}. real number = ", i + 1);
             numbers[i] = double.Parse(Console.ReadLine());
         }
         // Calculate
