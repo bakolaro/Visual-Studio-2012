@@ -7,6 +7,7 @@ class SortDescendingThreeRealNumbers
     static void Main()
     {
         /* Sort 3 real values in descending order using nested if statements. */
+        
         // Set <decimal point> = <dot>
         Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
@@ -24,7 +25,7 @@ class SortDescendingThreeRealNumbers
         {
             if (y < z)
             {
-                // z > y > x
+                // i.e. z > y > x
                 swap = x;
                 x = z;
                 z = swap;

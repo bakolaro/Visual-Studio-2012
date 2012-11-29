@@ -9,7 +9,7 @@ class CheckForZeroSubset
          */
 
         // About
-        Console.WriteLine("Check set of 5 integers for a zero-sum subset:");
+        Console.WriteLine("Check a set of 5 integers for a zero-sum subset:");
         // Input data
         int[] vars = new int[5];
         for (int i = 0; i < vars.Length; i++)
@@ -20,11 +20,12 @@ class CheckForZeroSubset
         // Calculate
         /* A binary digit could be assigned to each element in a set, indicating if
          * it belongs to a certain subset (0 - does not belong, 1 - belongs). If every
-         * element in the set is identified by an ordinal number, then every possible
-         * subset corresponds to a single binary number. The empty subset corresponds
-         * to 0. A set of 5 elements has 32 subsets, including the empty subset,
-         * since 11111(2) = 1 + 2 + 4 + 8 + 16 = 31. A number from 1 to 31 could be 
-         * assigned to each non-empty subset.
+         * element in the set is identified by its ordinal number (position), then every
+         * subset corresponds to a binary number (sequence of ones and zeros, indicating
+         * elements that do or do not belong to the subset).
+         * The empty subset corresponds to 0. A set of 5 elements has 32 subsets, 
+         * including the empty subset, since 11111(2) = 1 + 2 + 4 + 8 + 16 = 31. A number
+         * from 1 to 31 could be assigned to each non-empty subset.
          */
         int subsetCode = 0;
         for (int i = 1; i < 32; i++)
@@ -39,7 +40,9 @@ class CheckForZeroSubset
             }
             if (sum == 0)
             {
+                // First zero-sum subset
                 subsetCode = i;
+                break;
             }
         }
         // Output data

@@ -5,7 +5,7 @@ class SquareMatrixSpiralGradient
     static void Main()
     {
         /* Write a program that reads a positive integer number N (N < 20)
-         * from console and outputs in the console the numbers 1 ... N 
+         * from console and outputs in the console the numbers 1 ... N * N
          * numbers arranged as a spiral.
          * Example for N = 4
          *    1  2  3  4
@@ -17,7 +17,7 @@ class SquareMatrixSpiralGradient
         // About
         Console.WriteLine("Display a matrix of numbers, growing in a spiral:");
         // Input data
-        Console.Write("n = ");
+        Console.Write("n (1 < n < 20) = ");
         int n = int.Parse(Console.ReadLine());
         // Validate input
         if (n < 1 || n > 19)

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 class FactorialsComplexExpression
 {
@@ -9,34 +10,25 @@ class FactorialsComplexExpression
         // About
         Console.WriteLine("Print N!*K! / (K-N)! (1<N<K)");
         // Input data
-        Console.Write("n = ");
-        ulong n = ulong.Parse(Console.ReadLine());
-        Console.Write("k = ");
-        ulong k = ulong.Parse(Console.ReadLine());
+        Console.Write("n (n > 2) = ");
+        int n = int.Parse(Console.ReadLine());
+        Console.Write("k (k > {0}) = ", n);
+        int k = int.Parse(Console.ReadLine());
         // Validate input
-        if (n > k)
+        if (n <= 1 || k <= n)
         {
-            Console.WriteLine("Invaid input ({0} > {1})", n, k);
+            Console.WriteLine("Invaid input!");
             return;
         }
-        // Calculate
-        ulong nFactorial = Factorial(n);
-        ulong kFactorialTopFactors = Factorial(k, k - n + 1);
-        double product = nFactorial * kFactorialTopFactors;
-        Console.WriteLine("{0}! * {1}! / ({1} - {0})! = {2} * {3} = {4:F8}",
-            n, k, nFactorial, kFactorialTopFactors, product);
-        // Test
-        ulong kFactorial = Factorial(k);
-        ulong differenceFactorial = Factorial(k - n);
-        product = nFactorial * kFactorial / differenceFactorial;
-        Console.WriteLine("{0}! * {1}! / ({1} - {0})! = {2} * {3} / {4} = {5:F8}",
-            n, k, nFactorial, kFactorial, differenceFactorial, product);
+        // Output data
+        Console.WriteLine("{0}! * {1}! / {2}! = {3}", n, k, k - n,
+            Factorial(n, 1) * Factorial(k, k - n + 1));
     }
 
-    static ulong Factorial(ulong maxFactor, ulong minFactor = 1)
+    static BigInteger Factorial(int maxFactor, int minFactor = 1)
     {
-        ulong factorial = 1;
-        for (ulong i = minFactor; i <= maxFactor; i++)
+        BigInteger factorial = 1;
+        for (int i = minFactor; i <= maxFactor; i++)
         {
             factorial *= i;
         }

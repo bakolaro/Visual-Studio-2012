@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class FactorialAndPowerRatio
 {
@@ -8,35 +10,45 @@ class FactorialAndPowerRatio
          * calculates the sum S = 1 + 1!/X + 2!/X^2 + … + N!/X^N
          */
 
+        // Set <decimal point> = <dot>
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
-        Console.WriteLine("Calculate S = 1 + 1!/X + 2!/X^2 + … + N!/X^N");
+        Console.WriteLine("                      1      2             N");
+        Console.WriteLine("Calculate S = 1 + 1!/X + 2!/X  + ... + N!/X ");
         // Input data
-        Console.Write("n = ");
+        Console.Write("n (n >= 0) = ");
         int n = int.Parse(Console.ReadLine());
-        Console.Write("x = ");
+        Console.Write("x (x > 0) = ");
         int x = int.Parse(Console.ReadLine());
         // Validate input
-        if (n < 0)
+        if (n < 0 || x == 0)
         {
-            Console.WriteLine("Invalid input ({0} < 0)", n);
+            Console.WriteLine("Invalid input!");
             return;
         }
         // Calculate
-        double sum = 1.0;
-        for (int i = 1; i <= n; i++)
+        double sum = 0.0;
+        double[] addends = new double[n + 1];
+        for (int i = 0; i <= n; i++)
         {
-            sum += SameFactorialAndPowerRatio(n, x);
+            addends[i] = FactorialToSamePowerRatio(i, x);
+            sum += addends[i];
         }
         // Output data
-        Console.WriteLine("S = {0:F6}", sum);
+        Console.Write("S = Sum (");
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write("{0}, ", addends[i]);
+        }
+        Console.WriteLine("{0}) = {1:F6}", addends[n], sum);
     }
 
-    static double SameFactorialAndPowerRatio(int n, int x)
+    static double FactorialToSamePowerRatio(int n, int powerBase)
     {
         double ratio = 1.0;
         for (int i = 1; i <= n; i++)
         {
-            ratio *= (double)i / x;
+            ratio *= (double)i / powerBase;
         }
         return ratio;
     }

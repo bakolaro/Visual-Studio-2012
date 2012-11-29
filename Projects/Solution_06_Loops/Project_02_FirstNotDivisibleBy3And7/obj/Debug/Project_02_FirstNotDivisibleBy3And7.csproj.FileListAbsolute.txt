@@ -1,3 +1,6 @@
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_02_FirstNotDivisibleBy3And7\bin\Debug\Project_02_PrintFirstNotDivisibleBy3And7.exe.config
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_02_FirstNotDivisibleBy3And7\obj\Debug\Project_02_PrintFirstNotDivisibleBy3And7.exe
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_02_FirstNotDivisibleBy3And7\obj\Debug\Project_02_PrintFirstNotDivisibleBy3And7.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_02_FirstNotDivisibleBy3And7\bin\Debug\Project_02_PrintFirstNotDivisibleBy3And7.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_02_FirstNotDivisibleBy3And7\bin\Debug\Project_02_PrintFirstNotDivisibleBy3And7.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Solution_06_Loops\Project_02_FirstNotDivisibleBy3And7\obj\Debug\Project_02_FirstNotDivisibleBy3And7.csprojResolveAssemblyReference.cache

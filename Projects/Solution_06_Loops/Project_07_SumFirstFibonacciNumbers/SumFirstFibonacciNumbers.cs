@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 class SumFirstFibonacciNumbers
 {
@@ -16,11 +17,16 @@ class SumFirstFibonacciNumbers
         // Input data
         Console.Write("n = ");
         int n = int.Parse(Console.ReadLine());
+        if (n < 2)
+        {
+            Console.WriteLine("Invalid input!");
+            return;
+        }
         // Calculate
-        ulong[] fibs = new ulong[n];
+        BigInteger[] fibs = new BigInteger[n];
         fibs[0] = 0;
         fibs[1] = 1;
-        ulong sum = 1;
+        BigInteger sum = 1;
         for (int i = 2; i < n; i++)
         {
             fibs[i] = fibs[i - 1] + fibs[i - 2];

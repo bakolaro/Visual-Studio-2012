@@ -8,9 +8,9 @@ class CatalanNumber
         // Write a program to calculate the Nth Catalan number by given N.
 
         // About
-        Console.WriteLine("Calculate the N-th Catalan number:");
+        Console.WriteLine("Calculate the N-th Catalan number (counting from 0):");
         // Input data
-        Console.Write("n = ");
+        Console.Write("n (n >= 0) = ");
         int n = int.Parse(Console.ReadLine());
         // Validate input
         if (n < 0)

@@ -38,7 +38,7 @@ class FactorialsTrailingZeros
         }
         BigInteger factorial = Factorial(n);
         // Output data
-        Console.WriteLine("N = {0} -> N! = {1} -> {2} trailing zeros.", n, factorial, zeros);
+        Console.WriteLine("N = {0} -> N! = {1:n0} -> {2} trailing zeros.", n, factorial, zeros);
     }
 
     static BigInteger Factorial(int maxFactor, int minFactor = 1)

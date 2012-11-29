@@ -19,105 +19,99 @@ class ConvertNumberToEnglishWords
         Console.Write("n = ");
         int n = int.Parse(Console.ReadLine());
         // Output data
-        Console.WriteLine(SayNumber(n));
-        // Test
-        Console.WriteLine(SayNumber(111));
-        Console.WriteLine(SayNumber(101));
-        Console.WriteLine(SayNumber(124));
-        Console.WriteLine(SayNumber(24));
-        Console.WriteLine(SayNumber(4));
-        Console.WriteLine(SayNumber(0));
-        Console.WriteLine(SayNumber(10));
-        Console.WriteLine(SayNumber(220));
-        Console.WriteLine(SayNumber(800));
+        if (n < 0 || n > 999)
+        {
+            Console.WriteLine("Invalid data!");
+            return;
+        }
+        Console.WriteLine("{0} is '{1}'", n, SayNumber(n));
     }
 
     static string SayNumber(int n)
     {
-        int hundreds = n / 100;
-        int tens = (n / 10) % 10;
-        int ones = n % 10;
-        string sayHundreds = string.Empty;
-        string sayAnd = string.Empty;
-        string sayBefore = string.Empty;
-        string sayTens = string.Empty;
-        string sayAfter = string.Empty;
-        string sayOnes = string.Empty;
-        string sayTenToTeens = string.Empty;
-        string sayZero = string.Empty;
-        switch (hundreds)
+        string sayNumber = string.Empty;
+        if (n == 0)
         {
-            case 1: sayHundreds = "one hundred"; break;
-            case 2: sayHundreds = "two hundred"; break;
-            case 3: sayHundreds = "three hundred"; break;
-            case 4: sayHundreds = "four hundred"; break;
-            case 5: sayHundreds = "five hundred"; break;
-            case 6: sayHundreds = "six hundred"; break;
-            case 7: sayHundreds = "seven hundred"; break;
-            case 8: sayHundreds = "eight hundred"; break;
-            case 9: sayHundreds = "nine hundred"; break;
+            sayNumber = "zero";
         }
-        switch (tens)
+        else
         {
-            case 1:
+            int hundreds = n / 100;
+            int tens = (n / 10) % 10;
+            int ones = n % 10;
+            if(hundreds > 0)
+            {
+                switch (hundreds)
+                {
+                    case 1: sayNumber = "one hundred"; break;
+                    case 2: sayNumber = "two hundred"; break;
+                    case 3: sayNumber = "three hundred"; break;
+                    case 4: sayNumber = "four hundred"; break;
+                    case 5: sayNumber = "five hundred"; break;
+                    case 6: sayNumber = "six hundred"; break;
+                    case 7: sayNumber = "seven hundred"; break;
+                    case 8: sayNumber = "eight hundred"; break;
+                    case 9: sayNumber = "nine hundred"; break;
+                }
+                if(tens > 0 || ones > 0)
+                {
+                    if(tens > 1 && ones > 0)
+                    {
+                        sayNumber += " ";
+                    }
+                    else
+                    {
+                        sayNumber += " and ";
+                    }
+                }
+            }
+            if (tens == 1)
+            {
                 switch (ones)
                 {
-                    case 0: sayTenToTeens = "ten"; break;
-                    case 1: sayTenToTeens = "eleven"; break;
-                    case 2: sayTenToTeens = "twelve"; break;
-                    case 3: sayTenToTeens = "thirteen"; break;
-                    case 4: sayTenToTeens = "fourteen"; break;
-                    case 5: sayTenToTeens = "fifteen"; break;
-                    case 6: sayTenToTeens = "sixteen"; break;
-                    case 7: sayTenToTeens = "seventeen"; break;
-                    case 8: sayTenToTeens = "eighteen"; break;
-                    case 9: sayTenToTeens = "nineteen"; break;
+                    case 0: sayNumber += "ten"; break;
+                    case 1: sayNumber += "eleven"; break;
+                    case 2: sayNumber += "twelve"; break;
+                    case 3: sayNumber += "thirteen"; break;
+                    case 4: sayNumber += "fourteen"; break;
+                    case 5: sayNumber += "fifteen"; break;
+                    case 6: sayNumber += "sixteen"; break;
+                    case 7: sayNumber += "seventeen"; break;
+                    case 8: sayNumber += "eighteen"; break;
+                    case 9: sayNumber += "nineteen"; break;
                 }
-                break;
-            case 2: sayTens = "twenty"; break;
-            case 3: sayTens = "thirty"; break;
-            case 4: sayTens = "fourty"; break;
-            case 5: sayTens = "fifty"; break;
-            case 6: sayTens = "sixty"; break;
-            case 7: sayTens = "seventy"; break;
-            case 8: sayTens = "eighty"; break;
-            case 9: sayTens = "ninety"; break;
-        }
-        if (tens != 1)
-        {
-            switch (ones)
+            }
+            else
             {
-                case 1: sayOnes = "one"; break;
-                case 2: sayOnes = "two"; break;
-                case 3: sayOnes = "three"; break;
-                case 4: sayOnes = "four"; break;
-                case 5: sayOnes = "five"; break;
-                case 6: sayOnes = "six"; break;
-                case 7: sayOnes = "seven"; break;
-                case 8: sayOnes = "eight"; break;
-                case 9: sayOnes = "nine"; break;
+                switch (tens)
+                {
+                    case 2: sayNumber += "twenty"; break;
+                    case 3: sayNumber += "thirty"; break;
+                    case 4: sayNumber += "fourty"; break;
+                    case 5: sayNumber += "fifty"; break;
+                    case 6: sayNumber += "sixty"; break;
+                    case 7: sayNumber += "seventy"; break;
+                    case 8: sayNumber += "eighty"; break;
+                    case 9: sayNumber += "ninety"; break;
+                }
+                if (tens > 1 && ones > 0)
+                {
+                    sayNumber += " ";
+                }
+                switch (ones)
+                {
+                    case 1: sayNumber += "one"; break;
+                    case 2: sayNumber += "two"; break;
+                    case 3: sayNumber += "three"; break;
+                    case 4: sayNumber += "four"; break;
+                    case 5: sayNumber += "five"; break;
+                    case 6: sayNumber += "six"; break;
+                    case 7: sayNumber += "seven"; break;
+                    case 8: sayNumber += "eight"; break;
+                    case 9: sayNumber += "nine"; break;
+                }
             }
         }
-        if (hundreds + tens + ones == 0)
-        {
-            sayZero = "zero";
-        }
-        else if (hundreds > 0 && (tens == 1 || (tens > 0 ^ ones > 0)))
-        {
-            sayAnd = " and ";
-        }
-        else if(tens > 1)
-        {
-            if (hundreds > 0)
-            {
-                sayBefore = " ";
-            }
-            if (ones > 0)
-            {
-                sayAfter = " ";
-            }
-
-        }
-        return sayHundreds + sayAnd + sayBefore + sayTens + sayAfter + sayOnes + sayTenToTeens + sayZero;
+        return sayNumber;
     }
 }

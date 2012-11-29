@@ -10,7 +10,7 @@ class QuadraticEquationRoots
          * equation a*x2 + b*x + c = 0 and calculates and prints its real roots. 
          * Note that quadratic equations may have 0, 1 or 2 real roots.
          */
-		 
+		
         // Set <decimal point> = <dot>
         Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
         // About
