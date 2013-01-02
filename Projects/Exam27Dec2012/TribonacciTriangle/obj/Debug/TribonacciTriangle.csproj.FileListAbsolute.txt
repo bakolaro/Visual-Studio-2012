@@ -1,0 +1,8 @@
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\TribonacciTriangle\bin\Debug\TribonacciTriangle.exe.config
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\TribonacciTriangle\bin\Debug\TribonacciTriangle.exe
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\TribonacciTriangle\bin\Debug\TribonacciTriangle.pdb
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\TribonacciTriangle\obj\Debug\TribonacciTriangle.exe
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\TribonacciTriangle\obj\Debug\TribonacciTriangle.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Exam27Dec2012\TribonacciTriangle\bin\Debug\TribonacciTriangle.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Exam27Dec2012\TribonacciTriangle\obj\Debug\TribonacciTriangle.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Exam27Dec2012\TribonacciTriangle\obj\Debug\TribonacciTriangle.pdb

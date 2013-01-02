@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Part1Dec29\AngryBits\bin\Debug\AngryBits.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Part1Dec29\AngryBits\bin\Debug\AngryBits.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Part1Dec29\AngryBits\bin\Debug\AngryBits.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Part1Dec29\AngryBits\obj\Debug\AngryBits.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Part1Dec29\AngryBits\obj\Debug\AngryBits.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Part1Dec29\AngryBits\obj\Debug\AngryBits.pdb

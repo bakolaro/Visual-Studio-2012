@@ -1,0 +1,6 @@
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\FormulaBit2\bin\Debug\FormulaBit2.exe.config
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\FormulaBit2\bin\Debug\FormulaBit2.exe
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\FormulaBit2\bin\Debug\FormulaBit2.pdb
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\FormulaBit2\obj\Debug\FormulaBit2.exe
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\FormulaBit2\obj\Debug\FormulaBit2.pdb
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\FormulaBit2\obj\Debug\FormulaBit2.csprojResolveAssemblyReference.cache

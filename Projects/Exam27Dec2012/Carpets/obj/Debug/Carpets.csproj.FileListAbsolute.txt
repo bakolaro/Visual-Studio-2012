@@ -1,0 +1,5 @@
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\Carpets\bin\Debug\Carpets.exe.config
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\Carpets\bin\Debug\Carpets.exe
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\Carpets\bin\Debug\Carpets.pdb
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\Carpets\obj\Debug\Carpets.exe
+c:\users\boss\documents\visual studio 2012\Projects\Exam27Dec2012\Carpets\obj\Debug\Carpets.pdb
