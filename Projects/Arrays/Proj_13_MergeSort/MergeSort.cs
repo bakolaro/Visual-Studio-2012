@@ -27,6 +27,7 @@ class MergeSort
     public static void Sort(int[] a)
     {
         int n = a.Length;
+        // Split array
         int[] b = new int[n / 2];
         int[] c = new int[n - n / 2];
         for (int i = 0; i < n / 2; i++)
@@ -37,11 +38,13 @@ class MergeSort
         {
             c[i] = a[i + n / 2];
         }
+        // Sort arrays
         if (n > 2)
         {
             Sort(b);
             Sort(c);
         }
+        // Merge arrays
         int indexA = 0;
         int indexB = 0;
         int indexC = 0;

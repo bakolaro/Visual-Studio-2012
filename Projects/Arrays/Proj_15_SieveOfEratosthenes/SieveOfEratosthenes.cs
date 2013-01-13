@@ -9,7 +9,7 @@ class SieveOfEratosthenes
      */
     static void Main()
     {
-        int max = 10000000;
+        int max = 10000;
         // initially all numbers i (1 to max) are considered prime,
         // i.e. isComposite[i - 1] = false
         bool[] isComposite = new bool[max];
