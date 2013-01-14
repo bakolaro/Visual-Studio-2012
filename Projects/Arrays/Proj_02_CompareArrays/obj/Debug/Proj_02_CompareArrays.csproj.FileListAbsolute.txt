@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_02_CompareArrays\bin\Debug\Proj_02_CompareArrays.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_02_CompareArrays\bin\Debug\Proj_02_CompareArrays.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_02_CompareArrays\bin\Debug\Proj_02_CompareArrays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_02_CompareArrays\obj\Debug\Proj_02_CompareArrays.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_02_CompareArrays\obj\Debug\Proj_02_CompareArrays.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_02_CompareArrays\obj\Debug\Proj_02_CompareArrays.pdb

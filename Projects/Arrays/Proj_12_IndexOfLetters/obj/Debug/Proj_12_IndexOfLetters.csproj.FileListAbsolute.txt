@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_12_IndexOfLetters\bin\Debug\Proj_12_IndexOfLetters.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_12_IndexOfLetters\bin\Debug\Proj_12_IndexOfLetters.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_12_IndexOfLetters\bin\Debug\Proj_12_IndexOfLetters.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_12_IndexOfLetters\obj\Debug\Proj_12_IndexOfLetters.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_12_IndexOfLetters\obj\Debug\Proj_12_IndexOfLetters.pdb

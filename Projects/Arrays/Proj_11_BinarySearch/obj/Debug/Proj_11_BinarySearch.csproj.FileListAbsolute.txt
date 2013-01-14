@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_11_BinarySearch\bin\Debug\Proj_11_BinarySearch.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_11_BinarySearch\bin\Debug\Proj_11_BinarySearch.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_11_BinarySearch\bin\Debug\Proj_11_BinarySearch.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_11_BinarySearch\obj\Debug\Proj_11_BinarySearch.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_11_BinarySearch\obj\Debug\Proj_11_BinarySearch.pdb

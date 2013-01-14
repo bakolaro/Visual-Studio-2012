@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_04_LongestFlatSequence\bin\Debug\Proj_04_LongestFlatSequence.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_04_LongestFlatSequence\bin\Debug\Proj_04_LongestFlatSequence.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_04_LongestFlatSequence\bin\Debug\Proj_04_LongestFlatSequence.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_04_LongestFlatSequence\obj\Debug\Proj_04_LongestFlatSequence.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_04_LongestFlatSequence\obj\Debug\Proj_04_LongestFlatSequence.pdb

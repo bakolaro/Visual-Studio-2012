@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_07_SelectionSort\bin\Debug\Proj_07_SelectionSort.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_07_SelectionSort\bin\Debug\Proj_07_SelectionSort.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_07_SelectionSort\bin\Debug\Proj_07_SelectionSort.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_07_SelectionSort\obj\Debug\Proj_07_SelectionSort.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_07_SelectionSort\obj\Debug\Proj_07_SelectionSort.pdb
