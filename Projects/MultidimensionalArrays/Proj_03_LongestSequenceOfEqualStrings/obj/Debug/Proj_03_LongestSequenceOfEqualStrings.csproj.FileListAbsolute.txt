@@ -1,0 +1,8 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_03_LongestSequenceOfEqualStrings\bin\Debug\Proj_03_LongestSequenceOfEqualStrings.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_03_LongestSequenceOfEqualStrings\bin\Debug\Proj_03_LongestSequenceOfEqualStrings.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_03_LongestSequenceOfEqualStrings\bin\Debug\Proj_03_LongestSequenceOfEqualStrings.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_03_LongestSequenceOfEqualStrings\obj\Debug\Proj_03_LongestSequenceOfEqualStrings.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_03_LongestSequenceOfEqualStrings\obj\Debug\Proj_03_LongestSequenceOfEqualStrings.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_03_LongestSequenceOfEqualStrings\obj\Debug\Proj_03_LongestSequenceOfEqualStrings.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_03_LongestSequenceOfEqualStrings\bin\Debug\ClassLibraryArrayMethods.dll
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_03_LongestSequenceOfEqualStrings\bin\Debug\ClassLibraryArrayMethods.pdb
