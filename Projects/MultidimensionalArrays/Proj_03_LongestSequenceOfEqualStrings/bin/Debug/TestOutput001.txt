@@ -1,0 +1,60 @@
+ NN NN NN  b  b
+  b  b NN NN  b
+  b NN NN NN NN
+
+Longest = NN, NN, NN, NN
+----------------------------------------
+  x  Y Zd  x  Y Zd
+  x  x  x  Y  Y  x
+ Zd Zd Zd Zd  x  x
+  Y  Y Zd Zd  x  x
+
+Longest = Zd, Zd, Zd, Zd
+----------------------------------------
+ qtk   p   p   p
+ qtk   p qtk qtk
+
+Longest = p, p, p
+----------------------------------------
+  op  op  op  op xyz  op  op
+  op  op  op xyz xyz xyz xyz
+ xyz  op xyz  op xyz  op  op
+  op xyz  op  op xyz  op  op
+ xyz  op xyz  op  op  op  op
+
+Longest = xyz, xyz, xyz, xyz, xyz
+----------------------------------------
+ xxc   d  ff   d xxc
+   d  ff   d  ff  ff
+   d   d  ff  ff xxc
+
+Longest = d, d, d
+----------------------------------------
+ www  @1  @1
+ ##x www  @1
+ 222 ##x ##x
+ 222 222 ##x
+   3   3 440
+
+Longest = ##x, ##x, ##x
+----------------------------------------
+ NN bb bb NN NN aa
+
+Longest = bb, bb
+----------------------------------------
+ Fn
+ Fn
+  d
+ Fn
+  d
+
+Longest = Fn, Fn
+----------------------------------------
+ 801  Wz  Wz   s  Wz 801
+ 801  Wz   s  Wz   s  Wz
+ 801   s  Wz   s 801   s
+  Wz 801   s 801  Wz  Wz
+ 801   s 801  Wz  Wz 801
+
+Longest = s, s, s, s
+----------------------------------------
