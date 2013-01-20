@@ -1,10 +1,31 @@
 ﻿body {
-
+    font-family: 'Segoe UI', Arial;
+    font-size: 11px;
 }
 section {
     border: 1px solid #5C6A79;
-    width: 421px;
-    height: 386px;
+    width: 399px;
+}
+section header {
+    height: 1.5em;
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(100% 100% 90deg, #DFE4F4, #FEFEFF);
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(#FEFEFF, #DFE4F4);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(#FEFEFF, #DFE4F4);
+}
+a {
+    color: black;
+}
+ul {
+    list-style: none;
+    margin: 0 0 0 7px;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin-right: 12px;
 }
 table {
     /* Firefox 3.6+ */
@@ -13,20 +34,101 @@ table {
     background: -webkit-linear-gradient(#EDF4FC, #D9E4F1);
     /* Opera 11.10+ */
     background: -o-linear-gradient(#EDF4FC, #D9E4F1);
+    padding: 11px 6px 7px 11px;
+    border-collapse: separate;
 }
 td {
-    border: 1px solid black;
-    width: 34px;
+    border: 1px solid #8898AB;
+    width: 32px;
     height: 27px;
     border-radius: 3px;
+    margin: 0px 7px 7px 0px;
+    text-align: center;
 }
-td:first-child {
-    width: 73px;
+td[rowspan="3"] {
+    width: 71px;
+    text-align: left;
 }
-#decimal {
-    height: 50px;
+#number-display {
+    font-family: Consolas;
+    height: 48px;
     text-align: right;
+    font-size: 24px;
+    font-weight: normal;
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(100% 100% 90deg, #FFFFFF, #E6EFFB);
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(#E6EFFB, #FFFFFF);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(#E6EFFB, #FFFFFF);
 }
-#binary {
-    height: 61px;
+#bit-values {
+    font-family: Consolas;
+    font-size: 12px;
+    font-weight: bold;
+    height: 59px;
+}
+td > table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+td td {
+    border: none;
+    padding: 0 6px 0 5px;
+    width: 12%;
+    height: 1em;
+    text-align: left;
+}
+span.invisible {
+    visibility: hidden;
+}
+tr.bit-positions td {
+    color: #8F6666;
+}
+label {
+    vertical-align: 2px;
+}
+#reciprocal {
+    font-size: 13px;
+}
+span.italics {
+    font-style: italic;
+    font-family: 'Times New Roman';
+}
+.digit-keys {
+    font-size: 17px;
+}
+.decimal-digits {
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(100% 100% 90deg, #F1F9FE, #F7FBFF);
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(#F7FBFF, #F1F9FE);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(#F7FBFF, #F1F9FE);
+}
+.inactive-keys {
+    border-color: #B4C2D1;
+}
+.simple-border {
+    border-color: #8696AA;
+}
+.memory-keys {
+    border-style: outset;
+}
+.operation-keys {
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(100% 100% 90deg, #D7E2EF, #F0F6FB);
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(#F0F6FB, #D7E2EF);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(#F0F6FB, #D7E2EF);
+}
+.large-font {
+    font-size: 27px;
+}
+#back-space {
+    font-size: 22px;
+    font-weight: bold;
 }

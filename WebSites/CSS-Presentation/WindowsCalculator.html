@@ -5,98 +5,145 @@
     <link rel="stylesheet" type="text/css" href="WindowsCalculator.css" />
 </head>
 <body>
+    <header>
+        Calculator
+    </header>
     <section>
         <header>
-
+            <ul>
+                <li><a href="#">V</a>iew</li>
+                <li><a href="#">E</a>dit</li>
+                <li><a href="#">H</a>elp</li>
+            </ul>
         </header>
         <table>
             <tr>
-                <td colspan="9" id="decimal">8854455</td>
+                <td colspan="9" id="number-display">8854455</td>
             </tr>
             <tr>
-                <td colspan="9" id="binary"></td>
+                <td colspan="9" id="bit-values">
+                    <table>
+                        <tr class="bits">
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                        </tr>
+                        <tr class="bit-positions">
+                            <td>63</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>47</td>
+                            <td></td>
+                            <td></td>
+                            <td><span class="invisible">00</span>32</td>
+                        </tr>
+                        <tr class="bits">
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>1000</td>
+                            <td>0111</td>
+                            <td>0001</td>
+                            <td>1011</td>
+                            <td>1011</td>
+                            <td>0111</td>
+                        </tr>
+                        <tr class="bit-positions">
+                            <td>31</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>15</td>
+                            <td></td>
+                            <td></td>
+                            <td><span class="invisible">000</span>0</td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
             <tr>
-                <td rowspan="4"></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td rowspan="3" id="numeral-system" class="simple-border">
+                    <input type="radio" id="hex" name="systems" />
+                    <label for="hex">Hex</label><br />
+                    <input type="radio" id="dec" name="systems" checked="checked" />
+                    <label for="dec">Dec</label><br />
+                    <input type="radio" id="oct" name="systems" />
+                    <label for="oct">Oct</label><br />
+                    <input type="radio" id="bin" name="systems" />
+                    <label for="bin">Bin</label><br />
+                </td>
+                <td class="simple-border">&nbsp;</td>
+                <td class="operation-keys">Mod</td>
+                <td class="digit-keys inactive-keys">A</td>
+                <td class="memory-keys">MC</td>
+                <td class="memory-keys">MR</td>
+                <td class="memory-keys">MS</td>
+                <td class="memory-keys">M+</td>
+                <td class="memory-keys">M-</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="operation-keys">(</td>
+                <td class="operation-keys">)</td>
+                <td class="digit-keys inactive-keys">B</td>
+                <td class="operation-keys" id="back-space">←</td>
+                <td class="operation-keys">CE</td>
+                <td class="operation-keys">C</td>
+                <td class="operation-keys">±</td>
+                <td class="inactive-keys">√</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="operation-keys">RoL</td>
+                <td class="operation-keys">RoR</td>
+                <td class="digit-keys inactive-keys">C</td>
+                <td class="digit-keys decimal-digits">7</td>
+                <td class="digit-keys decimal-digits">8</td>
+                <td class="digit-keys decimal-digits">9</td>
+                <td class="operation-keys">/</td>
+                <td class="inactive-keys">%</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td rowspan="3" id="data-type" class="simple-border">
+                    <input type="radio" id="qword" name="types" checked="checked" />
+                    <label for="qword">Qword</label><br />
+                    <input type="radio" id="dword" name="types" />
+                    <label for="dword">Dword</label><br />
+                    <input type="radio" id="word" name="types" />
+                    <label for="word">Word</label><br />
+                    <input type="radio" id="byte" name="types" />
+                    <label for="byte">Byte</label><br />
+                </td>
+                <td class="operation-keys">Or</td>
+                <td class="operation-keys">Xor</td>
+                <td class="digit-keys inactive-keys">D</td>
+                <td class="digit-keys decimal-digits">4</td>
+                <td class="digit-keys decimal-digits">5</td>
+                <td class="digit-keys decimal-digits">6</td>
+                <td class="operation-keys">*</td>
+                <td id="reciprocal" class="inactive-keys">1/<span class="italics">x</span></td>
             </tr>
             <tr>
-                <td rowspan="4"></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="operation-keys">Lsh</td>
+                <td class="operation-keys">Rsh</td>
+                <td class="digit-keys inactive-keys">E</td>
+                <td class="digit-keys decimal-digits">1</td>
+                <td class="digit-keys decimal-digits">2</td>
+                <td class="digit-keys decimal-digits">3</td>
+                <td class="operation-keys">-</td>
+                <td rowspan="2" class="operation-keys large-font">=</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="operation-keys">Not</td>
+                <td class="operation-keys">And</td>
+                <td class="digit-keys inactive-keys">F</td>
+                <td colspan="2" class="digit-keys decimal-digits">0</td>
+                <td class="inactive-keys">.</td>
+                <td class="operation-keys">+</td>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td rowspan="2"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-            </tr>
-
         </table>
     </section>
 </body>
