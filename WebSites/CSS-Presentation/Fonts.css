@@ -1,0 +1,14 @@
+﻿body {
+    color: blue;
+}
+@font-face {
+	font-family: EdwardianScriptITC;
+	src: url('fonts/itcedscr.ttf');
+}
+.cap {
+	font-family: EdwardianScriptITC;
+	font-size: 3.2em;
+}
+.text {
+    font-family: Consolas;
+}

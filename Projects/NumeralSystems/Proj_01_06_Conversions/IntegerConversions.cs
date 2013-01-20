@@ -7,17 +7,40 @@ public class Convert
 {
     public static void Main()
     {
-        Redirect.RunStrings(DecToBin, "DecToBin.in", "DecToBin.out", true);
-        Redirect.RunStrings(BinToDec, "BinToDec.in", "BinToDec.out", true);
-        Redirect.RunStrings(DecToHex, "DecToHex.in", "DecToHex.out", true);
-        Redirect.RunStrings(HexToDec, "HexToDec.in", "HexToDec.out", true);
-        Redirect.RunStrings(HexToBin, "HexToBin.in", "HexToBin.out", true);
-        Redirect.RunStrings(BinToHex, "BinToHex.in", "BinToHex.out", true);
-        Redirect.RunStrings(AnyToAny, "AnyToAny.in", "AnyToAny.out", true);
+        Redirect.RunStrings(DecToBin, "DecToBin.in", "DecToBin.out", true, true);
+        Redirect.RunStrings(BinToDec, "BinToDec.in", "BinToDec.out", true, true);
+        Redirect.RunStrings(DecToHex, "DecToHex.in", "DecToHex.out", true, true);
+        Redirect.RunStrings(HexToDec, "HexToDec.in", "HexToDec.out", true, true);
+        Redirect.RunStrings(HexToBin, "HexToBin.in", "HexToBin.out", true, true);
+        Redirect.RunStrings(BinToHex, "BinToHex.in", "BinToHex.out", true, true);
+        Redirect.RunStrings(AnyToAny, "AnyToAny.in", "AnyToAny.out", true, true);
 
-
+        Redirect.RunStrings(BinToHex, "Bin.in", "Hex.m", false, true);
+        Redirect.RunStrings(HexToDec, "Hex.m", "Dec.m", false, true);
+        Redirect.RunStrings(DecToBin, "Dec.m", "Bin.out", false, true);
+        int errLine = Redirect.CompareFileContents("Bin.in", "Bin.out");
+        if (errLine > 0)
+        {
+            Console.WriteLine("Bin -> Hex -> Dec -> Bin (error in line {0})", errLine);
+        }
+        else
+        {
+            Console.WriteLine("Bin -> Hex -> Dec -> Bin (OK)");
+        }
+        Redirect.RunStrings(BinToDec, "Bin.in", "Dec.mm", false, true);
+        Redirect.RunStrings(DecToHex, "Dec.mm", "Hex.mm", false, true);
+        Redirect.RunStrings(HexToBin, "Hex.mm", "Bin.out", false, true);
+        errLine = Redirect.CompareFileContents("Bin.in", "Bin.out");
+        if (errLine > 0)
+        {
+            Console.WriteLine("Bin -> Dec -> Hex -> Bin (error in line {0})", errLine);
+        }
+        else
+        {
+            Console.WriteLine("Bin -> Dec -> Hex -> Bin (OK)");
+        }
     }
-    public static void DecToBin(string line)
+    public static void DecToBin(string line, bool showEquation)
     {
         int dec = int.Parse(line);
         StringBuilder bin = new StringBuilder();
@@ -41,16 +64,30 @@ public class Convert
                 q /= 2;
             }
         }
-        if (dec < 0)
+        if (showEquation)
         {
-            Console.WriteLine("{0}(10) = -{1}(2)", dec, bin);
+            if (dec < 0)
+            {
+                Console.WriteLine("{0}(10) = -{1}(2)", dec, bin);
+            }
+            else
+            {
+                Console.WriteLine("{0}(10) = {1}(2)", dec, bin);
+            }
         }
         else
         {
-            Console.WriteLine("{0}(10) = {1}(2)", dec, bin);
+            if (dec < 0)
+            {
+                Console.WriteLine("-{0}", bin);
+            }
+            else
+            {
+                Console.WriteLine("{0}", bin);
+            }
         }
     }
-    public static void BinToDec(string bin)
+    public static void BinToDec(string bin, bool showEquation)
     {
         int dec = 0;
         foreach (char c in bin)
@@ -65,16 +102,30 @@ public class Convert
                 dec++;
             }
         }
-        if (bin[0] == '-')
+        if(showEquation)
         {
-            Console.WriteLine("{0}(2) = -{1}(10)", bin, dec);
+            if (bin[0] == '-')
+            {
+                Console.WriteLine("{0}(2) = -{1}(10)", bin, dec);
+            }
+            else
+            {
+                Console.WriteLine("{0}(2) = {1}(10)", bin, dec);
+            }
         }
         else
         {
-            Console.WriteLine("{0}(2) = {1}(10)", bin, dec);
+            if (bin[0] == '-')
+            {
+                Console.WriteLine("-{0}", dec);
+            }
+            else
+            {
+                Console.WriteLine("{0}", dec);
+            }
         }
     }
-    public static void DecToHex(string line)
+    public static void DecToHex(string line, bool showEquation)
     {
         int dec = int.Parse(line);
         StringBuilder hex = new StringBuilder();
@@ -99,16 +150,30 @@ public class Convert
                 q /= 16;
             }
         }
-        if (dec < 0)
+        if (showEquation)
         {
-            Console.WriteLine("{0}(10) = -{1}(16)", dec, hex);
+            if (dec < 0)
+            {
+                Console.WriteLine("{0}(10) = -{1}(16)", dec, hex);
+            }
+            else
+            {
+                Console.WriteLine("{0}(10) = {1}(16)", dec, hex);
+            }
         }
         else
         {
-            Console.WriteLine("{0}(10) = {1}(16)", dec, hex);
+            if (dec < 0)
+            {
+                Console.WriteLine("-{0}", hex);
+            }
+            else
+            {
+                Console.WriteLine("{0}", hex);
+            }
         }
     }
-    public static void HexToDec(string hex)
+    public static void HexToDec(string hex, bool showEquation)
     {
         int dec = 0;
         foreach (char c in hex)
@@ -129,16 +194,30 @@ public class Convert
                 dec += (c - 97 + 10);
             }
         }
-        if (hex[0] == '-')
+        if (showEquation)
         {
-            Console.WriteLine("{0}(16) = -{1}(10)", hex, dec);
+            if (hex[0] == '-')
+            {
+                Console.WriteLine("{0}(16) = -{1}(10)", hex, dec);
+            }
+            else
+            {
+                Console.WriteLine("{0}(16) = {1}(10)", hex, dec);
+            }
         }
         else
         {
-            Console.WriteLine("{0}(16) = {1}(10)", hex, dec);
+            if (hex[0] == '-')
+            {
+                Console.WriteLine("-{0}", dec);
+            }
+            else
+            {
+                Console.WriteLine("{0}", dec);
+            }
         }
     }
-    public static void HexToBin(string hex)
+    public static void HexToBin(string hex, bool showEquation)
     {
         string hexCaps = hex.ToUpper();
         StringBuilder bin = new StringBuilder();
@@ -169,16 +248,30 @@ public class Convert
         {
             binTrim = "0";
         }
-        if (hex[0] == '-')
+        if (showEquation)
         {
-            Console.WriteLine("{0}(16) = -{1}(2)", hex, binTrim);
+            if (hex[0] == '-')
+            {
+                Console.WriteLine("{0}(16) = -{1}(2)", hex, binTrim);
+            }
+            else
+            {
+                Console.WriteLine("{0}(16) = {1}(2)", hex, binTrim);
+            }
         }
         else
         {
-            Console.WriteLine("{0}(16) = {1}(2)", hex, binTrim);
+            if (hex[0] == '-')
+            {
+                Console.WriteLine("-{0}", binTrim);
+            }
+            else
+            {
+                Console.WriteLine("{0}", binTrim);
+            }
         }
     }
-    public static void BinToHex(string bin)
+    public static void BinToHex(string bin, bool showEquation)
     {
         StringBuilder hex = new StringBuilder();
         string binPad = bin.TrimStart(new char[] { '-' }).PadLeft((bin.Length / 4 + 1) * 4, '0');
@@ -209,16 +302,30 @@ public class Convert
         {
             hexTrim = "0";
         }
-        if (bin[0] == '-')
+        if (showEquation)
         {
-            Console.WriteLine("{0}(16) = -{1}(2)", bin, hexTrim);
+            if (bin[0] == '-')
+            {
+                Console.WriteLine("{0}(2) = -{1}(16)", bin, hexTrim);
+            }
+            else
+            {
+                Console.WriteLine("{0}(2) = {1}(16)", bin, hexTrim);
+            }
         }
         else
         {
-            Console.WriteLine("{0}(16) = {1}(2)", bin, hexTrim);
+            if (bin[0] == '-')
+            {
+                Console.WriteLine("-{0}", hexTrim);
+            }
+            else
+            {
+                Console.WriteLine("{0}", hexTrim);
+            }
         }
     }
-    public static void AnyToAny(string line)
+    public static void AnyToAny(string line, bool showEquation)
     {
         string[] args = line.Split(' ');
         string numberIn = args[0];
@@ -265,21 +372,35 @@ public class Convert
                 q /= numeralSystemOut;
             }
         }
-        if (numberIn[0] == '-')
+        if (showEquation)
         {
-            Console.WriteLine("{0}({1}) = -{2}({3})", numberIn, numeralSystemIn, numberOut, numeralSystemOut);
+            if (numberIn[0] == '-')
+            {
+                Console.WriteLine("{0}({1}) = -{2}({3})", numberIn, numeralSystemIn, numberOut, numeralSystemOut);
+            }
+            else
+            {
+                Console.WriteLine("{0}({1}) = {2}({3})", numberIn, numeralSystemIn, numberOut, numeralSystemOut);
+            }
         }
         else
         {
-            Console.WriteLine("{0}({1}) = {2}({3})", numberIn, numeralSystemIn, numberOut, numeralSystemOut);
+            if (numberIn[0] == '-')
+            {
+                Console.WriteLine("-{0}", numberOut, numeralSystemOut);
+            }
+            else
+            {
+                Console.WriteLine("{0}", numberOut, numeralSystemOut);
+            }
         }
     }
 }
 public class Redirect
 {
     // public delegate void Action();
-    public delegate void StringAction(string line);
-    public static void RunStrings(StringAction act, string input, string output, bool display = false)
+    public delegate void StringAction(string line, bool showEquation);
+    public static void RunStrings(StringAction act, string input, string output, bool showEquation, bool display)
     {
         // Get the original IO streams
         TextReader standardReader = Console.In;
@@ -290,7 +411,7 @@ public class Redirect
         Console.SetIn(reader);
         Console.SetOut(writer);
         //
-        RunActionsOnStrings(act);
+        RunActionsOnStrings(act, showEquation);
         // Close IO streams
         reader.Close();
         writer.Close();
@@ -318,12 +439,39 @@ public class Redirect
             line = reader.ReadLine();
         }
     }
-    public static void RunActionsOnStrings(StringAction strAction)
+    public static int CompareFileContents(string file1, string file2)
+    {
+        StreamReader reader1 = new StreamReader(file1);
+        string line1 = reader1.ReadLine();
+        StreamReader reader2 = new StreamReader(file2);
+        string line2 = reader2.ReadLine();
+        int counter = 1;
+        // Input stops only at the end of the file
+        while (line1 != null && line2 != null)
+        {
+            if (line1.Equals(line2))
+            {
+                counter++;
+            }
+            else
+            {
+                return counter;
+            }
+            line1 = reader1.ReadLine();
+            line2 = reader2.ReadLine();
+        }
+        if (line1 == null && line2 == null)
+        {
+            return 0;
+        }
+        return counter;
+    }
+    public static void RunActionsOnStrings(StringAction strAction, bool showEquation)
     {
         string line = Console.ReadLine();
         while (line != null)
         {
-            strAction(line);
+            strAction(line, showEquation);
             line = Console.ReadLine();
         }
     }

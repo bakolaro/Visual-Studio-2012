@@ -1,0 +1,32 @@
+﻿body {
+
+}
+section {
+    border: 1px solid #5C6A79;
+    width: 421px;
+    height: 386px;
+}
+table {
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(100% 100% 90deg, #D9E4F1, #EDF4FC);
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(#EDF4FC, #D9E4F1);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(#EDF4FC, #D9E4F1);
+}
+td {
+    border: 1px solid black;
+    width: 34px;
+    height: 27px;
+    border-radius: 3px;
+}
+td:first-child {
+    width: 73px;
+}
+#decimal {
+    height: 50px;
+    text-align: right;
+}
+#binary {
+    height: 61px;
+}
