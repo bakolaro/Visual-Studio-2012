@@ -1,8 +1,0 @@
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_01_MatrixPatterns\bin\Debug\Proj_01_MatrixPatterns.exe.config
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_01_MatrixPatterns\bin\Debug\Proj_01_MatrixPatterns.exe
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_01_MatrixPatterns\bin\Debug\Proj_01_MatrixPatterns.pdb
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_01_MatrixPatterns\obj\Debug\Proj_01_MatrixPatterns.exe
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_01_MatrixPatterns\obj\Debug\Proj_01_MatrixPatterns.pdb
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_01_MatrixPatterns\bin\Debug\ClassLibraryArrayMethods.dll
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_01_MatrixPatterns\bin\Debug\ClassLibraryArrayMethods.pdb
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\MultidimensionalArrays\Proj_01_MatrixPatterns\obj\Debug\Proj_01_MatrixPatterns.csprojResolveAssemblyReference.cache

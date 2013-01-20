@@ -1,6 +1,0 @@
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\NumeralSystems\Proj_01_06_Conversions\bin\Debug\Proj_01_06_Conversions.exe.config
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\NumeralSystems\Proj_01_06_Conversions\bin\Debug\Proj_01_06_Conversions.exe
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\NumeralSystems\Proj_01_06_Conversions\bin\Debug\Proj_01_06_Conversions.pdb
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\NumeralSystems\Proj_01_06_Conversions\obj\Debug\Proj_01_06_Conversions.csprojResolveAssemblyReference.cache
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\NumeralSystems\Proj_01_06_Conversions\obj\Debug\Proj_01_06_Conversions.exe
-C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\NumeralSystems\Proj_01_06_Conversions\obj\Debug\Proj_01_06_Conversions.pdb

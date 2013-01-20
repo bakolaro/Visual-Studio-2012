@@ -128,7 +128,19 @@ span.italics {
 .large-font {
     font-size: 27px;
 }
+@font-face {
+	font-family: Arrows;
+	src: url('fonts/Arrows.ttf');
+}
 #back-space {
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 27px;
+    font-family: Arrows;
+}
+.memory-keys:hover, .operation-keys:hover, .decimal-digits:hover {
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(100% 100% 90deg, #FBD075, #FEF4EB);
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(#FEF4EB, #FBD075);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(#FEF4EB, #FBD075);
 }
