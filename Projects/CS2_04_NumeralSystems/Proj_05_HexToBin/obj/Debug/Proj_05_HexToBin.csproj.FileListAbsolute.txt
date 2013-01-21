@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_05_HexToBin\bin\Debug\Proj_05_HexToBin.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_05_HexToBin\bin\Debug\Proj_05_HexToBin.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_05_HexToBin\bin\Debug\Proj_05_HexToBin.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_05_HexToBin\obj\Debug\Proj_05_HexToBin.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_05_HexToBin\obj\Debug\Proj_05_HexToBin.pdb

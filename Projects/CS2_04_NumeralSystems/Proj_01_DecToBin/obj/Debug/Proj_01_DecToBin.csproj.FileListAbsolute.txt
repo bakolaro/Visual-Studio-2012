@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_01_DecToBin\bin\Debug\Proj_01_DecToBin.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_01_DecToBin\bin\Debug\Proj_01_DecToBin.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_01_DecToBin\bin\Debug\Proj_01_DecToBin.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_01_DecToBin\obj\Debug\Proj_01_DecToBin.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_01_DecToBin\obj\Debug\Proj_01_DecToBin.pdb

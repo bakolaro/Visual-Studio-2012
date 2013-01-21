@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_03_DecToHex\bin\Debug\Proj_03_DecToHex.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_03_DecToHex\bin\Debug\Proj_03_DecToHex.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_03_DecToHex\bin\Debug\Proj_03_DecToHex.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_03_DecToHex\obj\Debug\Proj_03_DecToHex.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_03_DecToHex\obj\Debug\Proj_03_DecToHex.pdb

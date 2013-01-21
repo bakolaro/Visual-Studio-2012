@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_08_BinaryReprOfShort\bin\Debug\Proj_08_BinaryReprOfShort.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_08_BinaryReprOfShort\bin\Debug\Proj_08_BinaryReprOfShort.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_08_BinaryReprOfShort\bin\Debug\Proj_08_BinaryReprOfShort.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_08_BinaryReprOfShort\obj\Debug\Proj_08_BinaryReprOfShort.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_08_BinaryReprOfShort\obj\Debug\Proj_08_BinaryReprOfShort.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_04_NumeralSystems\Proj_08_BinaryReprOfShort\obj\Debug\Proj_08_BinaryReprOfShort.pdb
