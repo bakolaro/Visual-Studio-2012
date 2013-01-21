@@ -9,39 +9,47 @@ class SieveOfEratosthenes
      */
     static void Main()
     {
+        Console.Write("Export a list of all prime numbers from 1 to Max, max = ");
         int max = int.Parse(Console.ReadLine());
-        // initially all numbers i (1 to max) are considered prime,
-        // i.e. isComposite[i - 1] = false
-        bool[] isComposite = new bool[max];
-        // i = 1 is not prime
-        isComposite[0] = true;
+        //
+        // isComposite[i] indicates if i is composite
+        // 
+        // Initially all numbers i (from 0 to max) are considered to be prime,
+        // i.e. isComposite[i] == false
+        //
+        bool[] isComposite = new bool[max + 1];
+        //
+        // i = 0 and i = 1 are neither composite, nor prime
         // i = 2 is prime
         isComposite[1] = false;
         int number = 2;
         while(number <= max)
         {
-            if (!isComposite[number - 1])
+            if (!isComposite[number])
             {
                 int nextMultiple = number + number;
                 while (nextMultiple <= max)
                 {
-                    isComposite[nextMultiple - 1] = true;
+                    isComposite[nextMultiple] = true;
                     nextMultiple += number;
                 }
             }
             number++;
         }
-        // Redirect output to file
+        // Redirect output to file:
+        // 1. Get the original IO streams
+        TextWriter standardWriter = Console.Out;
+        // 2. Create new output stream
         StreamWriter writer = new StreamWriter(string.Format("PrimeNumbers{0}.txt", max));
         Console.SetOut(writer);
-
+        // 3. Write to file
         Console.WriteLine("List of all prime numbers from 1 to {0:#,###}:", max);
         int counter = 0;
-        for (int i = 0; i < isComposite.Length; i++)
+        for (int i = 2; i <= max; i++)
         {
             if (!isComposite[i])
             {
-                Console.Write("{0,10}", i + 1);
+                Console.Write("{0,10}", i);
                 counter++;
                 if(counter % 10 == 0)
                 {
@@ -52,17 +60,9 @@ class SieveOfEratosthenes
         Console.WriteLine();
         Console.WriteLine("There are {0} prime numbers between 1 and {1:#,###}.", counter, max);
         writer.Close();
-        // Print on screen all prime numbers from 1 to 100
-        /*
-        for (int i = 1; i < isComposite.Length + 1; i++)
-        {
-            if (i > 1 && i % 2 > 0 && i % 3 > 0 && i % 5 > 0 && i % 7 > 0
-                || i == 2 || i == 3 || i == 5 || i == 7)
-            {
-                Console.Write("{0,10}", i);
-            }
-        }
-        Console.WriteLine();
-        */
+        Console.SetOut(standardWriter);
+        // Get back to standard output stream
+        Console.WriteLine("List of {0} prime numbers from 1 to {1:#,###} was exported to:\r\n" +
+            "bin/Debug/PrimeNumbers{1}.txt", counter, max);
     }
 }

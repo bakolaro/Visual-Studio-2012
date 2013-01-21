@@ -4,3 +4,9 @@ C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_13_MergeSort
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_13_MergeSort\obj\Debug\Proj_13_MergeSort.exe
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_13_MergeSort\obj\Debug\Proj_13_MergeSort.pdb
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_13_MergeSort\obj\Debug\Proj_13_MergeSort.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_13_MergeSort\bin\Debug\Proj_13_MergeSort.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_13_MergeSort\obj\Debug\Proj_13_MergeSort.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_13_MergeSort\obj\Debug\Proj_13_MergeSort.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_13_MergeSort\bin\Debug\Proj_13_MergeSort.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_13_MergeSort\bin\Debug\Proj_13_MergeSort.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_13_MergeSort\obj\Debug\Proj_13_MergeSort.csprojResolveAssemblyReference.cache

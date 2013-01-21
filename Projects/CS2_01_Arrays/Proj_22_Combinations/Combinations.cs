@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 class Combinations
 {
@@ -8,35 +9,52 @@ class Combinations
      */
     static void Main()
     {
-        Console.Write("n = ");
+        Console.Write("n (1 <= n <= 31) = ");
         int n = int.Parse(Console.ReadLine());
-        Console.Write("k = ");
+        Console.Write("k (1 <= k <= {0}) = ", n);
         int k = int.Parse(Console.ReadLine());
-        int[,] c = CombinationsArray(n, k);
-        // Print combinations on screen
-        PrintMatrix(c);
-    }
-    public static int Factorial(int n)
-    {
-        int f = 1;
-        for (int i = 2; i <= n; i++)
+        if (1 <= n && 1 <= k && k <= n)
         {
-            f *= i;
+            int count = RedirectOutput(string.Format("Combinations-{1}-of-{0}.txt", n, k),
+                ListCombinations, n, k);
+            Console.WriteLine("List of {2} combinations was exported to:\r\n" +
+                "bin/Debug/Combinations-{1}-of-{0}.txt", n, k, count);
         }
-        return f;
-    }
-    public static int VariationsCount(int n, int k)
-    {
-        int v = 1;
-        for (int i = n - k + 1; i <= n; i++)
+        else
         {
-            v *= i;
+            Console.WriteLine("Invalid input!");
         }
-        return v;
     }
-    public static int CombinationsCount(int n, int k)
+    public delegate int Calc(int[] args);
+    public static int RedirectOutput(string file, Calc c, params int[] args)
     {
-        return VariationsCount(n, k) / Factorial(k);
+        // Redirect output to file:
+        // 1. Get the original IO streams
+        TextWriter standardWriter = Console.Out;
+        // 2. Create new output stream
+        StreamWriter writer = new StreamWriter(file);
+        Console.SetOut(writer);
+        // 3. Write to file
+        int outputLines = c(args);
+        writer.Close();
+        Console.SetOut(standardWriter);
+        // Get back to standard output stream
+        return outputLines;
+    }
+    public static int ListCombinations(int[] args)
+    {
+        int[,] matrix = CombinationsArray(args[0], args[1]);
+        for (int row = 0; row < matrix.GetLength(0); row++)
+        {
+            for (int column = 0; column < matrix.GetLength(1) - 1; column++)
+            {
+                Console.Write("{0} ", matrix[row, column]);
+            }
+            Console.WriteLine("{0}", matrix[row, matrix.GetLength(1) - 1]);
+        }
+        int count = matrix.GetLength(0);
+        Console.WriteLine("Total: {0} combinations", count);
+        return count;
     }
     public static int[,] CombinationsArray(int n, int k)
     {
@@ -80,17 +98,5 @@ class Combinations
             }
             return table;
         }
-    }
-    public static void PrintMatrix(int[,] matrix)
-    {
-        for (int row = 0; row < matrix.GetLength(0); row++)
-        {
-            for (int column = 0; column < matrix.GetLength(1); column++)
-            {
-                Console.Write("{0,3}", matrix[row, column]);
-            }
-            Console.WriteLine();
-        }
-        Console.WriteLine("--------");
     }
 }

@@ -20,7 +20,7 @@ class IndexOfLetters
         }
         Console.WriteLine();
         Console.Write("Use only latin capital letters and " +
-            " type in a single word:");
+            "type in a single word:");
         string word = Console.ReadLine();
         foreach (char c in word)
         {

@@ -23,7 +23,6 @@ class MergeSort
         }
         Console.WriteLine();
     }
-
     public static void Sort(int[] a)
     {
         int n = a.Length;

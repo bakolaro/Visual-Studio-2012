@@ -3,3 +3,6 @@ C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_10_Subsequen
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_10_SubsequenceWithGivenSum\bin\Debug\Proj_10_SubsequenceWithGivenSum.pdb
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_10_SubsequenceWithGivenSum\obj\Debug\Proj_10_SubsequenceWithGivenSum.exe
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_10_SubsequenceWithGivenSum\obj\Debug\Proj_10_SubsequenceWithGivenSum.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_10_SubsequenceWithGivenSum\bin\Debug\Proj_10_SubsequenceWithGivenSum.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_10_SubsequenceWithGivenSum\obj\Debug\Proj_10_SubsequenceWithGivenSum.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_10_SubsequenceWithGivenSum\obj\Debug\Proj_10_SubsequenceWithGivenSum.pdb
