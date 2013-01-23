@@ -1,6 +1,7 @@
 ﻿using System;
 
 // Add reference to IOArrays (a class library in this solution)
+// Add reference to BiggerThanNeighbors (a console application in this solution)
 
 public class FirstBiggerThanNeighbors
 {

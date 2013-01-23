@@ -1,0 +1,8 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_12_SubstractAndMultiplyPolynomials\bin\Debug\Proj_12_SubstractAndMultiplyPolynomials.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_12_SubstractAndMultiplyPolynomials\bin\Debug\Proj_12_SubstractAndMultiplyPolynomials.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_12_SubstractAndMultiplyPolynomials\bin\Debug\Proj_12_SubstractAndMultiplyPolynomials.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_12_SubstractAndMultiplyPolynomials\bin\Debug\IOArrays.dll
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_12_SubstractAndMultiplyPolynomials\bin\Debug\IOArrays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_12_SubstractAndMultiplyPolynomials\obj\Debug\Proj_12_SubstractAndMultiplyPolynomials.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_12_SubstractAndMultiplyPolynomials\obj\Debug\Proj_12_SubstractAndMultiplyPolynomials.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_12_SubstractAndMultiplyPolynomials\obj\Debug\Proj_12_SubstractAndMultiplyPolynomials.pdb
