@@ -1,0 +1,10 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\bin\Debug\Proj_06_FirstBiggerThanNeighbors.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\bin\Debug\Proj_06_FirstBiggerThanNeighbors.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\bin\Debug\Proj_06_FirstBiggerThanNeighbors.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\bin\Debug\IOArrays.dll
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\bin\Debug\IOArrays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\obj\Debug\Proj_06_FirstBiggerThanNeighbors.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\obj\Debug\Proj_06_FirstBiggerThanNeighbors.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\bin\Debug\Proj_05_BiggerThanNeighbors.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\bin\Debug\Proj_05_BiggerThanNeighbors.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_06_FirstBiggerThanNeighbors\obj\Debug\Proj_06_FirstBiggerThanNeighbors.csprojResolveAssemblyReference.cache

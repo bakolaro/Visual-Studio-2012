@@ -1,0 +1,8 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_04_CountSameValue\bin\Debug\Proj_04_CountSameValue.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_04_CountSameValue\bin\Debug\Proj_04_CountSameValue.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_04_CountSameValue\bin\Debug\Proj_04_CountSameValue.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_04_CountSameValue\obj\Debug\Proj_04_CountSameValue.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_04_CountSameValue\obj\Debug\Proj_04_CountSameValue.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_04_CountSameValue\bin\Debug\IOArrays.dll
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_04_CountSameValue\bin\Debug\IOArrays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_04_CountSameValue\obj\Debug\Proj_04_CountSameValue.csprojResolveAssemblyReference.cache

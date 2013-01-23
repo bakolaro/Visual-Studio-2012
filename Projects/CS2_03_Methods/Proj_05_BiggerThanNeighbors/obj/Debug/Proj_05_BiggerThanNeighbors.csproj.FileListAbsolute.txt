@@ -1,0 +1,7 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_05_BiggerThanNeighbors\bin\Debug\Proj_05_BiggerThanNeighbors.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_05_BiggerThanNeighbors\bin\Debug\Proj_05_BiggerThanNeighbors.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_05_BiggerThanNeighbors\bin\Debug\IOArrays.dll
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_05_BiggerThanNeighbors\bin\Debug\IOArrays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_05_BiggerThanNeighbors\obj\Debug\Proj_05_BiggerThanNeighbors.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_05_BiggerThanNeighbors\obj\Debug\Proj_05_BiggerThanNeighbors.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_03_Methods\Proj_05_BiggerThanNeighbors\obj\Debug\Proj_05_BiggerThanNeighbors.pdb
