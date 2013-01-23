@@ -1,6 +1,6 @@
 ﻿using System;
-using System.IO;
-using System.Collections.Generic;
+
+// Add reference to IOArrays (a class library in this solution)
 
 public class IntegerAggregateFunctions
 {
@@ -9,32 +9,19 @@ public class IntegerAggregateFunctions
 	 */
     public static void Main()
     {
+        IOArrays.WriteInputFormatSpecification();
         string input = "IntegerAggregate.in";
-        Console.WriteLine("Read columns of integers from file (bin/.../{0})", input);
-        Console.WriteLine("A column ends with an empty line or at the end of file.");
-        int columns = IORedirect.RedirectInput<int, int>(input, LoopInput);
-        Console.WriteLine("Aggregated columns count = {0}", columns);
-    }
-    public static int LoopInput(int[] x)
-    {
-        int count = 0;
-        string[] args = IOArrays.ReadStringVector();
-        while (args.Length > 0)
+        Console.WriteLine(@"Input integer vectors from file (""bin/.../{0}"")", input);
+
+        int[][] a = IOArrays.ReadIntVectorsFromFile(input);
+        for (int i = 0; i < a.Length; i++)
         {
-            count++;
-            int[] numbers = new int[args.Length];
-            for (int i = 0; i < args.Length; i++)
-            {
-                numbers[i] = int.Parse(args[i]);
-            }
-            WriteIntegerAggregates(numbers);
-            args = IOArrays.ReadStringVector();
+            WriteIntegerAggregates(a[i]);
+            Console.WriteLine();
         }
-        return count;
     }
     public static void WriteIntegerAggregates(params int[] numbers)
     {
-        Console.WriteLine(new string('-', 30));
         for (int i = 0; i < numbers.Length; i++)
         {
             Console.WriteLine(numbers[i]);
@@ -71,16 +58,19 @@ public class IntegerAggregateFunctions
         }
         return max;
     }
-    public static int Average(params int[] args)
+    public static double Average(params int[] args)
     {
-        return Sum(args) / args.Length;
+        return Sum(args) / (double) args.Length;
     }
     public static int Sum(params int[] args)
     {
         int sum = 0;
         for (int i = 0; i < args.Length; i++)
         {
-            sum += args[i];
+            checked
+            {
+                sum += args[i];
+            }
         }
         return sum;
     }
@@ -89,117 +79,11 @@ public class IntegerAggregateFunctions
         int product = 1;
         for (int i = 0; i < args.Length; i++)
         {
-            product *= args[i];
+            checked
+            {
+                product *= args[i];
+            }
         }
         return product;
-    }
-}
-public class IORedirect
-{
-    public delegate OutType Calc<InType, OutType>(InType[] args);
-    public static OutType RedirectInput<InType, OutType>(string file, Calc<InType, OutType> c, params InType[] args)
-    {
-        TextReader standardReader = Console.In;
-        StreamReader reader = new StreamReader(file);
-        Console.SetIn(reader);
-        OutType calc = c(args);
-        reader.Close();
-        Console.SetIn(standardReader);
-        return calc;
-    }
-    public static OutType RedirectOutput<InType, OutType>(string file, Calc<InType, OutType> c, params InType[] args)
-    {
-        TextWriter standardWriter = Console.Out;
-        StreamWriter writer = new StreamWriter(file);
-        Console.SetOut(writer);
-        OutType calc = c(args);
-        writer.Close();
-        Console.SetOut(standardWriter);
-        return calc;
-    }
-}
-public class IOArrays
-{
-    public static string[] ReadStringVector()
-    {
-        List<string> input = new List<string>();
-        string line = Console.ReadLine();
-        while (line != null && line.Length > 0)
-        {
-            input.Add(line);
-            line = Console.ReadLine();
-        }
-        int n = input.Count;
-        string[] vector = new string[n];
-        for (int i = 0; i < n; i++)
-        {
-            vector[i] = input[i];
-        }
-        return vector;
-    }
-    public static string[][] ReadStringArray(char[] delimiters)
-    {
-        string[] vector = ReadStringVector();
-        int m = vector.Length;
-        string[][] arr = new string[m][];
-        for (int i = 0; i < m; i++)
-        {
-            arr[i] = vector[i].Split(delimiters);
-        }
-        return arr;
-    }
-    public static string[,] ReadStringMatrix(char[] delimiters)
-    {
-        string[][] arr = ReadStringArray(delimiters);
-        int m = arr.GetLength(0);
-        int n = 0;
-        for (int i = 0; i < m; i++)
-        {
-            int d = arr[i].Length;
-            if (d > n)
-            {
-                n = d;
-            }
-        }
-        string[,] matrix = new string[m, n];
-        for (int i = 0; i < m; i++)
-        {
-            int d = arr[i].Length;
-            for (int j = 0; j < d; j++)
-            {
-                matrix[i, j] = arr[i][j];
-            }
-            for (int j = d; j < n; j++)
-            {
-                matrix[i, j] = "";
-            }
-        }
-        return matrix;
-    }
-    public static void WriteMatrixColumns<T>(T[,] matrix)
-    {
-        int m = matrix.GetLength(0);
-        int n = matrix.GetLength(1);
-        int maxLength = 0;
-        for (int i = 0; i < m; i++)
-        {
-            for (int j = 0; j < n; j++)
-            {
-                int length = matrix[i, j].ToString().Length;
-                if (length > maxLength)
-                {
-                    maxLength = length;
-                }
-            }
-        }
-        maxLength++;
-        for (int i = 0; i < m; i++)
-        {
-            for (int j = 0; j < n; j++)
-            {
-                Console.Write("{0," + maxLength + "}", matrix[i, j]);
-            }
-            Console.WriteLine();
-        }
     }
 }

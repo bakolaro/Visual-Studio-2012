@@ -18,14 +18,14 @@ public class SubstractAndMultiplyPolynomials
         {
             IOArrays.WriteMatrix(a[i]);
             Console.Write("Substract polynomials from first one: ");
-            IOArrays.WriteVector<int>(SubstractPolynomialCoefficients(a[i]));
+            IOArrays.WriteVector<int>(SubstractPolynomials(a[i]));
             Console.Write("Multiply polynomials: ");
             IOArrays.WriteVector<int>(MultiplyPolynomials(a[i]));
 
             Console.WriteLine();
         }
     }
-    public static int[] AddPolynomialCoefficients(int[,] a)
+    public static int[] AddPolynomials(int[,] a)
     {
         int m = a.GetLength(0);
         int n = a.GetLength(1);
@@ -43,7 +43,7 @@ public class SubstractAndMultiplyPolynomials
 
         return result;
     }
-    public static int[] SubstractPolynomialCoefficients(int[,] a)
+    public static int[] SubstractPolynomials(int[,] a)
     {
         int m = a.GetLength(0);
         int n = a.GetLength(1);
@@ -59,39 +59,46 @@ public class SubstractAndMultiplyPolynomials
         }
         return result;
     }
-    public static int[] MultiplyFirstTwoPolynomials(int[,] a)
-    {
-        int m = a.GetLength(0);
-        int n = a.GetLength(1);
-        int[] result = new int[n + n - 1];
-        for (int j = 0; j < n; j++)
-        {
-            for (int i = 0; i < n; i++)
-            {
-                result[i + j] += a[0, j] * a[1, i];
-            }
-        }
-        return result;
-    }
     public static int[] MultiplyPolynomials(int[,] a)
     {
-        // to do: find an error
         int m = a.GetLength(0);
         int n = a.GetLength(1);
-        int[] b = new int[m * (n - 1) + 1];
+        int maxPower = m * (n - 1) + 1;
+        int[] b = new int[maxPower];
         b[0] = 1;
-        int[] c = new int[m * (n - 1) + 1];
         for (int i = 0; i < m; i++)
         {
+            int[] c = new int[maxPower];
             for (int j = 0; j < n; j++)
             {
-                for (int k = 0; k < n; k++)
+                for (int k = 0; k < maxPower - j; k++)
                 {
-                    c[j + k] += b[j] * a[i, k];
+                    c[k + j] += b[k] * a[i, j];
                 }
             }
             b = c;
-            c = new int[m * (n - 1) + 1];
+        }
+        return TrimLeadingZeros(b);
+    }
+    public static int[] TrimLeadingZeros(int[] b)
+    {
+        int nonzero = 0;
+        for (int i = 0; i < b.Length; i++)
+        {
+            if (b[i] != 0)
+            {
+                break;
+            }
+            nonzero++;
+        }
+        if (nonzero > -1)
+        {
+            int[] d = new int[b.Length - nonzero];
+            for (int i = nonzero; i < b.Length; i++)
+            {
+                d[i - nonzero] = b[i];
+            }
+            b = d;
         }
         return b;
     }

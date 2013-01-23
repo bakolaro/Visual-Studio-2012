@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proj_11_AddPolynomials", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proj_12_SubstractAndMultiplyPolynomials", "Proj_12_SubstractAndMultiplyPolynomials\Proj_12_SubstractAndMultiplyPolynomials.csproj", "{8061805E-0ED5-4EEE-B5AD-F84AAACA4ECD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proj_13_SimpleTextMenu", "Proj_13_SimpleTextMenu\Proj_13_SimpleTextMenu.csproj", "{3C91E49F-9F6D-40C2-830E-5B6DBB79129F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -94,6 +96,10 @@ Global
 		{8061805E-0ED5-4EEE-B5AD-F84AAACA4ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8061805E-0ED5-4EEE-B5AD-F84AAACA4ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8061805E-0ED5-4EEE-B5AD-F84AAACA4ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C91E49F-9F6D-40C2-830E-5B6DBB79129F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C91E49F-9F6D-40C2-830E-5B6DBB79129F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C91E49F-9F6D-40C2-830E-5B6DBB79129F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C91E49F-9F6D-40C2-830E-5B6DBB79129F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

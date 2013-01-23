@@ -289,9 +289,9 @@ public class IOArrays
         Console.WriteLine(format, "   with an empty line or at the end of the file.");
         Console.WriteLine(format, "Row elements should be separated with single spaces and no");
         Console.WriteLine(format, "   row should end with space.");
-        Console.WriteLine(format, "Incomplete rows in a matrix (with smaller number of elements)");
-        Console.WriteLine(format, "   are left- or right-padded with zero elements.");
-        Console.WriteLine(format, "A vector of vectors input is a sequence of undelimited lines of");
+        Console.WriteLine(format, "Incomplete rows in a matrix (with less elements) are left- or");
+        Console.WriteLine(format, "   right-padded with zero elements.");
+        Console.WriteLine(format, "A vector of vectors input is a sequence of lines of undelimited");
         Console.WriteLine(format, "   decimal digits ending with an empty line or at the end of");
         Console.WriteLine(format, "   the file.");
         Console.WriteLine(format, "Two empty lines act the same as end of file (all next");
