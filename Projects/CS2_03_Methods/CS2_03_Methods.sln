@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proj_12_SubstractAndMultipl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proj_13_SimpleTextMenu", "Proj_13_SimpleTextMenu\Proj_13_SimpleTextMenu.csproj", "{3C91E49F-9F6D-40C2-830E-5B6DBB79129F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proj_15_GenericAggregateFunctions", "Proj_15_GenericAggregateFunctions\Proj_15_GenericAggregateFunctions.csproj", "{CDA29487-936E-4C53-A39C-ABB23B35816C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,10 @@ Global
 		{3C91E49F-9F6D-40C2-830E-5B6DBB79129F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C91E49F-9F6D-40C2-830E-5B6DBB79129F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C91E49F-9F6D-40C2-830E-5B6DBB79129F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA29487-936E-4C53-A39C-ABB23B35816C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA29487-936E-4C53-A39C-ABB23B35816C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA29487-936E-4C53-A39C-ABB23B35816C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA29487-936E-4C53-A39C-ABB23B35816C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

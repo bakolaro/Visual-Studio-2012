@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_FindAndReplaceAll\bin\Debug\Proj_07_FindAndReplaceAll.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_FindAndReplaceAll\bin\Debug\Proj_07_FindAndReplaceAll.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_FindAndReplaceAll\bin\Debug\Proj_07_FindAndReplaceAll.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_FindAndReplaceAll\obj\Debug\Proj_07_FindAndReplaceAll.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_FindAndReplaceAll\obj\Debug\Proj_07_FindAndReplaceAll.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_FindAndReplaceAll\obj\Debug\Proj_07_FindAndReplaceAll.pdb

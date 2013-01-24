@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_01_LeapYear\bin\Debug\Proj_01_LeapYear.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_01_LeapYear\bin\Debug\Proj_01_LeapYear.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_01_LeapYear\bin\Debug\Proj_01_LeapYear.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_01_LeapYear\obj\Debug\Proj_01_LeapYear.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_01_LeapYear\obj\Debug\Proj_01_LeapYear.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_01_LeapYear\obj\Debug\Proj_01_LeapYear.pdb

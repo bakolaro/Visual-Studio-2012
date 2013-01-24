@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_02_MergeTextFiles\bin\Debug\Proj_02_MergeTextFiles.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_02_MergeTextFiles\bin\Debug\Proj_02_MergeTextFiles.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_02_MergeTextFiles\bin\Debug\Proj_02_MergeTextFiles.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_02_MergeTextFiles\obj\Debug\Proj_02_MergeTextFiles.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_02_MergeTextFiles\obj\Debug\Proj_02_MergeTextFiles.pdb

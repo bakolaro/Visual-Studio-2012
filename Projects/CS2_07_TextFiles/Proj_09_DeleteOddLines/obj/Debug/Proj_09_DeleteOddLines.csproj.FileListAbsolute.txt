@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_09_DeleteOddLines\bin\Debug\Proj_09_DeleteOddLines.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_09_DeleteOddLines\bin\Debug\Proj_09_DeleteOddLines.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_09_DeleteOddLines\bin\Debug\Proj_09_DeleteOddLines.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_09_DeleteOddLines\obj\Debug\Proj_09_DeleteOddLines.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_09_DeleteOddLines\obj\Debug\Proj_09_DeleteOddLines.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_09_DeleteOddLines\obj\Debug\Proj_09_DeleteOddLines.pdb

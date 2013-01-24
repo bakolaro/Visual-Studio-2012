@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_03_WeekDays\bin\Debug\Proj_03_WeekDays.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_03_WeekDays\bin\Debug\Proj_03_WeekDays.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_03_WeekDays\bin\Debug\Proj_03_WeekDays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_03_WeekDays\obj\Debug\Proj_03_WeekDays.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_03_WeekDays\obj\Debug\Proj_03_WeekDays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_03_WeekDays\obj\Debug\Proj_03_WeekDays.csprojResolveAssemblyReference.cache

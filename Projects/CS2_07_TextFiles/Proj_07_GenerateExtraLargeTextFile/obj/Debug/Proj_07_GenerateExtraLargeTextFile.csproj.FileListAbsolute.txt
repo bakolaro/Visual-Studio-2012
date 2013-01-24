@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_GenerateExtraLargeTextFile\bin\Debug\Proj_07_GenerateExtraLargeTextFile.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_GenerateExtraLargeTextFile\bin\Debug\Proj_07_GenerateExtraLargeTextFile.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_GenerateExtraLargeTextFile\bin\Debug\Proj_07_GenerateExtraLargeTextFile.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_GenerateExtraLargeTextFile\obj\Debug\Proj_07_GenerateExtraLargeTextFile.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_GenerateExtraLargeTextFile\obj\Debug\Proj_07_GenerateExtraLargeTextFile.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_07_GenerateExtraLargeTextFile\obj\Debug\Proj_07_GenerateExtraLargeTextFile.csprojResolveAssemblyReference.cache

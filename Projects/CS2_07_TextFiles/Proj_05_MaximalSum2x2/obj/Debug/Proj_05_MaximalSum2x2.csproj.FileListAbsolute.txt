@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_05_MaximalSum2x2\bin\Debug\Proj_05_MaximalSum2x2.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_05_MaximalSum2x2\bin\Debug\Proj_05_MaximalSum2x2.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_05_MaximalSum2x2\bin\Debug\Proj_05_MaximalSum2x2.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_05_MaximalSum2x2\obj\Debug\Proj_05_MaximalSum2x2.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_05_MaximalSum2x2\obj\Debug\Proj_05_MaximalSum2x2.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_05_MaximalSum2x2\obj\Debug\Proj_05_MaximalSum2x2.pdb
