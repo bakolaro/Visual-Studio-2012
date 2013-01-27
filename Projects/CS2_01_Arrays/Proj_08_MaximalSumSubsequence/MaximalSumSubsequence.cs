@@ -9,7 +9,6 @@ class MaximalSumSubsequence
     static void Main()
     {
         // Input data
-        Console.Write("n = ");
         int n = int.Parse(Console.ReadLine());
         int[] a = new int[n];
         for (int i = 0; i < n; i++)
@@ -18,25 +17,25 @@ class MaximalSumSubsequence
             a[i] = int.Parse(Console.ReadLine());
         }
         // Calculate
-        int max = 0;
+        int max = int.MinValue;
         int start = 0;
         int end = 0;
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < a.Length; i++)
         {
             int sum = 0;
-            for (int j = i; j < n; j++)
+            for (int j = i; j < a.Length; j++)
             {
                 sum += a[j];
                 if (sum > max)
                 {
                     max = sum;
                     start = i;
-                    end = j + 1;
+                    end = j;
                 }
             }
         }
         // Print on screen subsequence with maximal sum
-        for (int i = start; i < end; i++)
+        for (int i = start; i <= end; i++)
         {
             Console.WriteLine(a[i]);
         }

@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_08_ReplaceOnlyWords\bin\Debug\Proj_08_ReplaceOnlyWords.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_08_ReplaceOnlyWords\bin\Debug\Proj_08_ReplaceOnlyWords.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_08_ReplaceOnlyWords\bin\Debug\Proj_08_ReplaceOnlyWords.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_08_ReplaceOnlyWords\obj\Debug\Proj_08_ReplaceOnlyWords.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_08_ReplaceOnlyWords\obj\Debug\Proj_08_ReplaceOnlyWords.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_08_ReplaceOnlyWords\obj\Debug\Proj_08_ReplaceOnlyWords.pdb

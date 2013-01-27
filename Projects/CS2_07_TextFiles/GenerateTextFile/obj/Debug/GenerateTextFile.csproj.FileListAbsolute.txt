@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\GenerateTextFile\bin\Debug\Proj_07_GenerateTextFile.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\GenerateTextFile\bin\Debug\Proj_07_GenerateTextFile.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\GenerateTextFile\bin\Debug\Proj_07_GenerateTextFile.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\GenerateTextFile\obj\Debug\GenerateTextFile.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\GenerateTextFile\obj\Debug\Proj_07_GenerateTextFile.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\GenerateTextFile\obj\Debug\Proj_07_GenerateTextFile.pdb

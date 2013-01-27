@@ -17,8 +17,8 @@ class MostFrequentElement
             a[i] = int.Parse(Console.ReadLine());
         }
         // Calculate
-        int maxFreq = 0;
-        int mode = 0;
+        int frequency = 0;
+        int value = 0;
         for (int i = 0; i < n; i++)
         {
             int counter = 1;
@@ -29,13 +29,13 @@ class MostFrequentElement
                     counter++;
                 }
             }
-            if (counter > maxFreq)
+            if (counter > frequency)
             {
-                maxFreq = counter;
-                mode = a[i];
+                frequency = counter;
+                value = a[i];
             }
         }
         // Print on screen the most frequent value
-        Console.WriteLine(mode);
+        Console.WriteLine("Most frequent number is {0} ({1} times)", value, frequency);
     }
 }

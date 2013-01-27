@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_ExtractTextFromXML\obj\Debug\Proj_10_ExtractTextFromXML.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_ExtractTextFromXML\bin\Debug\Proj_10_ExtractTextFromXML.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_ExtractTextFromXML\bin\Debug\Proj_10_ExtractTextFromXML.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_ExtractTextFromXML\bin\Debug\Proj_10_ExtractTextFromXML.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_ExtractTextFromXML\obj\Debug\Proj_10_ExtractTextFromXML.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_ExtractTextFromXML\obj\Debug\Proj_10_ExtractTextFromXML.pdb

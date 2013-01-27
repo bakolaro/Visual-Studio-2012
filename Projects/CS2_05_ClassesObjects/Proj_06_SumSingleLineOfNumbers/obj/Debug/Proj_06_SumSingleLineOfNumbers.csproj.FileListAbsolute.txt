@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_06_SumSingleLineOfNumbers\bin\Debug\Proj_06_SumSingleLineOfNumbers.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_06_SumSingleLineOfNumbers\bin\Debug\Proj_06_SumSingleLineOfNumbers.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_06_SumSingleLineOfNumbers\bin\Debug\Proj_06_SumSingleLineOfNumbers.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_06_SumSingleLineOfNumbers\obj\Debug\Proj_06_SumSingleLineOfNumbers.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_06_SumSingleLineOfNumbers\obj\Debug\Proj_06_SumSingleLineOfNumbers.pdb

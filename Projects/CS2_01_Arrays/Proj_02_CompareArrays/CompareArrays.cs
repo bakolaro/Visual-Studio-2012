@@ -34,11 +34,11 @@ class CompareArrays
         }
         while (j < m)
         {
-            Console.WriteLine("a[{0}] is beyond comparison.", j++);
+            Console.WriteLine("a[{0}] is an extra element.", j++);
         }
         while (j < n)
         {
-            Console.WriteLine("b[{0}] is beyond comparison.", j++);
+            Console.WriteLine("b[{0}] is an extra element.", j++);
         }
     }
 }

@@ -9,10 +9,7 @@ class LeapYear
     {
         Console.Write("Year = ");
         int year = int.Parse(Console.ReadLine());
-        DateTime jan01 = new DateTime(year, 1, 1);
-        DateTime nextJan01 = new DateTime(year + 1, 1, 1);
-        TimeSpan t = nextJan01 - jan01;
-        if (t.Days > 365)
+        if (DateTime.IsLeapYear(year))
         {
             Console.WriteLine("{0} is a leap year.", year);
         }
@@ -20,5 +17,6 @@ class LeapYear
         {
             Console.WriteLine("{0} is NOT a leap year.", year);
         }
+        
     }
 }

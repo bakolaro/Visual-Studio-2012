@@ -17,33 +17,38 @@ class LongestAscendingSequence
             a[i] = int.Parse(Console.ReadLine());
         }
         // Calculate
+        Sequence current = new Sequence(0, 0);
+        Sequence longest = new Sequence(0, 0);
         int index = 0;
-        int lastSequenceIndex = 0;
-        int lastSequenceLength = 0;
-        int longestSequenceIndex = 0;
-        int longestSequenceLength = 0;
         while (index < m)
         {
             if (index > 0 && a[index] > a[index - 1])
             {
-                lastSequenceLength++;
-                if (lastSequenceLength > longestSequenceLength)
+                current.Length++;
+                if (current.Length > longest.Length)
                 {
-                    longestSequenceLength = lastSequenceLength;
-                    longestSequenceIndex = lastSequenceIndex;
+                    longest = current;
                 }
             }
             else
             {
-                lastSequenceLength = 1;
-                lastSequenceIndex = index;
+                current = new Sequence(1, index);
             }
             index++;
         }
         // Print longest "ascending" sequence on screen
-        for (int i = longestSequenceIndex; i < longestSequenceIndex + longestSequenceLength; i++)
+        for (int i = longest.Start; i < longest.Start + longest.Length; i++)
         {
             Console.WriteLine(a[i]);
+        }
+    }
+    public struct Sequence
+    {
+        public int Length, Start;
+        public Sequence(int length, int start)
+        {
+            Length = length;
+            Start = start;
         }
     }
 }

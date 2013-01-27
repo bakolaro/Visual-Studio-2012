@@ -8,40 +8,48 @@ class CompareChars
 
     static void Main()
     {
-        Console.Write("First char array (string) = ");
-        string s = Console.ReadLine();
-        Console.Write("Second char array (string) = ");
-        string t = Console.ReadLine();
-        Console.WriteLine("Strings in lexical order:");
-        int i = 0;
-        while(i < s.Length && i < t.Length)
+        Console.Write("First array of characters (a string) = ");
+        char[] s = Console.ReadLine().ToCharArray();
+        Console.Write("Second array of characters (another string) = ");
+        char[] t = Console.ReadLine().ToCharArray();
+        int index = 0;
+        int result = 0;
+        // 0: are equal
+        // 1: s < t
+        //-1: s > t
+        while(index < s.Length && index < t.Length && result == 0)
         {
-            if (s[i] < t[i])
+            if (s[index] < t[index])
             {
-                Console.WriteLine("{0} < {1}", s, t);
-                return;
+                result = 1;
             }
-            else if (s[i] > t[i])
+            else if (t[index] < s[index])
             {
-                Console.WriteLine("{0} > {1}", s, t);
-                return;
+                result = -1;
             }
-            i++;
+            index++;
         }
-        if (s.Length < t.Length)
+        if (s.Length < t.Length && result == 0)
         {
-            Console.WriteLine("{0} < {1}", s, t);
-            return;
+            result = 1;
         }
-        else if (s.Length > t.Length)
+        else if (s.Length > t.Length && result == 0)
         {
-            Console.WriteLine("{0} > {1}", s, t);
-            return;
+            result = -1;
+        }
+        // Output
+        Console.Write("Arrays (as strings) in lexical order: ");
+        if (result == 0)
+        {
+            Console.WriteLine("\"{0}\" and \"{1}\" are equal.", new string(s), new string(t));
+        }
+        else if (result > 0)
+        {
+            Console.WriteLine("\"{0}\" is before \"{1}\".", new string(s), new string(t));
         }
         else
         {
-            Console.WriteLine("{0} = {1}", s, t);
-            return;
+            Console.WriteLine("\"{0}\" is before \"{1}\".", new string(t), new string(s));
         }
     }    
 }

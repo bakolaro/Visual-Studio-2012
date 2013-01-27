@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_RemoveTagsFromXML\bin\Debug\Proj_10_RemoveTagsFromXML.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_RemoveTagsFromXML\bin\Debug\Proj_10_RemoveTagsFromXML.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_RemoveTagsFromXML\bin\Debug\Proj_10_RemoveTagsFromXML.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_RemoveTagsFromXML\obj\Debug\Proj_10_RemoveTagsFromXML.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_RemoveTagsFromXML\obj\Debug\Proj_10_RemoveTagsFromXML.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_07_TextFiles\Proj_10_RemoveTagsFromXML\obj\Debug\Proj_10_RemoveTagsFromXML.pdb

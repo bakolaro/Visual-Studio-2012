@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_06_ExceptionHandling\Proj_02_ReadValidIntegers\bin\Debug\Proj_02_ReadValidIntegers.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_06_ExceptionHandling\Proj_02_ReadValidIntegers\bin\Debug\Proj_02_ReadValidIntegers.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_06_ExceptionHandling\Proj_02_ReadValidIntegers\bin\Debug\Proj_02_ReadValidIntegers.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_06_ExceptionHandling\Proj_02_ReadValidIntegers\obj\Debug\Proj_02_ReadValidIntegers.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_06_ExceptionHandling\Proj_02_ReadValidIntegers\obj\Debug\Proj_02_ReadValidIntegers.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_06_ExceptionHandling\Proj_02_ReadValidIntegers\obj\Debug\Proj_02_ReadValidIntegers.csprojResolveAssemblyReference.cache

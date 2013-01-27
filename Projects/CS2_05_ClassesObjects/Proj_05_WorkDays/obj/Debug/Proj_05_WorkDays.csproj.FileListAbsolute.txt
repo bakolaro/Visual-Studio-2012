@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_05_WorkDays\bin\Debug\Proj_05_WorkDays.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_05_WorkDays\bin\Debug\Proj_05_WorkDays.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_05_WorkDays\bin\Debug\Proj_05_WorkDays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_05_WorkDays\obj\Debug\Proj_05_WorkDays.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_05_WorkDays\obj\Debug\Proj_05_WorkDays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_05_ClassesObjects\Proj_05_WorkDays\obj\Debug\Proj_05_WorkDays.csprojResolveAssemblyReference.cache

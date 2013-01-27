@@ -3,3 +3,8 @@ C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_05_LongestAs
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_05_LongestAscendingSequence\bin\Debug\Proj_05_LongestAscendingSequence.pdb
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_05_LongestAscendingSequence\obj\Debug\Proj_05_LongestAscendingSequence.exe
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_05_LongestAscendingSequence\obj\Debug\Proj_05_LongestAscendingSequence.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_05_LongestAscendingSequence\bin\Debug\Proj_05_LongestAscendingSequence.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_05_LongestAscendingSequence\obj\Debug\Proj_05_LongestAscendingSequence.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_05_LongestAscendingSequence\obj\Debug\Proj_05_LongestAscendingSequence.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_05_LongestAscendingSequence\bin\Debug\Proj_05_LongestAscendingSequence.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_05_LongestAscendingSequence\bin\Debug\Proj_05_LongestAscendingSequence.pdb

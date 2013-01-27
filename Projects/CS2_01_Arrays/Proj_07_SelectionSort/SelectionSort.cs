@@ -24,7 +24,7 @@ class SelectionSort
         {
             int smallest = a[i];
             int index = i;
-            for (int j = i; j < n; j++)
+            for (int j = i + 1; j < n; j++)
             {
                 if (a[j] < smallest)
                 {
@@ -32,9 +32,12 @@ class SelectionSort
                     index = j;
                 }
             }
-            int swap = a[index];
-            a[index] = a[i];
-            a[i] = swap;
+            if (index > i)
+            {
+                int swap = a[index];
+                a[index] = a[i];
+                a[i] = swap;
+            }
         }
         // Print on screen sorted array
         for (int i = 0; i < a.Length; i++)

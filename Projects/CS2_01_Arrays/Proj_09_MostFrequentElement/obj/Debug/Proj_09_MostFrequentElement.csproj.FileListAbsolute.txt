@@ -3,3 +3,9 @@ C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_09_MostFrequ
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_09_MostFrequentElement\bin\Debug\Proj_09_MostFrequentElement.pdb
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_09_MostFrequentElement\obj\Debug\Proj_09_MostFrequentElement.exe
 C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\Arrays\Proj_09_MostFrequentElement\obj\Debug\Proj_09_MostFrequentElement.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_09_MostFrequentElement\bin\Debug\Proj_09_MostFrequentElement.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_09_MostFrequentElement\obj\Debug\Proj_09_MostFrequentElement.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_09_MostFrequentElement\obj\Debug\Proj_09_MostFrequentElement.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_09_MostFrequentElement\bin\Debug\Proj_09_MostFrequentElement.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_09_MostFrequentElement\bin\Debug\Proj_09_MostFrequentElement.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_09_MostFrequentElement\obj\Debug\Proj_09_MostFrequentElement.csprojResolveAssemblyReference.cache
