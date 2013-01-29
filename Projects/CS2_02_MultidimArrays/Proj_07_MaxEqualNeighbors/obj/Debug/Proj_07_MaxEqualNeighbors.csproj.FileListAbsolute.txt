@@ -1,0 +1,8 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_07_MaxEqualNeighbors\bin\Debug\Proj_07_MaxEqualNeighbors.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_07_MaxEqualNeighbors\bin\Debug\Proj_07_MaxEqualNeighbors.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_07_MaxEqualNeighbors\bin\Debug\Proj_07_MaxEqualNeighbors.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_07_MaxEqualNeighbors\bin\Debug\IOArrays.dll
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_07_MaxEqualNeighbors\bin\Debug\IOArrays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_07_MaxEqualNeighbors\obj\Debug\Proj_07_MaxEqualNeighbors.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_07_MaxEqualNeighbors\obj\Debug\Proj_07_MaxEqualNeighbors.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_07_MaxEqualNeighbors\obj\Debug\Proj_07_MaxEqualNeighbors.pdb

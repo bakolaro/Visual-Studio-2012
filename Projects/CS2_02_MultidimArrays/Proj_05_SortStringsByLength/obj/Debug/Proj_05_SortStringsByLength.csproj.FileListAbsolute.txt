@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_05_SortStringsByLength\bin\Debug\Proj_05_SortStringsByLength.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_05_SortStringsByLength\bin\Debug\Proj_05_SortStringsByLength.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_05_SortStringsByLength\bin\Debug\Proj_05_SortStringsByLength.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_05_SortStringsByLength\obj\Debug\Proj_05_SortStringsByLength.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_05_SortStringsByLength\obj\Debug\Proj_05_SortStringsByLength.pdb

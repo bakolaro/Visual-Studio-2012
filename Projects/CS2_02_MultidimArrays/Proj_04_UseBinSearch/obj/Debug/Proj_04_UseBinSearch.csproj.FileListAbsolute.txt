@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_04_UseBinSearch\bin\Debug\Proj_04_UseBinSearch.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_04_UseBinSearch\bin\Debug\Proj_04_UseBinSearch.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_04_UseBinSearch\bin\Debug\Proj_04_UseBinSearch.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_04_UseBinSearch\obj\Debug\Proj_04_UseBinSearch.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_04_UseBinSearch\obj\Debug\Proj_04_UseBinSearch.pdb

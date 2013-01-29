@@ -5,6 +5,85 @@ using System.IO;
 
 public class IOArrays
 {
+    public static string[][,] ReadStringMatricesFromFile(string file, bool padRight = true)
+    {
+        string[][,] x;
+
+        TextReader generalReader = Console.In;
+        StreamReader reader = new StreamReader(file);
+        Console.SetIn(reader);
+
+        List<string[,]> input = new List<string[,]>();
+        string[,] matrix = ReadStringMatrix(padRight);
+        while (matrix.GetLength(0) > 0)
+        {
+            input.Add(matrix);
+            matrix = ReadStringMatrix(padRight);
+        }
+        int m = input.Count;
+        x = new string[m][,];
+        for (int i = 0; i < m; i++)
+        {
+            x[i] = input[i];
+        }
+
+        reader.Close();
+        Console.SetIn(generalReader);
+
+        return x;
+    }
+    private static string[,] ReadStringMatrix(bool padRight = true, params char[] delimiters)
+    {
+        List<string> input = new List<string>();
+        string line = Console.ReadLine();
+        while (line != null && line.Length > 0)
+        {
+            input.Add(line);
+            line = Console.ReadLine();
+        }
+        int m = input.Count;
+        string[][] split = new string[m][];
+        for (int i = 0; i < m; i++)
+        {
+            split[i] = input[i].Split(delimiters);
+        }
+        int n = 0;
+        for (int i = 0; i < m; i++)
+        {
+            if (split[i].Length > n)
+            {
+                n = split[i].Length;
+            }
+        }
+        string[,] matrix = new string[m, n];
+        for (int i = 0; i < m; i++)
+        {
+            int k = split[i].Length;
+            if (padRight)
+            {
+                for (int j = 0; j < k; j++)
+                {
+                    matrix[i, j] = split[i][j];
+                }
+                for (int j = k; j < n; j++)
+                {
+                    matrix[i, j] = string.Empty;
+                }
+            }
+            else
+            {
+                for (int j = n - k; j < n; j++)
+                {
+                    matrix[i, j] = split[i][j - n + k];
+                }
+                for (int j = 0; j < n - k; j++)
+                {
+                    matrix[i, j] = string.Empty;
+                }
+            }
+        }
+        return matrix;
+    }
     public static int[][] ReadIntVectorsFromFile(string file)
     {
         int[][] x;

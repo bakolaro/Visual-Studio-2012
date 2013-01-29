@@ -1,0 +1,8 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_03_LongestEqualSequence\bin\Debug\Proj_03_LongestEqualSequence.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_03_LongestEqualSequence\bin\Debug\Proj_03_LongestEqualSequence.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_03_LongestEqualSequence\bin\Debug\Proj_03_LongestEqualSequence.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_03_LongestEqualSequence\bin\Debug\IOArrays.dll
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_03_LongestEqualSequence\bin\Debug\IOArrays.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_03_LongestEqualSequence\obj\Debug\Proj_03_LongestEqualSequence.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_03_LongestEqualSequence\obj\Debug\Proj_03_LongestEqualSequence.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_02_MultidimArrays\Proj_03_LongestEqualSequence\obj\Debug\Proj_03_LongestEqualSequence.pdb
