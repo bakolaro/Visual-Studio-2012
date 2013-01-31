@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_22_Combinations\bin\Debug\Proj_21_Combinations.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_21_Combinations\bin\Debug\Proj_21_Combinations.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_21_Combinations\bin\Debug\Proj_21_Combinations.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_21_Combinations\bin\Debug\Proj_21_Combinations.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_21_Combinations\obj\Debug\Proj_21_Combinations.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_01_Arrays\Proj_21_Combinations\obj\Debug\Proj_21_Combinations.pdb
