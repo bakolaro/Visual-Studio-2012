@@ -1,0 +1,56 @@
+using System; // no comment...
+public class SampleCommentStringChar
+{
+	public static void Run()
+	{
+        Console.WriteLine("Double quotes: " + "\"\"");
+        Console.WriteLine("Text in quotes: " + "\"Text in quotes.\"");
+        Console.WriteLine("Verbatim string literal: " + "@\"Verbatim string literal.\"");
+        Console.WriteLine("/* Multiline comment on a single line. */");
+        Console.WriteLine(@"/* Multiline comment
+on multiple
+lines. */");
+        Console.WriteLine("// Singleline comment.");// Singleline comment. // */ //\\""/**/ "Text" @""
+        Console.WriteLine("\tCode... /* Multiline comment on a single line. */");
+        Console.WriteLine("\tCode..." + @"/* Multiline comment
+on multiple
+lines. */" + "\tCode... \n\t\u00AE\u2122Code...");
+        /*
+Multiline comments. @ \\ /// \"" "
+"" "
+*/
+        Console.WriteLine("\t\tCode...\tCode... // Singleline comment.");
+        Console.WriteLine(@"@""Verbatim string literal. """"Text in quotes."""" Text.""" +
+                          "\t" + @"Verbatim string literal. ""Text in quotes."" Text.");
+        // Single line comment /* Multiline comments. @ \\ /// \"*/
+        Console.WriteLine(@"\**\*\");
+        Console.WriteLine(@"////\\\""/""/");
+        Console./* M */WriteLine(@"/////* */\\\""/""/");
+        Console . WriteLine ( @"////\\\""/""/" );
+        Console/* Mult@""""iline */./**/WriteLine/*"comments",""*/(/*\""*/@"It appears that you could insert multiline comments
+wherever a single space is acceptable." /*\\\"""*/)//;
+            ; // end of statement
+        //Console.WriteLine(@"\**\*\"); // This line of code is commented out and smells. :)
+        Console.WriteLine("Let us try some char literals: " + ' ' + '"' + '\\' + '"' + '@'+'"' );
+        Console.WriteLine( '"' );
+        Console.WriteLine("'\"'");
+	}
+}
+class JustClass
+{ /* Just
+multiline
+comment */private void JustMethod()
+    {
+        // string str="inception/*//*/";
+    } 
+}
+class HardTest
+
+{
+    public void HardMethod()
+    {
+        string str = @"//not a
+comment ;)";//(y)
+        string str2 = "/*no\"oo\\oo*/";/*noo*/
+    } 
+}

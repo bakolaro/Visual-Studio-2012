@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_16_ParseDateInterval\bin\Debug\Proj_16_ParseDateInterval.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_16_ParseDateInterval\obj\Debug\Proj_16_ParseDateInterval.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_16_ParseDateInterval\bin\Debug\Proj_16_ParseDateInterval.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_16_ParseDateInterval\bin\Debug\Proj_16_ParseDateInterval.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_16_ParseDateInterval\obj\Debug\Proj_16_ParseDateInterval.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_16_ParseDateInterval\obj\Debug\Proj_16_ParseDateInterval.pdb

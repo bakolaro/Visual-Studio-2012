@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_14_TranslateUsingDictionary\bin\Debug\Proj_14_TranslateUsingDictionary.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_14_TranslateUsingDictionary\bin\Debug\Proj_14_TranslateUsingDictionary.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_14_TranslateUsingDictionary\bin\Debug\Proj_14_TranslateUsingDictionary.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_14_TranslateUsingDictionary\obj\Debug\Proj_14_TranslateUsingDictionary.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_14_TranslateUsingDictionary\obj\Debug\Proj_14_TranslateUsingDictionary.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_14_TranslateUsingDictionary\obj\Debug\Proj_14_TranslateUsingDictionary.pdb

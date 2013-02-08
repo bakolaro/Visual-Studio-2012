@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_04_CountSubstringsCaseInsensitive\bin\Debug\Proj_04_CountSubstringsCaseInsensitive.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_04_CountSubstringsCaseInsensitive\bin\Debug\Proj_04_CountSubstringsCaseInsensitive.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_04_CountSubstringsCaseInsensitive\bin\Debug\Proj_04_CountSubstringsCaseInsensitive.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_04_CountSubstringsCaseInsensitive\obj\Debug\Proj_04_CountSubstringsCaseInsensitive.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_04_CountSubstringsCaseInsensitive\obj\Debug\Proj_04_CountSubstringsCaseInsensitive.pdb

@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_11_NumberFormats\bin\Debug\Proj_11_NumberFormats.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_11_NumberFormats\bin\Debug\Proj_11_NumberFormats.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_11_NumberFormats\bin\Debug\Proj_11_NumberFormats.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_11_NumberFormats\obj\Debug\Proj_11_NumberFormats.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_11_NumberFormats\obj\Debug\Proj_11_NumberFormats.pdb

@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\01_CleanCode\bin\Debug\01_CleanCode.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\01_CleanCode\bin\Debug\01_CleanCode.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\01_CleanCode\bin\Debug\01_CleanCode.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\01_CleanCode\obj\Debug\01_CleanCode.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\01_CleanCode\obj\Debug\01_CleanCode.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\01_CleanCode\obj\Debug\01_CleanCode.pdb

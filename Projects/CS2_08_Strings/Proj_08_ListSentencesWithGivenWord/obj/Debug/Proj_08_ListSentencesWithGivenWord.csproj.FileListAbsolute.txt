@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_08_ListSentencesWithGivenWord\bin\Debug\Proj_08_ListSentencesWithGivenWord.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_08_ListSentencesWithGivenWord\bin\Debug\Proj_08_ListSentencesWithGivenWord.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_08_ListSentencesWithGivenWord\bin\Debug\Proj_08_ListSentencesWithGivenWord.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_08_ListSentencesWithGivenWord\obj\Debug\Proj_08_ListSentencesWithGivenWord.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_08_ListSentencesWithGivenWord\obj\Debug\Proj_08_ListSentencesWithGivenWord.pdb

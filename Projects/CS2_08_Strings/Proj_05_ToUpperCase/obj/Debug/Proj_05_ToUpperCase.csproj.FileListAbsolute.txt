@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_05_ToUpperCase\bin\Debug\Proj_05_ToUpperCase.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_05_ToUpperCase\obj\Debug\Proj_05_ToUpperCase.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_05_ToUpperCase\bin\Debug\Proj_05_ToUpperCase.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_05_ToUpperCase\bin\Debug\Proj_05_ToUpperCase.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_05_ToUpperCase\obj\Debug\Proj_05_ToUpperCase.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_05_ToUpperCase\obj\Debug\Proj_05_ToUpperCase.pdb

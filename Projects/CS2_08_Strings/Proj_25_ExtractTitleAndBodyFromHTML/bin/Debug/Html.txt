@@ -1,0 +1,259 @@
+MS-DOS help and commands
+
+
+
+	
+
+	
+		Home
+		Free help
+		Tips
+		Dictionary
+		Forum
+		Links
+		Contact
+	
+
+
+	
+	
+
+
+	
+		
+			Microsoft DOS and command prompt
+			Quick links
+			All MS-DOS commandsMS-DOS applicationsMS-DOS error messages 
+			and codesMS-DOS HistoryMS-DOS and Windows command line tips
+			MS-DOS Top 10 commandsPC file extensions 
+			Creating Boot DiskBatch FilesQuestions and answers
+			Operating system definitions
+			About MS-DOS
+			Short for Microsoft Disk operating system, MS-DOS is a non-graphical command line
+			operating system created for IBM compatible computers that was first introduced by Microsoft 
+			in August 1981 and was last updated in 1994 when MS-DOS 6.22 was released. Although 
+			the MS-DOS operating system is not commonly used today, the command shell more commonly known as the Windows command 
+			line is still used and recommended. Continue reading &gt;&gt;
+			Tip: If you're new to MS-DOS or the Windows command line we suggest reading how 
+			to use the Windows command line (DOS).
+			MS-DOS command list
+			Tip: See the complete overview for a brief description on each of the below commands.
+			Tip: Browse by type: Internal commands, External commands, 
+			and Recovery console commands.
+			
+				
+					A
+					ansi.sys | append | arp | assign 
+					| assoc | at | atmadm | attrib
+				
+				
+					B
+					backup | batch | bootcfg | break
+				
+				
+					C
+					cacls | call | cd | chcp |
+					chdir | chkdsk | chkntfs | choice 
+					| cipher | cls | cmd | color |
+					command | comp | compact | control |
+					convert | copy | ctty
+				
+				
+					D
+					date | debug | defrag | del |
+					delete | deltree | dir | disable |
+					diskcomp | diskcopy | diskpart | doskey 
+					| dosshell | drivparm
+				
+				
+					E
+					echo | edit | edlin | emm386 |
+					enable | endlocal | erase | exit |
+					expand | extract
+				
+				
+					F
+					fasthelp | fc | fdisk | find |
+					findstr | fixboot | fixmbr | for |
+					forfiles | format | ftp | fType
+					
+				
+				
+					G
+					goto | gpupdate | graftabl
+				
+				
+					H
+					help | himem.sys | hostname
+				
+				
+					I
+					if | ifshlp.sys | ipconfig
+				
+				
+					J
+					None
+				
+				
+					K
+					keyb
+				
+				
+					L
+					label | lh | listsvc | loadfix |
+					loadhigh | lock | logoff | logon
+				
+				
+					M
+					map | md | mem| mkdir |
+					mode | more | move | msav |
+					msbackup | msd | mscdex | mwbackup
+				
+				
+					N
+					nbtstat | net | netsh | netstat |
+					nlsfunc | nslookup
+				
+				
+					O
+					None
+				
+				
+					P
+					path | pathping | pause | ping 
+					| popd | power | print | prompt |
+					pushd
+				
+				
+					Q
+					qbasic
+				
+				
+					R
+					rd | reg | ren | rename |
+					rmdir | robocopy | route | runas
+				
+				
+					S
+					scandisk | scanreg | set | setlocal 
+					| setver | sfc | share | shift |
+					shutdown | smartdrv | sort | start 
+					| subst | switches | sys | systeminfo 
+					| systemroot
+				
+				
+					T
+					taskkill | tasklist | telnet | time 
+					| title | tracert | tree | tskill |
+					Type
+				
+				
+					U
+					undelete | unformat | unlock
+				
+				
+					V
+					ver | verify | vol
+				
+				
+					W
+					wmic
+				
+				
+					X
+					xcopy 
+				
+				
+					Y
+					None
+				
+				
+					Z
+					None
+				
+			
+			Recent MS-DOS forum posts
+			
+			
+			Subscribe to RSS headline updates from: Powered by FeedBurner                
+			
+			MS-DOS forum
+		
+		
+			
+				
+			
+				Useful links
+				Home
+				Site map
+				Computer help
+				News
+				Q&amp;A
+				What's new
+				Tools
+				Print page
+				E-mail page
+				Edit page
+				Share page
+			
+			
+				
+
+				
+			
+		
+		
+			
+				
+					Category
+					Computer help
+					Companies
+					Microsoft
+					Related pages
+					Operating systems
+					Solved?
+					Were you able to locate the answer to your question?
+				
+				
+					Yes
+					No
+				
+			
+		
+	
+
+
+	
+		
+	
+	
+		
+			
+			Recently added
+			
+			
+			Subscribe to RSS
+			
+			Useful links
+			
+				Share this page
+				About Us
+				Contact
+				Site Map
+				Computer help
+				Link to Computer Hope
+				Top 10 pages
+				Computer help forum
+				Like Us on Facebook
+				Follow Us on Twitter
+				RSS and e-mail updates
+			
+			
+		
+	
+	&copy; 2013 Computer HopeLegal Disclaimer - Privacy 
+	Statement
+
+
+
+

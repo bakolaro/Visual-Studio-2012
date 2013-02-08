@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\03_Employees\bin\Debug\03_Employees.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\03_Employees\bin\Debug\03_Employees.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\03_Employees\bin\Debug\03_Employees.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\03_Employees\obj\Debug\03_Employees.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\03_Employees\obj\Debug\03_Employees.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\03_Employees\obj\Debug\03_Employees.pdb

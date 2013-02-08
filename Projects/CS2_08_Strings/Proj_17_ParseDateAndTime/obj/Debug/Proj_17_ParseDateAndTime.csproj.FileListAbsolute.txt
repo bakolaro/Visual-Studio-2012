@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_17_ParseDateAndTime\bin\Debug\Proj_17_ParseDateAndTime.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_17_ParseDateAndTime\bin\Debug\Proj_17_ParseDateAndTime.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_17_ParseDateAndTime\bin\Debug\Proj_17_ParseDateAndTime.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_17_ParseDateAndTime\obj\Debug\Proj_17_ParseDateAndTime.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_08_Strings\Proj_17_ParseDateAndTime\obj\Debug\Proj_17_ParseDateAndTime.pdb
