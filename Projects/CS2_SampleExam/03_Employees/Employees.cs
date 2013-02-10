@@ -44,7 +44,11 @@ public class Ranks
             int last = Math.Max(line.LastIndexOf('-'), Math.Max(line.LastIndexOf('–'), line.LastIndexOf('—')));
             string position = line.Substring(0, last).Trim();
             string rank = line.Substring(last + 1).Trim();
-            Jobs.Add(position, int.Parse(rank));
+            int rankValue = int.Parse(rank);
+            if (!Jobs.ContainsKey(position))
+            {
+                Jobs.Add(position, rankValue);
+            }
         }
     }
     public Ranks(string file)
@@ -57,7 +61,11 @@ public class Ranks
             int last = Math.Max(lines[i].LastIndexOf('-'), Math.Max(lines[i].LastIndexOf('–'), lines[i].LastIndexOf('—')));
             string position = lines[i].Substring(0, last).Trim();
             string rank = lines[i].Substring(last + 1).Trim();
-            Jobs.Add(position, int.Parse(rank));
+            int rankValue = int.Parse(rank);
+            if (!Jobs.ContainsKey(position))
+            {
+                Jobs.Add(position, rankValue);
+            }
         }
     }
     public void Print()

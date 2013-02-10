@@ -1,0 +1,5 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\05_Liquid\bin\Debug\05_Liquid.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\05_Liquid\bin\Debug\05_Liquid.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\05_Liquid\bin\Debug\05_Liquid.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\05_Liquid\obj\Debug\05_Liquid.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_SampleExam\05_Liquid\obj\Debug\05_Liquid.pdb

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Sudoku", "02_Sudoku\02_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Employees", "03_Employees\03_Employees.csproj", "{86FD02BF-6602-4D95-9E24-DDDED3505994}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Liquid", "05_Liquid\05_Liquid.csproj", "{AA8C3F88-092F-41A0-A60E-51D3EE41C003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_3DMaxWalk", "04_3DMaxWalk\04_3DMaxWalk.csproj", "{59D957E9-8197-47A5-8271-BECED73692DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{86FD02BF-6602-4D95-9E24-DDDED3505994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86FD02BF-6602-4D95-9E24-DDDED3505994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86FD02BF-6602-4D95-9E24-DDDED3505994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8C3F88-092F-41A0-A60E-51D3EE41C003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8C3F88-092F-41A0-A60E-51D3EE41C003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8C3F88-092F-41A0-A60E-51D3EE41C003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8C3F88-092F-41A0-A60E-51D3EE41C003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D957E9-8197-47A5-8271-BECED73692DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D957E9-8197-47A5-8271-BECED73692DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D957E9-8197-47A5-8271-BECED73692DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D957E9-8197-47A5-8271-BECED73692DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
