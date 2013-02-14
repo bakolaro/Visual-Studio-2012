@@ -1,0 +1,6 @@
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_TestExam\04_Lines3D\bin\Debug\04_Lines3D.exe.config
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_TestExam\04_Lines3D\bin\Debug\04_Lines3D.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_TestExam\04_Lines3D\bin\Debug\04_Lines3D.pdb
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_TestExam\04_Lines3D\obj\Debug\04_Lines3D.csprojResolveAssemblyReference.cache
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_TestExam\04_Lines3D\obj\Debug\04_Lines3D.exe
+C:\Users\R\Documents\GitHub\Visual-Studio-2012\Projects\CS2_TestExam\04_Lines3D\obj\Debug\04_Lines3D.pdb
